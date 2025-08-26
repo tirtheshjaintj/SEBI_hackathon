@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "426303504643",
+    "project_id": "dhanrakshak-dcc77",
+    "storage_bucket": "dhanrakshak-dcc77.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:426303504643:android:f0f7d9f82c3f516cb02936",
+        "android_client_info": {
+          "package_name": "com.dhanrakshak"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxDtI3sG1rxvXCYZAlKCrhSpy9VB2lRIg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

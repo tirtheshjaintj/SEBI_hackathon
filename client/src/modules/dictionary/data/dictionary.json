@@ -1,0 +1,1441 @@
+{
+  "A": [
+    {
+      "word": "Account",
+      "definition": {
+        "en": "A record of financial transactions associated with a bank user.\nExample: She opened a savings account to deposit her salary.",
+        "hi": "एक बैंक उपयोगकर्ता से जुड़ा वित्तीय लेन-देन का रिकॉर्ड।\nउदाहरण: उसने अपना वेतन जमा करने के लिए एक बचत खाता खोला।",
+        "pa": "ਇੱਕ ਬੈਂਕ ਉਪਭੋਗਤਾ ਨਾਲ ਸਬੰਧਿਤ ਵਿੱਤੀ ਲੈਣ-ਦੇਣ ਦਾ ਰਿਕਾਰਡ।\nਉਦਾਹਰਨ: ਉਸਨੇ ਆਪਣੀ ਤਨਖ਼ਾਹ ਜਮ੍ਹਾਂ ਕਰਨ ਲਈ ਇੱਕ ਬਚਤ ਖਾਤਾ ਖੋਲ੍ਹਿਆ।"
+      },
+      "category": "Banking",
+      "image": "https://source.unsplash.com/featured/?bank-account"
+    },
+    {
+      "word": "ATM",
+      "definition": {
+        "en": "Automated Teller Machine used to withdraw or deposit money.\nExample: I used the ATM to withdraw cash.",
+        "hi": "पैसे निकालने या जमा करने के लिए इस्तेमाल की जाने वाली स्वचालित मशीन।\nउदाहरण: मैंने पैसे निकालने के लिए एटीएम का उपयोग किया।",
+        "pa": "ਪੈਸਾ ਕੱਢਣ ਜਾਂ ਜਮ੍ਹਾਂ ਕਰਨ ਲਈ ਵਰਤੀ ਜਾਂਦੀ ਆਟੋਮੈਟਿਕ ਮਸ਼ੀਨ।\nਉਦਾਹਰਨ: ਮੈਂ ਨਕਦ ਕੱਢਣ ਲਈ ਏਟੀਐਮ ਵਰਤਿਆ।"
+      },
+      "category": "Banking",
+      "image": "https://source.unsplash.com/featured/?atm,money"
+    },
+    {
+      "word": "Asset",
+      "definition": {
+        "en": "Anything of value owned by an individual or company.\nExample: Real estate is considered a valuable asset.",
+        "hi": "किसी व्यक्ति या कंपनी की मूल्यवान वस्तु।\nउदाहरण: अचल संपत्ति को एक मूल्यवान संपत्ति माना जाता है।",
+        "pa": "ਕਿਸੇ ਵਿਅਕਤੀ ਜਾਂ ਕੰਪਨੀ ਦੀ ਕਦਰਵਾਨ ਚੀਜ਼।\nਉਦਾਹਰਨ: ਜਾਇਦਾਦ ਇੱਕ ਮਹੱਤਵਪੂਰਨ ਐਸੈਟ ਮੰਨੀ ਜਾਂਦੀ ਹੈ।"
+      },
+      "category": "Finance",
+      "image": "https://source.unsplash.com/featured/?asset,investment"
+    },
+    {
+      "word": "Audit",
+      "definition": {
+        "en": "A formal examination of financial records.\nExample: The company went through a financial audit last year.",
+        "hi": "वित्तीय रिकॉर्ड की औपचारिक जांच।\nउदाहरण: कंपनी ने पिछले साल एक वित्तीय ऑडिट कराया।",
+        "pa": "ਵਿੱਤੀ ਰਿਕਾਰਡ ਦੀ ਸਰਕਾਰੀ ਜਾਂਚ।\nਉਦਾਹਰਨ: ਕੰਪਨੀ ਨੇ ਪਿਛਲੇ ਸਾਲ ਆਡਿਟ ਕਰਵਾਇਆ।"
+      },
+      "category": "Finance",
+      "image": "https://source.unsplash.com/featured/?audit,finance"
+    },
+    {
+      "word": "Authentication",
+      "definition": {
+        "en": "Verifying the identity of a user or process.\nExample: Two-factor authentication adds an extra layer of security.",
+        "hi": "किसी उपयोगकर्ता या प्रक्रिया की पहचान की पुष्टि करना।\nउदाहरण: दो-चरणीय प्रमाणीकरण सुरक्षा की एक अतिरिक्त परत जोड़ता है।",
+        "pa": "ਇੱਕ ਯੂਜ਼ਰ ਜਾਂ ਪ੍ਰਕਿਰਿਆ ਦੀ ਪਛਾਣ ਦੀ ਪੁਸ਼ਟੀ ਕਰਨੀ।\nਉਦਾਹਰਨ: ਦੋ-ਕਦਮ ਪ੍ਰਮਾਣੀਕਰਨ ਹੋਰ ਸੁਰੱਖਿਆ ਦਿੰਦਾ ਹੈ।"
+      },
+      "category": "Cybersecurity",
+      "image": "https://source.unsplash.com/featured/?authentication,cybersecurity"
+    },
+    {
+      "word": "Annuity",
+      "definition": {
+        "en": "A fixed sum of money paid to someone annually.\nExample: He invested in an annuity for retirement income.",
+        "hi": "किसी को वार्षिक रूप से भुगतान की जाने वाली निश्चित राशि।\nउदाहरण: उसने रिटायरमेंट आय के लिए एक वार्षिकी में निवेश किया।",
+        "pa": "ਕਿਸੇ ਨੂੰ ਹਰ ਸਾਲ ਦਿੱਤੀ ਜਾਣ ਵਾਲੀ ਨਿਸ਼ਚਿਤ ਰਕਮ।\nਉਦਾਹਰਨ: ਉਸਨੇ ਪੈਨਸ਼ਨ ਲਈ ਐਨਯੂਟੀ ਵਿੱਚ ਨਿਵੇਸ਼ ਕੀਤਾ।"
+      },
+      "category": "Investment",
+      "image": "https://source.unsplash.com/featured/?annuity,retirement"
+    },
+    {
+      "word": "ATM Skimming",
+      "definition": {
+        "en": "A fraud where a device is used to steal ATM card information.\nExample: The police caught a gang involved in ATM skimming.",
+        "hi": "एक धोखाधड़ी जिसमें एटीएम कार्ड की जानकारी चुराने के लिए डिवाइस का उपयोग किया जाता है।\nउदाहरण: पुलिस ने एटीएम स्किमिंग में शामिल एक गैंग को पकड़ा।",
+        "pa": "ਏਟੀਐਮ ਕਾਰਡ ਦੀ ਜਾਣਕਾਰੀ ਚੋਰੀ ਕਰਨ ਲਈ ਉਪਕਰਨ ਵਰਤਣ ਵਾਲਾ ਧੋਖਾ।\nਉਦਾਹਰਨ: ਪੁਲਿਸ ਨੇ ਏਟੀਐਮ ਸਕਿਮਿੰਗ ਵਿੱਚ ਸ਼ਾਮਲ ਗੈਂਗ ਨੂੰ ਫੜ ਲਿਆ।"
+      },
+      "category": "Fraud",
+      "image": "https://source.unsplash.com/featured/?atm,skimming,fraud"
+    },
+    {
+      "word": "Artificial Intelligence",
+      "definition": {
+        "en": "Simulation of human intelligence by machines.\nExample: AI is used to detect fraudulent transactions in banking.",
+        "hi": "मशीनों द्वारा मानवीय बुद्धिमत्ता का अनुकरण।\nउदाहरण: बैंकिंग में धोखाधड़ी लेनदेन का पता लगाने के लिए एआई का उपयोग किया जाता है।",
+        "pa": "ਮਸ਼ੀਨਾਂ ਦੁਆਰਾ ਮਨੁੱਖੀ ਬੁੱਧੀ ਦਾ ਨਕਲ।\nਉਦਾਹਰਨ: ਬੈਂਕਿੰਗ ਵਿੱਚ ਧੋਖਾਧੜੀ ਲੈਣ-ਦੇਣ ਦੀ ਪਛਾਣ ਲਈ ਏਆਈ ਵਰਤੀ ਜਾਂਦੀ ਹੈ।"
+      },
+      "category": "Technology",
+      "image": "https://source.unsplash.com/featured/?artificial,intelligence"
+    },
+    {
+      "word": "App Fraud",
+      "definition": {
+        "en": "Scams carried out using fake or malicious mobile apps.\nExample: He lost money by downloading a fake banking app.",
+        "hi": "नकली या दुर्भावनापूर्ण मोबाइल ऐप का उपयोग करके की गई धोखाधड़ी।\nउदाहरण: उसने एक नकली बैंकिंग ऐप डाउनलोड करके पैसे खो दिए।",
+        "pa": "ਝੂਠੇ ਜਾਂ ਖ਼ਤਰਨਾਕ ਮੋਬਾਈਲ ਐਪ ਦੁਆਰਾ ਕੀਤੀ ਗਈ ਧੋਖਾਧੜੀ।\nਉਦਾਹਰਨ: ਉਸਨੇ ਝੂਠਾ ਬੈਂਕਿੰਗ ਐਪ ਡਾਊਨਲੋਡ ਕਰਕੇ ਪੈਸਾ ਗਵਾ ਦਿੱਤਾ।"
+      },
+      "category": "Scam",
+      "image": "https://source.unsplash.com/featured/?fraud,app"
+    },
+    {
+      "word": "Adware",
+      "definition": {
+        "en": "Software that displays unwanted ads and may compromise security.\nExample: The free app was full of adware.",
+        "hi": "ऐसा सॉफ्टवेयर जो अवांछित विज्ञापन दिखाता है और सुरक्षा को खतरे में डाल सकता है।\nउदाहरण: वह फ्री ऐप एडवेयर से भरा था।",
+        "pa": "ਇਸਕ੍ਰਿਪਟ ਜਾਂ ਐਪ ਜੋ ਅਣਚਾਹੇ ਵਿਗਿਆਪਨ ਦਿਖਾਉਂਦੇ ਹਨ ਅਤੇ ਸੁਰੱਖਿਆ ਨੂੰ ਖਤਰੇ ਵਿੱਚ ਪਾ ਸਕਦੇ ਹਨ।\nਉਦਾਹਰਨ: ਉਹ ਐਪ ਐਡਵੇਅਰ ਨਾਲ ਭਰਪੂਰ ਸੀ।"
+      },
+      "category": "Cybersecurity",
+      "image": "https://source.unsplash.com/featured/?adware,malware"
+    }
+  ],
+  "B": [
+    {
+      "word": "Bank",
+      "definition": {
+        "en": "An institution that manages money, accepts deposits, and provides loans.\nExample: She visited the bank to open a new account.",
+        "hi": "एक संस्था जो पैसे का प्रबंधन करती है, जमा स्वीकार करती है और ऋण देती है।\nउदाहरण: उसने नया खाता खोलने के लिए बैंक का दौरा किया।",
+        "pa": "ਇੱਕ ਸੰਸਥਾ ਜੋ ਪੈਸੇ ਦਾ ਪਰਬੰਧ ਕਰਦੀ ਹੈ, ਜਮ੍ਹਾਂ ਸਵੀਕਾਰ ਕਰਦੀ ਹੈ ਅਤੇ ਕਰਜ਼ਾ ਦਿੰਦੀ ਹੈ।\nਉਦਾਹਰਨ: ਉਸਨੇ ਨਵਾਂ ਖਾਤਾ ਖੋਲ੍ਹਣ ਲਈ ਬੈਂਕ ਗਿਆ।"
+      },
+      "category": "Banking"
+    },
+    {
+      "word": "Balance",
+      "definition": {
+        "en": "The amount of money available in an account.\nExample: I checked my balance before withdrawing cash.",
+        "hi": "किसी खाते में उपलब्ध धनराशि।\nउदाहरण: नकद निकालने से पहले मैंने अपना बैलेंस देखा।",
+        "pa": "ਖਾਤੇ ਵਿੱਚ ਉਪਲਬਧ ਰਕਮ।\nਉਦਾਹਰਨ: ਨਕਦ ਕੱਢਣ ਤੋਂ ਪਹਿਲਾਂ ਮੈਂ ਬਕਾਇਆ ਦੇਖਿਆ।"
+      },
+      "category": "Banking"
+    },
+    {
+      "word": "Beneficiary",
+      "definition": {
+        "en": "A person who receives money or other benefits from a transaction.\nExample: The funds were transferred to the beneficiary's account.",
+        "hi": "कोई व्यक्ति जो लेन-देन से पैसा या अन्य लाभ प्राप्त करता है।\nउदाहरण: धनराशि लाभार्थी के खाते में स्थानांतरित की गई।",
+        "pa": "ਉਹ ਵਿਅਕਤੀ ਜੋ ਲੈਣ-ਦੇਣ ਰਾਹੀਂ ਪੈਸਾ ਜਾਂ ਹੋਰ ਲਾਭ ਪ੍ਰਾਪਤ ਕਰਦਾ ਹੈ।\nਉਦਾਹਰਨ: ਰਕਮ ਲਾਭਪਾਤਰੀ ਦੇ ਖਾਤੇ ਵਿੱਚ ਭੇਜੀ ਗਈ।"
+      },
+      "category": "Banking"
+    },
+    {
+      "word": "Broker",
+      "definition": {
+        "en": "An agent who buys or sells assets like stocks on behalf of others.\nExample: She contacted her broker to invest in shares.",
+        "hi": "एक एजेंट जो दूसरों की ओर से संपत्ति जैसे शेयर खरीदता या बेचता है।\nउदाहरण: उसने शेयर में निवेश करने के लिए अपने दलाल से संपर्क किया।",
+        "pa": "ਇੱਕ ਏਜੰਟ ਜੋ ਹੋਰਾਂ ਦੀ ਥਾਂ ਤੇ ਸ਼ੇਅਰ ਖਰੀਦਦਾ ਜਾਂ ਵੇਚਦਾ ਹੈ।\nਉਦਾਹਰਨ: ਉਸਨੇ ਸ਼ੇਅਰ ਖਰੀਦਣ ਲਈ ਆਪਣੇ ਬਰੋकर ਨਾਲ ਸੰਪਰਕ ਕੀਤਾ।"
+      },
+      "category": "Investment"
+    },
+    {
+      "word": "Budget",
+      "definition": {
+        "en": "A financial plan outlining income and expenses.\nExample: Creating a monthly budget helps control spending.",
+        "hi": "एक वित्तीय योजना जो आय और व्यय को दर्शाती है।\nउदाहरण: मासिक बजट बनाना खर्चों को नियंत्रित करने में मदद करता है।",
+        "pa": "ਇੱਕ ਵਿੱਤੀ ਯੋਜਨਾ ਜੋ ਆਮਦਨ ਅਤੇ ਖਰਚੇ ਦੱਸਦੀ ਹੈ।\nਉਦਾਹਰਨ: ਮਹੀਨੇ ਦਾ ਬਜਟ ਬਣਾਉਣਾ ਖਰਚਾਂ 'ਤੇ ਨਿਯੰਤਰਣ ਰੱਖਣ ਵਿੱਚ ਸਹਾਇਤਾ ਕਰਦਾ ਹੈ।"
+      },
+      "category": "Financial Literacy"
+    },
+    {
+      "word": "Bounce",
+      "definition": {
+        "en": "When a cheque is returned due to insufficient funds.\nExample: His cheque bounced due to lack of balance.",
+        "hi": "जब अपर्याप्त धन के कारण चेक अस्वीकृत हो जाता है।\nउदाहरण: बैलेंस की कमी के कारण उसका चेक बाउंस हो गया।",
+        "pa": "ਜਦੋਂ ਚੈੱਕ ਰਕਮ ਦੀ ਘਾਟ ਕਾਰਨ ਵਾਪਸ ਆ ਜਾਂਦਾ ਹੈ।\nਉਦਾਹਰਨ: ਬਕਾਇਆ ਨਾ ਹੋਣ ਕਾਰਨ ਉਸਦਾ ਚੈੱਕ ਬਾਊਂਸ ਹੋ ਗਿਆ।"
+      },
+      "category": "Banking"
+    },
+    {
+      "word": "Blacklist",
+      "definition": {
+        "en": "A list of entities restricted from access or transactions.\nExample: Fraudulent websites are added to a blacklist.",
+        "hi": "ऐसी इकाइयों की सूची जिन्हें एक्सेस या लेन-देन से रोका गया है।\nउदाहरण: धोखाधड़ी वाली वेबसाइटों को ब्लैकलिस्ट में डाला गया।",
+        "pa": "ਉਹਨਾਂ ਦੀ ਸੂਚੀ ਜੋ ਪਾਬੰਦੀਸ਼ੁਦਾ ਹਨ।\nਉਦਾਹਰਨ: ਠੱਗੀ ਵਾਲੀਆਂ ਵੈਬਸਾਈਟਾਂ ਨੂੰ ਬਲੈਕਲਿਸਟ ਵਿੱਚ ਪਾਇਆ ਗਿਆ।"
+      },
+      "category": "Cybersecurity"
+    },
+    {
+      "word": "Bitcoin",
+      "definition": {
+        "en": "A type of digital currency that operates without a central bank.\nExample: He invested in Bitcoin during the market boom.",
+        "hi": "एक प्रकार की डिजिटल मुद्रा जो बिना केंद्रीय बैंक के काम करती है।\nउदाहरण: बाजार की तेजी के दौरान उसने बिटकॉइन में निवेश किया।",
+        "pa": "ਇੱਕ ਡਿਜੀਟਲ ਕਰੰਸੀ ਜੋ ਕੇਂਦਰੀ ਬੈਂਕ ਤੋਂ ਬਿਨਾਂ ਕੰਮ ਕਰਦੀ ਹੈ।\nਉਦਾਹਰਨ: ਉਸਨੇ ਮਾਰਕੀਟ ਦੇ ਬੂਮ ਦੌਰਾਨ ਬਿਟਕੋਇਨ ਵਿੱਚ ਨਿਵੇਸ਼ ਕੀਤਾ।"
+      },
+      "category": "Investment"
+    },
+    {
+      "word": "Bot",
+      "definition": {
+        "en": "An automated software used in cyber attacks or trading.\nExample: A bot attacked the website with thousands of requests.",
+        "hi": "साइबर हमलों या ट्रेडिंग में उपयोग होने वाला स्वचालित सॉफ्टवेयर।\nउदाहरण: एक बॉट ने वेबसाइट पर हजारों अनुरोधों से हमला किया।",
+        "pa": "ਸਾਇਬਰ ਹਮਲਿਆਂ ਜਾਂ ਟਰੇਡਿੰਗ ਵਿੱਚ ਵਰਤਿਆ ਜਾਣ ਵਾਲਾ ਆਟੋਮੈਟਿਕ ਸਾਫਟਵੇਅਰ।\nਉਦਾਹਰਨ: ਇੱਕ ਬੌਟ ਨੇ ਹਜ਼ਾਰਾਂ ਬੇਨਤੀ ਭੇਜ ਕੇ ਵੈਬਸਾਈਟ 'ਤੇ ਹਮਲਾ ਕੀਤਾ।"
+      },
+      "category": "Cybersecurity"
+    },
+    {
+      "word": "Bank Fraud",
+      "definition": {
+        "en": "An act of using illegal means to get money from a bank.\nExample: The scammer was arrested for bank fraud.",
+        "hi": "बैंक से पैसे प्राप्त करने के लिए अवैध तरीकों का उपयोग करना।\nउदाहरण: स्कैमर को बैंक धोखाधड़ी के लिए गिरफ्तार किया गया।",
+        "pa": "ਬੈਂਕ ਤੋਂ ਪੈਸਾ ਲੈਣ ਲਈ ਗੈਰਕਾਨੂੰਨੀ ਤਰੀਕੇ ਵਰਤਣਾ।\nਉਦਾਹਰਨ: ਠੱਗ ਨੂੰ ਬੈਂਕ ਧੋਖਾਧੜੀ ਲਈ ਗ੍ਰਿਫਤਾਰ ਕੀਤਾ ਗਿਆ।"
+      },
+      "category": "Fraud"
+    }
+  ],
+  "C": [
+    {
+      "word": "Credit",
+      "definition": {
+        "en": "An agreement where a borrower receives something of value and agrees to repay it later.\nExample: He applied for a credit card to improve his credit score.",
+        "hi": "एक समझौता जिसमें उधारकर्ता कोई मूल्यवान वस्तु प्राप्त करता है और बाद में उसे चुकाने के लिए सहमत होता है।\nउदाहरण: उसने अपना क्रेडिट स्कोर सुधारने के लिए क्रेडिट कार्ड के लिए आवेदन किया।",
+        "pa": "ਇੱਕ ਐਸਾ ਸਮਝੌਤਾ ਜਿਸ ਵਿੱਚ ਉਧਾਰ ਲੈਣ ਵਾਲਾ ਕੁਝ ਲੈਣ ਦਾ ਵਾਅਦਾ ਕਰਦਾ ਹੈ ਅਤੇ ਬਾਅਦ ਵਿੱਚ ਵਾਪਸ ਕਰਦਾ ਹੈ।\nਉਦਾਹਰਨ: ਉਸਨੇ ਆਪਣੇ ਕ੍ਰੈਡਿਟ ਸਕੋਰ ਨੂੰ ਸੁਧਾਰਨ ਲਈ ਕ੍ਰੈਡਿਟ ਕਾਰਡ ਲਈ ਅਰਜ਼ੀ ਦਿੱਤੀ।"
+      },
+      "category": "Finance"
+    },
+    {
+      "word": "Cybersecurity",
+      "definition": {
+        "en": "The practice of protecting systems and networks from digital attacks.\nExample: Cybersecurity training is crucial for banking employees.",
+        "hi": "साइबर हमलों से सिस्टम और नेटवर्क की सुरक्षा करने की प्रक्रिया।\nउदाहरण: बैंक कर्मचारियों के लिए साइबर सुरक्षा प्रशिक्षण आवश्यक है।",
+        "pa": "ਸਾਇਬਰ ਹਮਲਿਆਂ ਤੋਂ ਸਿਸਟਮ ਅਤੇ ਨੈੱਟਵਰਕ ਦੀ ਰੱਖਿਆ ਕਰਨ ਦੀ ਪ੍ਰਕਿਰਿਆ।\nਉਦਾਹਰਨ: ਬੈਂਕ ਕਰਮਚਾਰੀਆਂ ਲਈ ਸਾਇਬਰਸੁਰੱਖਿਆ ਸਿਖਲਾਈ ਜ਼ਰੂਰੀ ਹੈ।"
+      },
+      "category": "Cybersecurity"
+    },
+    {
+      "word": "Cheque",
+      "definition": {
+        "en": "A written order directing a bank to pay money.\nExample: She paid her rent by cheque.",
+        "hi": "पैसे देने के लिए बैंक को निर्देश देने वाला एक लिखित आदेश।\nउदाहरण: उसने किराया चेक द्वारा चुकाया।",
+        "pa": "ਇੱਕ ਲਿਖਤੀ ਹੁਕਮ ਜੋ ਬੈਂਕ ਨੂੰ ਪੈਸਾ ਦੇਣ ਲਈ ਦਿੰਦਾ ਹੈ।\nਉਦਾਹਰਨ: ਉਸਨੇ ਕਿਰਾਇਆ ਚੈੱਕ ਰਾਹੀਂ ਭਰਿਆ।"
+      },
+      "category": "Banking"
+    },
+    {
+      "word": "Credit Score",
+      "definition": {
+        "en": "A numerical rating representing a person's creditworthiness.\nExample: A high credit score helps in getting loans easily.",
+        "hi": "किसी व्यक्ति की क्रेडिट योग्यता का एक संख्यात्मक स्कोर।\nउदाहरण: उच्च क्रेडिट स्कोर से ऋण प्राप्त करना आसान होता है।",
+        "pa": "ਕਿਸੇ ਵਿਅਕਤੀ ਦੀ ਕ੍ਰੈਡਿਟ ਯੋਗਤਾ ਦੱਸਣ ਵਾਲਾ ਅੰਕ।\nਉਦਾਹਰਨ: ਉੱਚਾ ਕ੍ਰੈਡਿਟ ਸਕੋਰ ਲੋਨ ਲੈਣ ਵਿੱਚ ਮਦਦ ਕਰਦਾ ਹੈ।"
+      },
+      "category": "Finance"
+    },
+    {
+      "word": "Cryptocurrency",
+      "definition": {
+        "en": "A digital currency using cryptography for secure transactions.\nExample: Bitcoin is the most popular cryptocurrency.",
+        "hi": "सुरक्षित लेनदेन के लिए क्रिप्टोग्राफी का उपयोग करने वाली डिजिटल मुद्रा।\nउदाहरण: बिटकॉइन सबसे लोकप्रिय क्रिप्टोकरेंसी है।",
+        "pa": "ਇੱਕ ਡਿਜੀਟਲ ਕਰੰਸੀ ਜੋ ਸੁਰੱਖਿਅਤ ਲੈਣ-ਦੇਣ ਲਈ ਕ੍ਰਿਪਟੋਗ੍ਰਾਫੀ ਵਰਤਦੀ ਹੈ।\nਉਦਾਹਰਨ: ਬਿਟਕੋਇਨ ਸਭ ਤੋਂ ਲੋਕਪ੍ਰੀਤ ਕ੍ਰਿਪਟੋਕਰੰਸੀ ਹੈ।"
+      },
+      "category": "Investment"
+    },
+    {
+      "word": "Credit Limit",
+      "definition": {
+        "en": "The maximum amount a person is allowed to borrow using credit.\nExample: She stayed within her credit limit to avoid penalties.",
+        "hi": "क्रेडिट के माध्यम से उधार लेने की अधिकतम सीमा।\nउदाहरण: दंड से बचने के लिए उसने अपनी क्रेडिट सीमा के भीतर खर्च किया।",
+        "pa": "ਕ੍ਰੈਡਿਟ ਰਾਹੀਂ ਲੈਣ ਦੀ ਸਭ ਤੋਂ ਵੱਧ ਸੀਮਾ।\nਉਦਾਹਰਨ: ਉਸਨੇ ਜੁਰਮਾਨੇ ਤੋਂ ਬਚਣ ਲਈ ਆਪਣੇ ਕ੍ਰੈਡਿਟ ਹੱਦ ਵਿੱਚ ਰਹਿ ਕੇ ਖਰਚ ਕੀਤਾ।"
+      },
+      "category": "Finance"
+    },
+    {
+      "word": "Cashless",
+      "definition": {
+        "en": "A system of payments without physical cash.\nExample: The country is moving towards a cashless economy.",
+        "hi": "बिना नकदी के भुगतान की एक प्रणाली।\nउदाहरण: देश कैशलेस अर्थव्यवस्था की ओर बढ़ रहा है।",
+        "pa": "ਬਿਨਾਂ ਨਕਦ ਦੇ ਭੁਗਤਾਨ ਪ੍ਰਣਾਲੀ।\nਉਦਾਹਰਨ: ਦੇਸ਼ ਕੈਸ਼ਲੈੱਸ ਅਰਥਵਿਵਸਥਾ ਵੱਲ ਵਧ ਰਿਹਾ ਹੈ।"
+      },
+      "category": "Financial Literacy"
+    },
+    {
+      "word": "Card Cloning",
+      "definition": {
+        "en": "A fraud where a duplicate card is made to steal money.\nExample: He lost money due to debit card cloning.",
+        "hi": "एक धोखाधड़ी जिसमें पैसे चुराने के लिए डुप्लिकेट कार्ड बनाया जाता है।\nउदाहरण: डेबिट कार्ड क्लोनिंग के कारण उसका पैसा चला गया।",
+        "pa": "ਧੋਖਾਧੜੀ ਜਿਸ ਵਿੱਚ ਨਕਲ ਕਾਰਡ ਬਣਾਇਆ ਜਾਂਦਾ ਹੈ।\nਉਦਾਹਰਨ: ਡੈਬਿਟ ਕਾਰਡ ਕਲੋਨਿੰਗ ਨਾਲ ਉਸਦਾ ਪੈਸਾ ਚਲਿਆ ਗਿਆ।"
+      },
+      "category": "Fraud"
+    },
+    {
+      "word": "Compounding",
+      "definition": {
+        "en": "Earning interest on both principal and previously earned interest.\nExample: Compounding helps grow investments faster.",
+        "hi": "मूलधन और अर्जित ब्याज दोनों पर ब्याज अर्जित करना।\nउदाहरण: चक्रवृद्धि ब्याज निवेश को तेजी से बढ़ाता है।",
+        "pa": "ਅਸਲ ਰਕਮ ਅਤੇ ਪਹਿਲਾਂ ਕਮਾਏ ਗਏ ਬਿਆਜ 'ਤੇ ਵੀ ਬਿਆਜ ਮਿਲਣਾ।\nਉਦਾਹਰਨ: ਕਾਂਪਾਊਂਡਿੰਗ ਨਿਵੇਸ਼ ਨੂੰ ਤੇਜ਼ੀ ਨਾਲ ਵਧਾਉਂਦੀ ਹੈ।"
+      },
+      "category": "Investment"
+    },
+    {
+      "word": "Credit Card Fraud",
+      "definition": {
+        "en": "Unauthorized use of someone’s credit card details to make purchases.\nExample: The customer reported credit card fraud immediately.",
+        "hi": "किसी के क्रेडिट कार्ड विवरण का अनधिकृत उपयोग करके खरीदारी करना।\nउदाहरण: ग्राहक ने तुरंत क्रेडिट कार्ड धोखाधड़ी की सूचना दी।",
+        "pa": "ਕਿਸੇ ਦੇ ਕ੍ਰੈਡਿਟ ਕਾਰਡ ਦੀ ਜਾਣਕਾਰੀ ਦੀ ਬੇਇਜਾਜ਼ਤ ਵਰਤੋਂ ਕਰਨਾ।\nਉਦਾਹਰਨ: ਗਾਹਕ ਨੇ ਕ੍ਰੈਡਿਟ ਕਾਰਡ ਧੋਖਾਧੜੀ ਦੀ ਤੁਰੰਤ ਰਿਪੋਰਟ ਕੀਤੀ।"
+      },
+      "category": "Fraud"
+    }
+  ],
+  "D": [
+    {
+      "word": "Debit",
+      "definition": {
+        "en": "A deduction from a bank account, usually as a payment.\nExample: A debit of ₹500 was made from his account.",
+        "hi": "बैंक खाते से एक कटौती, आमतौर पर भुगतान के रूप में।\nउदाहरण: उसके खाते से ₹500 की डेबिट की गई।",
+        "pa": "ਬੈਂਕ ਖਾਤੇ ਵਿਚੋਂ ਕਟੌਤੀ, ਆਮ ਤੌਰ 'ਤੇ ਭੁਗਤਾਨ ਵਜੋਂ।\nਉਦਾਹਰਨ: ਉਸਦੇ ਖਾਤੇ ਵਿੱਚੋਂ ₹500 ਡੈਬਿਟ ਕੀਤਾ ਗਿਆ।"
+      },
+      "category": "Banking"
+    },
+    {
+      "word": "Debt",
+      "definition": {
+        "en": "Money that is owed or due to another party.\nExample: He is trying to pay off his education debt.",
+        "hi": "वह धन जो किसी अन्य पक्ष को देना होता है।\nउदाहरण: वह अपनी शिक्षा ऋण चुकाने की कोशिश कर रहा है।",
+        "pa": "ਉਹ ਪੈਸਾ ਜੋ ਕਿਸੇ ਹੋਰ ਪਾਰਟੀ ਨੂੰ ਦੇਣਾ ਹੁੰਦਾ ਹੈ।\nਉਦਾਹਰਨ: ਉਹ ਆਪਣਾ ਸਿੱਖਿਆ ਕਰਜ਼ਾ ਉਤਾਰਣ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰ ਰਿਹਾ ਹੈ।"
+      },
+      "category": "Finance"
+    },
+    {
+      "word": "Deposit",
+      "definition": {
+        "en": "Money placed into a bank account.\nExample: She made a deposit of ₹10,000 into her savings account.",
+        "hi": "बैंक खाते में जमा की गई राशि।\nउदाहरण: उसने अपने बचत खाते में ₹10,000 जमा किए।",
+        "pa": "ਬੈਂਕ ਖਾਤੇ ਵਿੱਚ ਜਮ੍ਹਾਂ ਕਰਵਾਈ ਗਈ ਰਕਮ।\nਉਦਾਹਰਨ: ਉਸਨੇ ਆਪਣੇ ਸੇਵਿੰਗ ਖਾਤੇ ਵਿੱਚ ₹10,000 ਜਮ੍ਹਾਂ ਕਰਵਾਏ।"
+      },
+      "category": "Banking"
+    },
+    {
+      "word": "Diversification",
+      "definition": {
+        "en": "Investing in various assets to reduce risk.\nExample: Diversification helps protect against market losses.",
+        "hi": "जोखिम को कम करने के लिए विभिन्न संपत्तियों में निवेश करना।\nउदाहरण: विविधीकरण बाजार हानियों से बचाव करता है।",
+        "pa": "ਜੋਖਮ ਨੂੰ ਘਟਾਉਣ ਲਈ ਵੱਖ-ਵੱਖ ਐਸੈੱਟਸ ਵਿੱਚ ਨਿਵੇਸ਼ ਕਰਨਾ।\nਉਦਾਹਰਨ: ਡਾਈਵਰਸੀਫਿਕੇਸ਼ਨ ਮਾਰਕੀਟ ਨੁਕਸਾਨ ਤੋਂ ਬਚਾਉਂਦਾ ਹੈ।"
+      },
+      "category": "Investment"
+    },
+    {
+      "word": "Digital Wallet",
+      "definition": {
+        "en": "An app that allows payments and stores card details.\nExample: He paid for groceries using a digital wallet.",
+        "hi": "ऐप जो भुगतान करने और कार्ड विवरण संग्रहीत करने की अनुमति देता है।\nउदाहरण: उसने डिजिटल वॉलेट से किराना का भुगतान किया।",
+        "pa": "ਇੱਕ ਐਪ ਜੋ ਭੁਗਤਾਨ ਕਰਨ ਅਤੇ ਕਾਰਡ ਵੇਰਵਿਆਂ ਨੂੰ ਸੰਭਾਲਣ ਦੀ ਇਜਾਜ਼ਤ ਦਿੰਦਾ ਹੈ।\nਉਦਾਹਰਨ: ਉਸਨੇ ਡਿਜੀਟਲ ਵਾਲਿਟ ਰਾਹੀਂ ਕਿਰਾਣਾ ਭਰਿਆ।"
+      },
+      "category": "Financial Literacy"
+    },
+    {
+      "word": "Dark Web",
+      "definition": {
+        "en": "A hidden part of the internet often used for illegal transactions.\nExample: Cybercriminals use the dark web to sell stolen data.",
+        "hi": "इंटरनेट का एक छिपा हुआ हिस्सा, जिसे अक्सर अवैध लेनदेन के लिए उपयोग किया जाता है।\nउदाहरण: साइबर अपराधी चोरी किए गए डेटा को बेचने के लिए डार्क वेब का उपयोग करते हैं।",
+        "pa": "ਇੰਟਰਨੈੱਟ ਦਾ ਇਕ ਲੁਕਾਇਆ ਹਿੱਸਾ ਜੋ ਅਕਸਰ ਗੈਰਕਾਨੂੰਨੀ ਲੈਣ-ਦੇਣ ਲਈ ਵਰਤਿਆ ਜਾਂਦਾ ਹੈ।\nਉਦਾਹਰਨ: ਸਾਇਬਰ ਅਪਰਾਧੀ ਚੋਰੀ ਹੋਏ ਡਾਟਾ ਨੂੰ ਵੇਚਣ ਲਈ ਡਾਰਕ ਵੈੱਬ ਵਰਤਦੇ ਹਨ।"
+      },
+      "category": "Cybersecurity"
+    },
+    {
+      "word": "Dispute",
+      "definition": {
+        "en": "A disagreement over a transaction or charge.\nExample: He raised a dispute about the unauthorized transaction.",
+        "hi": "किसी लेन-देन या शुल्क के बारे में विवाद।\nउदाहरण: उसने अनधिकृत लेन-देन के बारे में विवाद उठाया।",
+        "pa": "ਕਿਸੇ ਲੈਣ-ਦੇਣ ਜਾਂ ਚਾਰਜ ਨੂੰ ਲੈ ਕੇ ਝਗੜਾ।\nਉਦਾਹਰਨ: ਉਸਨੇ ਬਿਨਾਂ ਮਨਜ਼ੂਰੀ ਵਾਲੇ ਲੈਣ-ਦੇਣ ਲਈ ਵਿਵਾਦ ਉਠਾਇਆ।"
+      },
+      "category": "Fraud"
+    },
+    {
+      "word": "Data Breach",
+      "definition": {
+        "en": "Unauthorized access to confidential data.\nExample: The company faced a major data breach last year.",
+        "hi": "गोपनीय डेटा तक अनधिकृत पहुंच।\nउदाहरण: कंपनी को पिछले साल एक बड़ा डेटा उल्लंघन झेलना पड़ा।",
+        "pa": "ਗੁਪਤ ਡਾਟੇ ਤੱਕ ਬਿਨਾਂ ਇਜਾਜ਼ਤ ਪਹੁੰਚ।\nਉਦਾਹਰਨ: ਕੰਪਨੀ ਨੂੰ ਪਿਛਲੇ ਸਾਲ ਵੱਡੇ ਡਾਟਾ ਲੀਕ ਦਾ ਸਾਹਮਣਾ ਕਰਨਾ ਪਿਆ।"
+      },
+      "category": "Cybersecurity"
+    },
+    {
+      "word": "Due Diligence",
+      "definition": {
+        "en": "A thorough investigation before entering a transaction or agreement.\nExample: Investors must do due diligence before investing.",
+        "hi": "लेन-देन या समझौते से पहले की जाने वाली पूरी जांच।\nउदाहरण: निवेशकों को निवेश से पहले उचित परिश्रम करना चाहिए।",
+        "pa": "ਲੈਣ-ਦੇਣ ਜਾਂ ਸਮਝੌਤੇ ਤੋਂ ਪਹਿਲਾਂ ਕੀਤੀ ਜਾਂਦੀ ਪੂਰੀ ਜਾਂਚ।\nਉਦਾਹਰਨ: ਨਿਵੇਸ਼ਕਾਂ ਨੂੰ ਨਿਵੇਸ਼ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਜਾਂਚ ਕਰਨੀ ਚਾਹੀਦੀ ਹੈ।"
+      },
+      "category": "Investment"
+    },
+    {
+      "word": "Document Verification",
+      "definition": {
+        "en": "The process of confirming the authenticity of submitted documents.\nExample: The loan was delayed due to pending document verification.",
+        "hi": "प्रस्तुत दस्तावेजों की प्रामाणिकता की पुष्टि करने की प्रक्रिया।\nउदाहरण: लंबित दस्तावेज़ सत्यापन के कारण ऋण में देरी हुई।",
+        "pa": "ਦਿੱਤੇ ਗਏ ਦਸਤਾਵੇਜ਼ਾਂ ਦੀ ਅਸਲੀਅਤ ਦੀ ਪੁਸ਼ਟੀ ਕਰਨ ਦੀ ਪ੍ਰਕਿਰਿਆ।\nਉਦਾਹਰਨ: ਦਸਤਾਵੇਜ਼ ਦੀ ਜਾਂਚ ਨਾ ਹੋਣ ਕਾਰਨ ਲੋਨ ਵਿੱਚ ਦੇਰੀ ਹੋਈ।"
+      },
+      "category": "Banking"
+    }
+  ],
+  "E": [
+    {
+      "word": "EMI",
+      "definition": {
+        "en": "Equated Monthly Installment; a fixed payment amount paid by a borrower to a lender at a specified date each month.\nExample: He pays ₹5,000 as EMI for his education loan.",
+        "hi": "समान मासिक किस्त; एक निश्चित मासिक भुगतान जो उधारकर्ता को तय तारीख पर करना होता है।\nउदाहरण: वह अपनी शिक्षा ऋण के लिए ₹5,000 EMI देता है।",
+        "pa": "ਸਮਾਨ ਮਾਸਿਕ ਕਿਸਤ; ਇੱਕ ਨਿਰਧਾਰਤ ਰਕਮ ਜੋ ਹਰ ਮਹੀਨੇ ਲੈਣ ਵਾਲਾ ਦਿੱਤੀ ਹੋਈ ਮਿਤੀ ਤੇ ਅਦਾ ਕਰਦਾ ਹੈ।\nਉਦਾਹਰਨ: ਉਹ ਆਪਣੀ ਸਿੱਖਿਆ ਲੋਨ ਲਈ ₹5,000 EMI ਦੇਂਦਾ ਹੈ।"
+      },
+      "category": "Finance"
+    },
+    {
+      "word": "Equity",
+      "definition": {
+        "en": "Ownership interest in a company in the form of stocks.\nExample: She invested in equities to grow her wealth.",
+        "hi": "कंपनी में स्वामित्व हित, जिसे स्टॉक्स के रूप में दर्शाया जाता है।\nउदाहरण: उसने अपनी संपत्ति बढ़ाने के लिए इक्विटी में निवेश किया।",
+        "pa": "ਇੱਕ ਕੰਪਨੀ ਵਿੱਚ ਮਾਲਕੀ ਹਿੱਸਾ ਜੋ ਸਟਾਕਾਂ ਰਾਹੀਂ ਦਰਸਾਇਆ ਜਾਂਦਾ ਹੈ।\nਉਦਾਹਰਨ: ਉਸਨੇ ਆਪਣੀ ਦੌਲਤ ਵਧਾਉਣ ਲਈ ਇਕੁਇਟੀ ਵਿੱਚ ਨਿਵੇਸ਼ ਕੀਤਾ।"
+      },
+      "category": "Investment"
+    },
+    {
+      "word": "E-Wallet",
+      "definition": {
+        "en": "A digital application to store money and make payments.\nExample: He paid the taxi fare using an e-wallet.",
+        "hi": "पैसे संग्रहित करने और भुगतान करने के लिए डिजिटल एप्लिकेशन।\nउदाहरण: उसने ई-वॉलेट से टैक्सी का किराया चुकाया।",
+        "pa": "ਪੈਸਾ ਸੰਭਾਲਣ ਅਤੇ ਭੁਗਤਾਨ ਕਰਨ ਲਈ ਡਿਜੀਟਲ ਐਪ।\nਉਦਾਹਰਨ: ਉਸਨੇ ਈ-ਵਾਲਿਟ ਰਾਹੀਂ ਟੈਕਸੀ ਦਾ ਕਿਰਾਇਆ ਦਿੱਤਾ।"
+      },
+      "category": "Financial Literacy"
+    },
+    {
+      "word": "Encryption",
+      "definition": {
+        "en": "A method of converting data into a code to prevent unauthorized access.\nExample: All banking apps use encryption to secure user data.",
+        "hi": "अनधिकृत पहुँच को रोकने के लिए डेटा को कोड में बदलने की विधि।\nउदाहरण: सभी बैंकिंग ऐप्स उपयोगकर्ता डेटा को सुरक्षित करने के लिए एन्क्रिप्शन का उपयोग करते हैं।",
+        "pa": "ਅਣਅਧਿਕ੍ਰਿਤ ਪਹੁੰਚ ਤੋਂ ਬਚਾਅ ਲਈ ਡਾਟੇ ਨੂੰ ਕੋਡ ਵਿੱਚ ਬਦਲਣ ਦੀ ਵਿਧੀ।\nਉਦਾਹਰਨ: ਸਾਰੇ ਬੈਂਕਿੰਗ ਐਪ ਯੂਜ਼ਰ ਡਾਟਾ ਦੀ ਸੁਰੱਖਿਆ ਲਈ ਇੰਕ੍ਰਿਪਸ਼ਨ ਵਰਤਦੇ ਹਨ।"
+      },
+      "category": "Cybersecurity"
+    },
+    {
+      "word": "Exchange Rate",
+      "definition": {
+        "en": "The value of one currency in terms of another.\nExample: The exchange rate of USD to INR fluctuates daily.",
+        "hi": "एक मुद्रा की दूसरी मुद्रा के मुकाबले कीमत।\nउदाहरण: USD से INR की विनिमय दर प्रतिदिन बदलती है।",
+        "pa": "ਇੱਕ ਮੁਦਰਾ ਦੀ ਕੀਮਤ ਦੂਜੀ ਮੁਦਰਾ ਦੇ ਮੁਕਾਬਲੇ।\nਉਦਾਹਰਨ: USD ਤੋਂ INR ਦੀ ਐਕਸਚੇਂਜ ਦਰ ਰੋਜ਼ ਬਦਲਦੀ ਰਹਿੰਦੀ ਹੈ।"
+      },
+      "category": "Finance"
+    },
+    {
+      "word": "Earnings",
+      "definition": {
+        "en": "Profit a company makes, often reported quarterly.\nExample: The company's quarterly earnings exceeded expectations.",
+        "hi": "कंपनी द्वारा कमाया गया लाभ, जो आमतौर पर तिमाही में रिपोर्ट किया जाता है।\nउदाहरण: कंपनी की तिमाही कमाई उम्मीदों से अधिक थी।",
+        "pa": "ਕੰਪਨੀ ਵੱਲੋਂ ਕੀਤੇ ਲਾਭ ਜੋ ਅਕਸਰ ਤਿਮਾਹੀਕ ਰੂਪ ਵਿੱਚ ਦਰਸਾਏ ਜਾਂਦੇ ਹਨ।\nਉਦਾਹਰਨ: ਕੰਪਨੀ ਦੀ ਤਿਮਾਹੀਕ ਕਮਾਈ ਉਮੀਦਾਂ ਤੋਂ ਵੱਧ ਸੀ।"
+      },
+      "category": "Investment"
+    },
+    {
+      "word": "Escrow",
+      "definition": {
+        "en": "A financial arrangement where a third party holds funds until a condition is met.\nExample: The buyer’s funds were held in escrow until the house was delivered.",
+        "hi": "एक वित्तीय व्यवस्था जहां एक तीसरा पक्ष धन को तब तक रखता है जब तक कोई शर्त पूरी नहीं होती।\nउदाहरण: जब तक मकान सौंपा नहीं गया, खरीदार के पैसे एस्क्रो में रखे गए।",
+        "pa": "ਇੱਕ ਵਿੱਤੀ ਪ੍ਰਬੰਧ ਜਿਸ ਵਿੱਚ ਤੀਜੀ ਪਾਰਟੀ ਪੈਸਾ ਰੱਖਦੀ ਹੈ ਜਦ ਤਕ ਕੋਈ ਸ਼ਰਤ ਪੂਰੀ ਨਾ ਹੋਵੇ।\nਉਦਾਹਰਨ: ਘਰ ਮਿਲਣ ਤੱਕ ਖਰੀਦਦਾਰ ਦੇ ਪੈਸੇ ਐਸਕਰੋ ਵਿੱਚ ਰੱਖੇ ਗਏ।"
+      },
+      "category": "Finance"
+    },
+    {
+      "word": "E-filing",
+      "definition": {
+        "en": "Submitting tax returns online through an official portal.\nExample: He completed his income tax e-filing in 10 minutes.",
+        "hi": "आधिकारिक पोर्टल के माध्यम से कर रिटर्न को ऑनलाइन जमा करना।\nउदाहरण: उसने 10 मिनट में आयकर ई-फाइलिंग पूरी की।",
+        "pa": "ਸਰਕਾਰੀ ਪੋਰਟਲ ਰਾਹੀਂ ਆਨਲਾਈਨ ਟੈਕਸ ਰਿਟਰਨ ਦਾਖਲ ਕਰਨਾ।\nਉਦਾਹਰਨ: ਉਸਨੇ ਆਪਣੀ ਆਮਦਨ ਟੈਕਸ ਦੀ ਈ-ਫਾਇਲਿੰਗ 10 ਮਿੰਟ ਵਿੱਚ ਕਰ ਲਈ।"
+      },
+      "category": "Financial Literacy"
+    },
+    {
+      "word": "E-KYC",
+      "definition": {
+        "en": "Electronic Know Your Customer – the digital process to verify customer identity.\nExample: The bank completed e-KYC in just 5 minutes.",
+        "hi": "इलेक्ट्रॉनिक नो योर कस्टमर – ग्राहक की पहचान सत्यापित करने की डिजिटल प्रक्रिया।\nउदाहरण: बैंक ने सिर्फ 5 मिनट में ई-केवाईसी पूरी की।",
+        "pa": "ਇਲੈਕਟ੍ਰਾਨਿਕ ਨੋ ਯੋਰ ਕਸਟਮਰ – ਗਾਹਕ ਦੀ ਪਛਾਣ ਦੀ ਡਿਜੀਟਲ ਜਾਂਚ ਪ੍ਰਕਿਰਿਆ।\nਉਦਾਹਰਨ: ਬੈਂਕ ਨੇ ਸਿਰਫ਼ 5 ਮਿੰਟ ਵਿੱਚ ਈ-ਕੇਵਾਈਸੀ ਪੂਰੀ ਕੀਤੀ।"
+      },
+      "category": "Banking"
+    },
+    {
+      "word": "E-commerce Scam",
+      "definition": {
+        "en": "A type of online fraud where fake products or sellers cheat buyers.\nExample: He fell for an e-commerce scam on a fake website.",
+        "hi": "एक प्रकार की ऑनलाइन धोखाधड़ी जहाँ नकली उत्पाद या विक्रेता खरीदारों को धोखा देते हैं।\nउदाहरण: वह एक नकली वेबसाइट की ई-कॉमर्स धोखाधड़ी का शिकार हुआ।",
+        "pa": "ਇੱਕ ਕਿਸਮ ਦੀ ਔਨਲਾਈਨ ਧੋਖਾਧੜੀ ਜਿਸ ਵਿੱਚ ਨਕਲੀ ਉਤਪਾਦ ਜਾਂ ਵੇਚਣ ਵਾਲੇ ਗਾਹਕਾਂ ਨੂੰ ਠੱਗਦੇ ਹਨ।\nਉਦਾਹਰਨ: ਉਹ ਨਕਲੀ ਵੈੱਬਸਾਈਟ 'ਤੇ ਈ-ਕਾਮਰਸ ਠੱਗੀ ਦਾ ਸ਼ਿਕਾਰ ਹੋਇਆ।"
+      },
+      "category": "Fraud"
+    }
+  ],
+  "F": [
+    {
+      "word": "Fraud",
+      "definition": {
+        "en": "Wrongful or criminal deception intended to result in financial gain.\nExample: Credit card fraud is increasing globally.",
+        "hi": "धोखाधड़ी या आपराधिक छल जिससे वित्तीय लाभ हो।\nउदाहरण: क्रेडिट कार्ड धोखाधड़ी दुनियाभर में बढ़ रही है।",
+        "pa": "ਧੋਖਾਧੜੀ ਜਾਂ ਅਪਰਾਧਿਕ ਛਲ ਜੋ ਵਿੱਤੀ ਲਾਭ ਲਈ ਕੀਤਾ ਜਾਂਦਾ ਹੈ।\nਉਦਾਹਰਨ: ਕਰੈਡਿਟ ਕਾਰਡ ਫ੍ਰੌਡ ਵਧ ਰਿਹਾ ਹੈ।"
+      },
+      "category": "Fraud"
+    },
+    {
+      "word": "Fixed Deposit",
+      "definition": {
+        "en": "A financial instrument where a lump sum is invested for a fixed tenure.\nExample: She invested in a 5-year fixed deposit.",
+        "hi": "एक वित्तीय साधन जिसमें निश्चित अवधि के लिए राशि जमा की जाती है।\nउदाहरण: उसने 5 साल के फिक्स्ड डिपॉजिट में निवेश किया।",
+        "pa": "ਇੱਕ ਵਿੱਤੀ ਯੋਜਨਾ ਜਿਸ ਵਿੱਚ ਨਿਸ਼ਚਿਤ ਸਮੇਂ ਲਈ ਰਕਮ ਜਮ੍ਹਾਂ ਕਰਵਾਈ ਜਾਂਦੀ ਹੈ।\nਉਦਾਹਰਨ: ਉਸਨੇ 5 ਸਾਲਾਂ ਦੇ ਫਿਕਸਡ ਡਿਪਾਜ਼ਿਟ ਵਿੱਚ ਨਿਵੇਸ਼ ਕੀਤਾ।"
+      },
+      "category": "Finance"
+    },
+    {
+      "word": "Forex",
+      "definition": {
+        "en": "Foreign Exchange; currency trading across countries.\nExample: Forex trading involves high risk and reward.",
+        "hi": "विदेशी मुद्रा विनिमय; विभिन्न देशों की मुद्राओं का व्यापार।\nउदाहरण: फॉरेक्स ट्रेडिंग में उच्च जोखिम होता है।",
+        "pa": "ਵਿਦੇਸ਼ੀ ਮੁਦਰਾ ਲੈਣ-ਦੇਣ; ਕਰੰਸੀ ਦਾ ਵਪਾਰ।\nਉਦਾਹਰਨ: ਫੋਰੈਕਸ ਟਰੇਡਿੰਗ ਵਿੱਚ ਉੱਚਾ ਜੋਖਮ ਹੁੰਦਾ ਹੈ।"
+      },
+      "category": "Finance"
+    },
+    {
+      "word": "Financial Literacy",
+      "definition": {
+        "en": "Understanding how money works in the real world.\nExample: Schools should teach financial literacy early.",
+        "hi": "वित्तीय दुनिया में पैसे के काम करने की समझ।\nउदाहरण: स्कूलों को वित्तीय साक्षरता सिखानी चाहिए।",
+        "pa": "ਅਸਲ ਜੀਵਨ ਵਿੱਚ ਪੈਸਾ ਕਿਵੇਂ ਕੰਮ ਕਰਦਾ ਹੈ ਇਹਦੀ ਸਮਝ।\nਉਦਾਹਰਨ: ਸਕੂਲਾਂ ਨੂੰ ਵਿੱਤੀ ਸਾਖਰਤਾ ਸਿਖਾਉਣੀ ਚਾਹੀਦੀ ਹੈ।"
+      },
+      "category": "Financial Literacy"
+    },
+    {
+      "word": "Firewall",
+      "definition": {
+        "en": "A system designed to prevent unauthorized access to or from a network.\nExample: Firewalls protect your computer from hackers.",
+        "hi": "नेटवर्क में अनधिकृत पहुंच को रोकने के लिए डिज़ाइन की गई प्रणाली।\nउदाहरण: फायरवॉल हैकर्स से सुरक्षा प्रदान करता है।",
+        "pa": "ਅਣਅਧਿਕ੍ਰਿਤ ਪਹੁੰਚ ਤੋਂ ਨੈੱਟਵਰਕ ਦੀ ਰੱਖਿਆ ਕਰਨ ਵਾਲਾ ਤੰਤਰ।\nਉਦਾਹਰਨ: ਫਾਇਰਵਾਲ ਤੁਹਾਡੇ ਕੰਪਿਊਟਰ ਨੂੰ ਹੈਕਰ ਤੋਂ ਬਚਾਉਂਦਾ ਹੈ।"
+      },
+      "category": "Cybersecurity"
+    },
+    {
+      "word": "Fund Transfer",
+      "definition": {
+        "en": "Sending money from one bank account to another.\nExample: She did a quick fund transfer via UPI.",
+        "hi": "एक बैंक खाते से दूसरे में पैसा भेजना।\nउदाहरण: उसने UPI से तेज़ फंड ट्रांसफर किया।",
+        "pa": "ਇੱਕ ਬੈਂਕ ਖਾਤੇ ਤੋਂ ਦੂਜੇ ਵਿੱਚ ਪੈਸਾ ਭੇਜਣਾ।\nਉਦਾਹਰਨ: ਉਸਨੇ UPI ਰਾਹੀਂ ਫੰਡ ਟ੍ਰਾਂਸਫਰ ਕੀਤਾ।"
+      },
+      "category": "Banking"
+    },
+    {
+      "word": "Fake Loan App",
+      "definition": {
+        "en": "A fraudulent app posing as a loan provider.\nExample: Many users got trapped by fake loan apps.",
+        "hi": "एक धोखाधड़ी ऐप जो ऋण प्रदाता होने का दिखावा करता है।\nउदाहरण: कई यूजर्स नकली लोन ऐप्स के शिकार हुए।",
+        "pa": "ਇੱਕ ਠੱਗੀ ਵਾਲਾ ਐਪ ਜੋ ਲੋਨ ਦੇਣ ਵਾਲਾ ਬਣਦਾ ਹੈ।\nਉਦਾਹਰਨ: ਕਈ ਉਪਭੋਗਤਾ ਫੇਕ ਲੋਨ ਐਪਸ ਵਿੱਚ ਫਸ ਗਏ।"
+      },
+      "category": "Fraud"
+    },
+    {
+      "word": "Fundamental Analysis",
+      "definition": {
+        "en": "Evaluating a stock by examining related financial and economic factors.\nExample: Long-term investors rely on fundamental analysis.",
+        "hi": "वित्तीय और आर्थिक कारकों के आधार पर स्टॉक का मूल्यांकन।\nउदाहरण: दीर्घकालिक निवेशक फंडामेंटल एनालिसिस पर निर्भर करते हैं।",
+        "pa": "ਸਟਾਕ ਦਾ ਮੁਲਾਂਕਣ ਕਰਨ ਦੀ ਪ੍ਰਕਿਰਿਆ ਜੋ ਆਰਥਿਕ ਅੰਕੜਿਆਂ 'ਤੇ ਆਧਾਰਤ ਹੁੰਦੀ ਹੈ।\nਉਦਾਹਰਨ: ਲੰਬੇ ਸਮੇਂ ਦੇ ਨਿਵੇਸ਼ਕ ਇਸ 'ਤੇ ਭਰੋਸਾ ਕਰਦੇ ਹਨ।"
+      },
+      "category": "Investment"
+    },
+    {
+      "word": "Fake Call",
+      "definition": {
+        "en": "A scam call pretending to be from a legitimate organization.\nExample: He received a fake call asking for OTP.",
+        "hi": "एक धोखाधड़ी कॉल जो किसी वैध संस्था का रूप लेती है।\nउदाहरण: उसे एक नकली कॉल आई जिसने OTP माँगा।",
+        "pa": "ਇੱਕ ਠੱਗੀ ਵਾਲੀ ਕਾਲ ਜੋ ਅਸਲ ਸੰਸਥਾ ਦੀ ਨਕਲ ਕਰਦੀ ਹੈ।\nਉਦਾਹਰਨ: ਉਸਨੂੰ ਝੂਠੀ ਕਾਲ ਆਈ ਜਿਸਨੇ OTP ਮੰਗਿਆ।"
+      },
+      "category": "Scam"
+    },
+    {
+      "word": "Filing Complaint",
+      "definition": {
+        "en": "The act of reporting an issue to the concerned authority.\nExample: He filed a complaint for a fraudulent transaction.",
+        "hi": "संबंधित प्राधिकरण को किसी समस्या की रिपोर्ट करना।\nउदाहरण: उसने धोखाधड़ी लेन-देन की शिकायत दर्ज की।",
+        "pa": "ਕਿਸੇ ਸੰਬੰਧਿਤ ਅਧਿਕਾਰੀ ਕੋਲ ਮਸਲੇ ਦੀ ਸ਼ਿਕਾਇਤ ਦਰਜ ਕਰਵਾਉਣਾ।\nਉਦਾਹਰਨ: ਉਸਨੇ ਠੱਗੀ ਵਾਲੇ ਲੈਣ-ਦੇਣ ਦੀ ਸ਼ਿਕਾਇਤ ਦਰਜ ਕਰਵਾਈ।"
+      },
+      "category": "Fraud"
+    }
+  ],
+  "G": [
+    {
+      "word": "GST",
+      "definition": {
+        "en": "Goods and Services Tax, a unified tax on the supply of goods and services.\nExample: GST replaced many indirect taxes in India.",
+        "hi": "वस्तु एवं सेवा कर, वस्तुओं और सेवाओं की आपूर्ति पर एकीकृत कर।\nउदाहरण: GST ने भारत में कई अप्रत्यक्ष करों को बदल दिया।",
+        "pa": "ਵਸਤੂਆਂ ਅਤੇ ਸੇਵਾਵਾਂ 'ਤੇ ਲੱਗਣ ਵਾਲਾ ਇਕਕਰ।\nਉਦਾਹਰਨ: ਜੀਐਸਟੀ ਨੇ ਭਾਰਤ ਵਿੱਚ ਬਹੁਤ ਸਾਰੇ ਅਪਰੋਕਸ਼ ਕਰਾਂ ਨੂੰ ਬਦਲ ਦਿੱਤਾ।"
+      },
+      "category": "Finance"
+    },
+    {
+      "word": "Gateway",
+      "definition": {
+        "en": "A network point that acts as an entrance to another network.\nExample: Payment gateways help in processing online transactions.",
+        "hi": "एक नेटवर्क बिंदु जो किसी अन्य नेटवर्क के लिए प्रवेश द्वार के रूप में कार्य करता है।\nउदाहरण: पेमेंट गेटवे ऑनलाइन लेन-देन में सहायता करते हैं।",
+        "pa": "ਇੱਕ ਨੈੱਟਵਰਕ ਪੌਇੰਟ ਜੋ ਦੂਜੇ ਨੈੱਟਵਰਕ ਵਿੱਚ ਦਾਖਲ ਹੋਣ ਲਈ ਰਸਤਾ ਹੈ।\nਉਦਾਹਰਨ: ਭੁਗਤਾਨ ਗੇਟਵੇ ਆਨਲਾਈਨ ਲੈਣ-ਦੇਣ ਦੀ ਕਾਰਵਾਈ ਕਰਦੇ ਹਨ।"
+      },
+      "category": "Cybersecurity"
+    },
+    {
+      "word": "Grievance",
+      "definition": {
+        "en": "A complaint about a wrong that causes distress.\nExample: He filed a grievance against the fraudulent charges.",
+        "hi": "किसी अन्याय के बारे में शिकायत जो कष्ट देती है।\nउदाहरण: उसने धोखाधड़ी के आरोपों के खिलाफ शिकायत दर्ज की।",
+        "pa": "ਕਿਸੇ ਨਿਆਂਹੀਨ ਕੰਮ ਖਿਲਾਫ ਸ਼ਿਕਾਇਤ।\nਉਦਾਹਰਨ: ਉਸਨੇ ਠੱਗੀ ਵਾਲੇ ਚਾਰਜਾਂ ਦੀ ਸ਼ਿਕਾਇਤ ਕੀਤੀ।"
+      },
+      "category": "Fraud"
+    },
+    {
+      "word": "Gold Bond",
+      "definition": {
+        "en": "A government security denominated in grams of gold.\nExample: Investors buy gold bonds as an alternative to physical gold.",
+        "hi": "सोने के ग्रामों में अंकित सरकारी सुरक्षा।\nउदाहरण: निवेशक भौतिक सोने के विकल्प के रूप में गोल्ड बॉन्ड खरीदते हैं।",
+        "pa": "ਸੋਨੇ ਦੇ ਗ੍ਰਾਮਾਂ ਵਿੱਚ ਜਾਰੀ ਸਰਕਾਰੀ ਬਾਂਡ।\nਉਦਾਹਰਨ: ਨਿਵੇਸ਼ਕ ਸੋਨੇ ਦੇ ਬਦਲੇ ਗੋਲਡ ਬਾਂਡ ਖਰੀਦਦੇ ਹਨ।"
+      },
+      "category": "Investment"
+    },
+    {
+      "word": "Group Insurance",
+      "definition": {
+        "en": "Insurance policy covering a group of people.\nExample: Companies often provide group insurance to employees.",
+        "hi": "एक समूह के लिए बीमा पॉलिसी।\nउदाहरण: कंपनियाँ कर्मचारियों को ग्रुप इंश्योरेंस प्रदान करती हैं।",
+        "pa": "ਇੱਕ ਗਰੁੱਪ ਲਈ ਬੀਮਾ ਯੋਜਨਾ।\nਉਦਾਹਰਨ: ਕੰਪਨੀਆਂ ਅਕਸਰ ਕਰਮਚਾਰੀਆਂ ਨੂੰ ਗਰੁੱਪ ਇੰਸ਼ੋਰੈਂਸ ਦਿੰਦੀਆਂ ਹਨ।"
+      },
+      "category": "Finance"
+    },
+    {
+      "word": "Grey Market",
+      "definition": {
+        "en": "An unofficial market where securities are bought and sold before official listing.\nExample: IPO shares are often traded in the grey market.",
+        "hi": "एक अनौपचारिक बाजार जहाँ लिस्टिंग से पहले शेयरों की खरीद-बिक्री होती है।\nउदाहरण: IPO के शेयर अक्सर ग्रे मार्केट में ट्रेड होते हैं।",
+        "pa": "ਇੱਕ ਅਣਉਪਚਾਰਿਕ ਬਜ਼ਾਰ ਜਿਸ ਵਿੱਚ ਸਟਾਕਾਂ ਦੀ ਲਿਸਟਿੰਗ ਤੋਂ ਪਹਿਲਾਂ ਖਰੀਦ-ਫਰੋਖਤ ਹੁੰਦੀ ਹੈ।\nਉਦਾਹਰਨ: ਆਈਪੀਓ ਸ਼ੇਅਰ ਅਕਸਰ ਗਰੇ ਮਾਰਕੀਟ 'ਚ ਵੇਚੇ ਜਾਂਦੇ ਹਨ।"
+      },
+      "category": "Investment"
+    },
+    {
+      "word": "Growth Fund",
+      "definition": {
+        "en": "A mutual fund aimed at capital appreciation.\nExample: Growth funds are ideal for long-term investors.",
+        "hi": "पूंजी वृद्धि के उद्देश्य से एक म्यूचुअल फंड।\nउदाहरण: ग्रोथ फंड दीर्घकालिक निवेशकों के लिए आदर्श हैं।",
+        "pa": "ਪੂੰਜੀ ਵਾਧੂ ਲਈ ਬਣਾਇਆ ਗਿਆ ਮਿਊਚੁਅਲ ਫੰਡ।\nਉਦਾਹਰਨ: ਲੰਬੇ ਸਮੇਂ ਦੇ ਨਿਵੇਸ਼ਕਾਂ ਲਈ ਗਰੋਥ ਫੰਡ ਵਧੀਆ ਹੁੰਦੇ ਹਨ।"
+      },
+      "category": "Investment"
+    },
+    {
+      "word": "Google Authenticator",
+      "definition": {
+        "en": "A two-factor authentication app for securing online accounts.\nExample: Use Google Authenticator to prevent hacking.",
+        "hi": "ऑनलाइन खातों की सुरक्षा के लिए एक टू-फैक्टर ऑथेंटिकेशन ऐप।\nउदाहरण: हैकिंग से बचने के लिए Google Authenticator का उपयोग करें।",
+        "pa": "ਆਨਲਾਈਨ ਖਾਤਿਆਂ ਦੀ ਸੁਰੱਖਿਆ ਲਈ ਦੋ-ਕਦਮੀ ਤਸਦੀਕ ਐਪ।\nਉਦਾਹਰਨ: ਹੈਕਿੰਗ ਤੋਂ ਬਚਣ ਲਈ Google Authenticator ਵਰਤੋ।"
+      },
+      "category": "Cybersecurity"
+    },
+    {
+      "word": "Government Securities",
+      "definition": {
+        "en": "Debt instruments issued by a government to borrow money.\nExample: RBI auctions government securities regularly.",
+        "hi": "सरकार द्वारा जारी ऋण साधन।\nउदाहरण: RBI नियमित रूप से सरकारी प्रतिभूतियों की नीलामी करता है।",
+        "pa": "ਸਰਕਾਰ ਵੱਲੋਂ ਜਾਰੀ ਕਰਜ਼ਾ ਪ੍ਰਮਾਣ ਪੱਤਰ।\nਉਦਾਹਰਨ: ਆਰਬੀਆਈ ਸਰਕਾਰੀ ਸਿਕਿਊਰਿਟੀਆਂ ਦੀ ਨੀਲਾਮੀ ਕਰਦਾ ਹੈ।"
+      },
+      "category": "Finance"
+    },
+    {
+      "word": "Gmail Scam",
+      "definition": {
+        "en": "A scam where fake Gmail messages are used to steal data.\nExample: He lost his password to a Gmail phishing scam.",
+        "hi": "एक स्कैम जिसमें फर्जी Gmail संदेशों का उपयोग कर डेटा चुराया जाता है।\nउदाहरण: वह Gmail स्कैम में अपना पासवर्ड खो बैठा।",
+        "pa": "ਜਿੱਥੇ ਨਕਲੀ Gmail ਸੁਨੇਹਿਆਂ ਰਾਹੀਂ ਡਾਟਾ ਚੋਰੀ ਕੀਤਾ ਜਾਂਦਾ ਹੈ।\nਉਦਾਹਰਨ: ਉਹ Gmail ਸਕੈਮ ਵਿੱਚ ਆਪਣਾ ਪਾਸਵਰਡ ਗਵਾ ਬੈਠਾ।"
+      },
+      "category": "Scam"
+    }
+  ],
+  "H": [
+    {
+      "word": "Hacking",
+      "definition": {
+        "en": "Unauthorized intrusion into a computer or network.\nExample: The company faced a hacking attempt last week.",
+        "hi": "कंप्यूटर या नेटवर्क में अनधिकृत प्रवेश।\nउदाहरण: कंपनी को पिछले सप्ताह हैकिंग का सामना करना पड़ा।",
+        "pa": "ਕੰਪਿਊਟਰ ਜਾਂ ਨੈੱਟਵਰਕ ਵਿੱਚ ਬਿਨਾਂ ਇਜਾਜ਼ਤ ਦਾਖਲ ਹੋਣਾ।\nਉਦਾਹਰਨ: ਪਿਛਲੇ ਹਫਤੇ ਕੰਪਨੀ ਨੂੰ ਹੈਕਿੰਗ ਦੀ ਕੋਸ਼ਿਸ਼ ਹੋਈ।"
+      },
+      "category": "Cybersecurity"
+    },
+    {
+      "word": "Hawala",
+      "definition": {
+        "en": "An illegal method of transferring money without physical movement.\nExample: Hawala is used to bypass banking regulations.",
+        "hi": "पैसा ट्रांसफर करने की अवैध विधि जिसमें कोई भौतिक लेन-देन नहीं होता।\nउदाहरण: हवाला का उपयोग बैंकिंग नियमों से बचने के लिए किया जाता है।",
+        "pa": "ਬਿਨਾਂ ਕਿਸੇ ਭੌਤਿਕ ਲੈਣ-ਦੇਣ ਦੇ ਪੈਸਾ ਭੇਜਣ ਦੀ ਗੈਰਕਾਨੂੰਨੀ ਵਿਧੀ।\nਉਦਾਹਰਨ: ਹਵਾਲਾ ਨਾਲ ਬੈਂਕਿੰਗ ਨਿਯਮਾਂ ਤੋਂ ਬਚਿਆ ਜਾਂਦਾ ਹੈ।"
+      },
+      "category": "Finance"
+    },
+    {
+      "word": "High Risk Investment",
+      "definition": {
+        "en": "An investment with a significant chance of loss.\nExample: Cryptocurrency is considered a high-risk investment.",
+        "hi": "ऐसा निवेश जिसमें हानि की संभावना अधिक होती है।\nउदाहरण: क्रिप्टोकरेंसी को हाई रिस्क इनवेस्टमेंट माना जाता है।",
+        "pa": "ਜਿਸ ਵਿੱਚ ਨੁਕਸਾਨ ਦਾ ਖ਼ਤਰਾ ਵੱਧ ਹੁੰਦਾ ਹੈ ਉਹ ਨਿਵੇਸ਼।\nਉਦਾਹਰਨ: ਕਰਿਪਟੋਕਰੰਸੀ ਨੂੰ ਹਾਈ ਰਿਸਕ ਨਿਵੇਸ਼ ਮੰਨਿਆ ਜਾਂਦਾ ਹੈ।"
+      },
+      "category": "Investment"
+    },
+    {
+      "word": "Honeypot",
+      "definition": {
+        "en": "A security resource intended to be attacked to study threats.\nExample: The firm used a honeypot to detect cyber threats.",
+        "hi": "एक सुरक्षा प्रणाली जो हमले को आकर्षित करती है ताकि खतरे का अध्ययन हो सके।\nउदाहरण: कंपनी ने साइबर खतरों का पता लगाने के लिए हनीपॉट का उपयोग किया।",
+        "pa": "ਇੱਕ ਸੁਰੱਖਿਆ ਉਪਕਰਨ ਜੋ ਹਮਲੇ ਨੂੰ ਆਕਰਸ਼ਤ ਕਰਦਾ ਹੈ।\nਉਦਾਹਰਨ: ਕੰਪਨੀ ਨੇ ਹਨੀਪੌਟ ਨਾਲ ਸਾਇਬਰ ਖ਼ਤਰੇ ਦੀ ਪਛਾਣ ਕੀਤੀ।"
+      },
+      "category": "Cybersecurity"
+    },
+    {
+      "word": "Hashing",
+      "definition": {
+        "en": "A method of encrypting data into fixed-size output.\nExample: Passwords are stored using hashing algorithms.",
+        "hi": "डेटा को निश्चित आकार में एन्क्रिप्ट करने की विधि।\nउदाहरण: पासवर्ड हैशिंग एल्गोरिद्म से स्टोर किए जाते हैं।",
+        "pa": "ਡਾਟਾ ਨੂੰ ਨਿਸ਼ਚਿਤ ਆਕਾਰ ਵਿੱਚ ਰੂਪਾਂਤਰਿਤ ਕਰਨ ਦੀ ਵਿਧੀ।\nਉਦਾਹਰਨ: ਪਾਸਵਰਡਾਂ ਨੂੰ ਹੈਸ਼ਿੰਗ ਨਾਲ ਸੁਰੱਖਿਅਤ ਕੀਤਾ ਜਾਂਦਾ ਹੈ।"
+      },
+      "category": "Cybersecurity"
+    }
+  ],
+  "I": [
+    {
+      "word": "Insurance",
+      "definition": {
+        "en": "A contract providing financial protection.\nExample: Health insurance covers medical expenses.",
+        "hi": "एक अनुबंध जो वित्तीय सुरक्षा प्रदान करता है।\nउदाहरण: स्वास्थ्य बीमा चिकित्सा खर्चों को कवर करता है।",
+        "pa": "ਇੱਕ ਐਸਾ ਕਰਾਰ ਜੋ ਵਿੱਤੀ ਸੁਰੱਖਿਆ ਦਿੰਦਾ ਹੈ।\nਉਦਾਹਰਨ: ਹੈਲਥ ਇੰਸ਼ੋਰੈਂਸ ਇਲਾਜ ਦੇ ਖ਼ਰਚੇ ਪੂਰੇ ਕਰਦਾ ਹੈ।"
+      },
+      "category": "Finance"
+    },
+    {
+      "word": "Investment",
+      "definition": {
+        "en": "The act of putting money into assets for returns.\nExample: Real estate is a long-term investment.",
+        "hi": "लाभ के लिए पैसे को संपत्तियों में लगाना।\nउदाहरण: रियल एस्टेट एक दीर्घकालिक निवेश है।",
+        "pa": "ਲਾਭ ਲਈ ਪੈਸੇ ਨੂੰ ਜਾਇਦਾਦ ਵਿੱਚ ਲਗਾਉਣਾ।\nਉਦਾਹਰਨ: ਰਿਅਲ ਅਸਟੇਟ ਲੰਬੇ ਸਮੇਂ ਦਾ ਨਿਵੇਸ਼ ਹੈ।"
+      },
+      "category": "Investment"
+    },
+    {
+      "word": "IFSC Code",
+      "definition": {
+        "en": "Unique code identifying bank branches in India.\nExample: IFSC code is needed for online transfers.",
+        "hi": "भारत में बैंक शाखाओं की पहचान करने वाला कोड।\nउदाहरण: ऑनलाइन ट्रांसफर के लिए IFSC कोड आवश्यक है।",
+        "pa": "ਭਾਰਤ ਵਿੱਚ ਬੈਂਕ ਦੀ ਸ਼ਾਖਾ ਦੀ ਪਹਿਚਾਣ ਕਰਨ ਵਾਲਾ ਕੋਡ।\nਉਦਾਹਰਨ: ਆਨਲਾਈਨ ਟ੍ਰਾਂਸਫਰ ਲਈ IFSC ਕੋਡ ਚਾਹੀਦਾ ਹੈ।"
+      },
+      "category": "Banking"
+    },
+    {
+      "word": "Identity Theft",
+      "definition": {
+        "en": "Stealing someone's identity for fraud.\nExample: He became a victim of identity theft online.",
+        "hi": "किसी की पहचान चुराकर धोखाधड़ी करना।\nउदाहरण: वह ऑनलाइन पहचान चोरी का शिकार हुआ।",
+        "pa": "ਕਿਸੇ ਦੀ ਪਛਾਣ ਚੁਰਾ ਕੇ ਠੱਗੀ ਕਰਨਾ।\nਉਦਾਹਰਨ: ਉਹ ਆਨਲਾਈਨ ਆਈਡੈਂਟੀਟੀ ਥੈਫਟ ਦਾ ਸ਼ਿਕਾਰ ਹੋਇਆ।"
+      },
+      "category": "Cybersecurity"
+    },
+    {
+      "word": "Inflation",
+      "definition": {
+        "en": "General increase in prices.\nExample: Inflation reduces purchasing power.",
+        "hi": "मूल्यों में सामान्य वृद्धि।\nउदाहरण: महंगाई खरीद क्षमता को घटाती है।",
+        "pa": "ਮੁੱਲਾਂ ਵਿੱਚ ਆਮ ਵਾਧਾ।\nਉਦਾਹਰਨ: ਮਹਿੰਗਾਈ ਖਰੀਦਣ ਦੀ ਸਮਰਥਾ ਘਟਾਉਂਦੀ ਹੈ।"
+      },
+      "category": "Finance"
+    }
+  ],
+  "J": [
+    {
+      "word": "Joint Account",
+      "definition": {
+        "en": "An account held by two or more persons.\nExample: They opened a joint account after marriage.",
+        "hi": "दो या अधिक व्यक्तियों द्वारा संचालित खाता।\nउदाहरण: शादी के बाद उन्होंने एक संयुक्त खाता खोला।",
+        "pa": "ਦੋ ਜਾਂ ਵੱਧ ਲੋਕਾਂ ਦੁਆਰਾ ਚਲਾਇਆ ਜਾਣ ਵਾਲਾ ਖਾਤਾ।\nਉਦਾਹਰਨ: ਵਿਆਹ ਤੋਂ ਬਾਅਦ ਉਹਨਾਂ ਨੇ ਜੋਇੰਟ ਖਾਤਾ ਖੋਲ੍ਹਿਆ।"
+      },
+      "category": "Banking"
+    },
+    {
+      "word": "Junk Bond",
+      "definition": {
+        "en": "A high-risk bond with low credit rating.\nExample: Junk bonds offer high returns but are risky.",
+        "hi": "कम क्रेडिट रेटिंग वाला उच्च जोखिम बांड।\nउदाहरण: जंक बांड अधिक रिटर्न देते हैं लेकिन जोखिम भरे होते हैं।",
+        "pa": "ਘੱਟ ਰੇਟਿੰਗ ਵਾਲਾ ਉੱਚ ਜੋਖਮ ਬਾਂਡ।\nਉਦਾਹਰਨ: ਜੰਕ ਬਾਂਡ ਵੱਡਾ ਮੁਨਾਫਾ ਦਿੰਦੇ ਹਨ ਪਰ ਜੋਖਮ ਵਾਲੇ ਹੁੰਦੇ ਹਨ।"
+      },
+      "category": "Investment"
+    },
+    {
+      "word": "Jurisdiction",
+      "definition": {
+        "en": "Legal power of an authority.\nExample: RBI has jurisdiction over banks in India.",
+        "hi": "किसी प्राधिकरण की कानूनी शक्ति।\nउदाहरण: RBI का भारत के बैंकों पर अधिकार क्षेत्र है।",
+        "pa": "ਕਿਸੇ ਅਥਾਰਟੀ ਦੀ ਕਾਨੂੰਨੀ ਸ਼ਕਤੀ।\nਉਦਾਹਰਨ: ਆਰਬੀਆਈ ਨੂੰ ਭਾਰਤ ਦੇ ਬੈਂਕਾਂ ਉੱਤੇ ਜੁਰਿਸਡਿਕਸ਼ਨ ਹੈ।"
+      },
+      "category": "Legal"
+    },
+    {
+      "word": "Judgment",
+      "definition": {
+        "en": "Court's decision in a legal matter.\nExample: The court gave judgment in favor of the customer.",
+        "hi": "कानूनी मामले में न्यायालय का निर्णय।\nउदाहरण: अदालत ने ग्राहक के पक्ष में फैसला दिया।",
+        "pa": "ਕਾਨੂੰਨੀ ਮਾਮਲੇ ਵਿੱਚ ਅਦਾਲਤ ਦਾ ਫੈਸਲਾ।\nਉਦਾਹਰਨ: ਅਦਾਲਤ ਨੇ ਗਾਹਕ ਦੇ ਹੱਕ 'ਚ ਫੈਸਲਾ ਦਿੱਤਾ।"
+      },
+      "category": "Legal"
+    },
+    {
+      "word": "Job Fraud",
+      "definition": {
+        "en": "Scam involving fake job offers.\nExample: He lost money in an online job fraud.",
+        "hi": "नकली नौकरी प्रस्ताव से जुड़ा धोखा।\nउदाहरण: वह ऑनलाइन नौकरी धोखाधड़ी में पैसे गंवा बैठा।",
+        "pa": "ਝੂਠੀ ਨੌਕਰੀਆਂ ਨਾਲ ਜੁੜੀ ਠੱਗੀ।\nਉਦਾਹਰਨ: ਉਹ ਨੌਕਰੀ ਠੱਗੀ ਵਿੱਚ ਪੈਸਾ ਗਵਾ ਬੈਠਾ।"
+      },
+      "category": "Scam"
+    }
+  ],
+  "K": [
+    {
+      "word": "KYC",
+      "definition": {
+        "en": "Know Your Customer - process to verify customer identity.\nExample: Banks require KYC for opening accounts.",
+        "hi": "ग्राहक की पहचान सत्यापित करने की प्रक्रिया।\nउदाहरण: खाता खोलने के लिए बैंक KYC अनिवार्य करते हैं।",
+        "pa": "ਗਾਹਕ ਦੀ ਪਛਾਣ ਜਾਂਚਣ ਦੀ ਪ੍ਰਕਿਰਿਆ।\nਉਦਾਹਰਨ: ਖਾਤਾ ਖੋਲ੍ਹਣ ਲਈ ਬੈਂਕ KYC ਮੰਗਦੇ ਹਨ।"
+      },
+      "category": "Banking"
+    },
+    {
+      "word": "Keylogger",
+      "definition": {
+        "en": "A software that records keystrokes to steal data.\nExample: Hackers used a keylogger to steal passwords.",
+        "hi": "कुंजी दबावों को रिकॉर्ड करने वाला सॉफ्टवेयर।\nउदाहरण: हैकर्स ने पासवर्ड चुराने के लिए कीलॉगर का उपयोग किया।",
+        "pa": "ਕੀ ਦਬਾਅ ਰਿਕਾਰਡ ਕਰਨ ਵਾਲਾ ਸਾਫਟਵੇਅਰ।\nਉਦਾਹਰਨ: ਹੈਕਰਾਂ ਨੇ ਪਾਸਵਰਡ ਚੁਰਾਉਣ ਲਈ ਕੀਲੌਗਰ ਵਰਤਿਆ।"
+      },
+      "category": "Cybersecurity"
+    },
+    {
+      "word": "Kickback",
+      "definition": {
+        "en": "Illegal payment for services rendered.\nExample: The officer was arrested for accepting kickbacks.",
+        "hi": "सेवाओं के बदले अवैध भुगतान।\nउदाहरण: अधिकारी को रिश्वत लेने के लिए गिरफ्तार किया गया।",
+        "pa": "ਸੇਵਾਵਾਂ ਲਈ ਗੈਰਕਾਨੂੰਨੀ ਭੁਗਤਾਨ।\nਉਦਾਹਰਨ: ਅਧਿਕਾਰੀ ਨੂੰ ਕਿਕਬੈਕ ਲਈ ਗ੍ਰਿਫ਼ਤਾਰ ਕੀਤਾ ਗਿਆ।"
+      },
+      "category": "Fraud"
+    },
+    {
+      "word": "Knowledge Base",
+      "definition": {
+        "en": "Repository of information for learning and support.\nExample: Use our knowledge base to resolve queries.",
+        "hi": "जानकारी का संग्रह।\nउदाहरण: प्रश्नों को हल करने के लिए नॉलेज बेस का उपयोग करें।",
+        "pa": "ਜਾਣਕਾਰੀ ਦਾ ਸੰਗ੍ਰਹਿ।\nਉਦਾਹਰਨ: ਪ੍ਰਸ਼ਨਾਂ ਲਈ ਸਾਡਾ ਨੌਲਜ ਬੇਸ ਵਰਤੋ।"
+      },
+      "category": "Support"
+    },
+    {
+      "word": "Knowhow",
+      "definition": {
+        "en": "Practical knowledge or expertise.\nExample: He has the knowhow to detect online frauds.",
+        "hi": "व्यावहारिक ज्ञान या विशेषज्ञता।\nउदाहरण: उन्हें ऑनलाइन धोखाधड़ी पकड़ने का ज्ञान है।",
+        "pa": "ਅਮਲੀ ਗਿਆਨ ਜਾਂ ਮਹਿਰਤ।\nਉਦਾਹਰਨ: ਉਹ ਠੱਗੀਆਂ ਨੂੰ ਸਮਝਣ ਦਾ ਤਜਰਬਾ ਰੱਖਦਾ ਹੈ।"
+      },
+      "category": "Education"
+    }
+  ],
+  "L": [
+    {
+      "word": "Loan",
+      "definition": {
+        "en": "Money borrowed with a promise to return.\nExample: He took a loan to buy a house.",
+        "hi": "उधार लिया गया पैसा जिसे लौटाना होता है।\nउदाहरण: उसने घर खरीदने के लिए ऋण लिया।",
+        "pa": "ਉਧਾਰ ਲਈ ਪੈਸਾ ਜੋ ਵਾਪਸ ਕਰਨਾ ਹੁੰਦਾ ਹੈ।\nਉਦਾਹਰਨ: ਉਸਨੇ ਘਰ ਲਈ ਲੋਨ ਲਿਆ।"
+      },
+      "category": "Finance"
+    },
+    {
+      "word": "Ledger",
+      "definition": {
+        "en": "A book for recording financial transactions.\nExample: All payments are updated in the ledger.",
+        "hi": "वित्तीय लेनदेन रिकॉर्ड करने की किताब।\nउदाहरण: सभी भुगतान लेजर में अपडेट किए जाते हैं।",
+        "pa": "ਮਾਲੀ ਲੈਣ-ਦੇਣ ਦੀ ਕਿਤਾਬ।\nਉਦਾਹਰਨ: ਸਾਰੇ ਭੁਗਤਾਨ ਲੈਜਰ ਵਿੱਚ ਦਰਜ ਕੀਤੇ ਜਾਂਦੇ ਹਨ।"
+      },
+      "category": "Banking"
+    },
+    {
+      "word": "Lock-in Period",
+      "definition": {
+        "en": "Minimum time before investment withdrawal.\nExample: ELSS funds have a 3-year lock-in period.",
+        "hi": "निवेश निकालने से पहले की न्यूनतम अवधि।\nउदाहरण: ELSS फंड का लॉक-इन पीरियड 3 साल है।",
+        "pa": "ਨਿਵੇਸ਼ ਵਾਪਸ ਲੈਣ ਤੋਂ ਪਹਿਲਾਂ ਦੀ ਘੱਟੋ-ਘੱਟ ਮਿਆਦ।\nਉਦਾਹਰਨ: ELSS ਫੰਡ ਦਾ ਲੌਕ-ਇਨ ਪੀਰੀਅਡ 3 ਸਾਲ ਹੈ।"
+      },
+      "category": "Investment"
+    },
+    {
+      "word": "Limit Order",
+      "definition": {
+        "en": "An order to buy/sell a stock at a specific price.\nExample: He placed a limit order to buy shares.",
+        "hi": "निश्चित कीमत पर शेयर खरीदने/बेचने का आदेश।\nउदाहरण: उसने लिमिट ऑर्डर से शेयर खरीदे।",
+        "pa": "ਇੱਕ ਨਿਸ਼ਚਿਤ ਕੀਮਤ 'ਤੇ ਸ਼ੇਅਰ ਖਰੀਦਣ/ਵੇਚਣ ਦਾ ਆਦੇਸ਼।\nਉਦਾਹਰਨ: ਉਸਨੇ ਲਿਮਿਟ ਆਰਡਰ ਨਾਲ ਸ਼ੇਅਰ ਖਰੀਦੇ।"
+      },
+      "category": "Stock Market"
+    },
+    {
+      "word": "Liability",
+      "definition": {
+        "en": "Financial obligation or debt.\nExample: Loan is a common form of liability.",
+        "hi": "वित्तीय दायित्व या कर्ज।\nउदाहरण: ऋण एक सामान्य देनदारी है।",
+        "pa": "ਵਿੱਤੀ ਜ਼ਿੰਮੇਵਾਰੀ ਜਾਂ ਕਰਜ਼ਾ।\nਉਦਾਹਰਨ: ਲੋਨ ਇੱਕ ਆਮ ਲਾਇਬਿਲਿਟੀ ਹੈ।"
+      },
+      "category": "Finance"
+    }
+  ],
+  "M": [
+    {
+      "word": "Malware",
+      "definition": {
+        "en": "Malicious software used to harm or hack systems.\nExample: The system crashed due to malware infection.",
+        "hi": "हानिकारक सॉफ़्टवेयर जो सिस्टम को नुकसान पहुंचाता है।\nउदाहरण: सिस्टम मालवेयर के कारण क्रैश हो गया।",
+        "pa": "ਸਿਸਟਮ ਨੂੰ ਨੁਕਸਾਨ ਪਹੁੰਚਾਉਣ ਵਾਲਾ ਖ਼ਤਰਨਾਕ ਸਾਫਟਵੇਅਰ।\nਉਦਾਹਰਨ: ਸਿਸਟਮ ਮੈਲਵੇਅਰ ਕਾਰਨ ਕਰੈਸ਼ ਹੋ ਗਿਆ।"
+      },
+      "category": "Cybersecurity"
+    },
+    {
+      "word": "Margin",
+      "definition": {
+        "en": "The difference between cost and selling price or borrowed money in trading.\nExample: He traded stocks using margin.",
+        "hi": "लागत और विक्रय मूल्य के बीच का अंतर या उधार लिया गया पैसा।\nउदाहरण: उसने मार्जिन से स्टॉक्स खरीदे।",
+        "pa": "ਲਾਗਤ ਤੇ ਵੇਚਣ ਦੀ ਕੀਮਤ ਵਿਚ ਫਰਕ ਜਾਂ ਉਧਾਰ ਦੀ ਰਕਮ।\nਉਦਾਹਰਨ: ਉਸਨੇ ਮਾਰਜਿਨ ਨਾਲ ਸਟਾਕ ਖਰੀਦੇ।"
+      },
+      "category": "Investment"
+    },
+    {
+      "word": "Mutual Fund",
+      "definition": {
+        "en": "An investment scheme pooling money from investors.\nExample: Mutual funds diversify your portfolio.",
+        "hi": "निवेशकों से पैसा इकट्ठा करने वाली निवेश योजना।\nउदाहरण: म्यूचुअल फंड आपके पोर्टफोलियो को विविध बनाते हैं।",
+        "pa": "ਨਿਵੇਸ਼ਕਾਂ ਤੋਂ ਪੈਸਾ ਇਕੱਠਾ ਕਰਕੇ ਲਗਾਉਣ ਵਾਲੀ ਯੋਜਨਾ।\nਉਦਾਹਰਨ: ਮਿਊਚੁਅਲ ਫੰਡ ਤੁਹਾਡਾ ਪੋਰਟਫੋਲਿਓ ਵੱਖਰਾ ਕਰਦੇ ਹਨ।"
+      },
+      "category": "Investment"
+    },
+    {
+      "word": "Money Laundering",
+      "definition": {
+        "en": "Converting black money into legal money.\nExample: The criminal was caught for money laundering.",
+        "hi": "काले धन को वैध रूप में बदलना।\nउदाहरण: अपराधी मनी लॉन्ड्रिंग में पकड़ा गया।",
+        "pa": "ਕਾਲੇ ਪੈਸੇ ਨੂੰ ਕਾਨੂੰਨੀ ਪੈਸੇ ਵਿੱਚ ਬਦਲਣਾ।\nਉਦਾਹਰਨ: ਅਪਰਾਧੀ ਮਨੀ ਲੌਂਡਰਿੰਗ ਕਰਦੇ ਹੋਏ ਫੜਿਆ ਗਿਆ।"
+      },
+      "category": "Fraud"
+    },
+    {
+      "word": "Mobile Banking",
+      "definition": {
+        "en": "Banking services via mobile apps.\nExample: I paid the bill through mobile banking.",
+        "hi": "मोबाइल ऐप्स के माध्यम से बैंकिंग सेवाएं।\nउदाहरण: मैंने मोबाइल बैंकिंग से बिल चुकाया।",
+        "pa": "ਮੋਬਾਈਲ ਐਪ ਰਾਹੀਂ ਬੈਂਕਿੰਗ ਸੇਵਾਵਾਂ।\nਉਦਾਹਰਨ: ਮੈਂ ਮੋਬਾਈਲ ਬੈਂਕਿੰਗ ਨਾਲ ਬਿਲ ਭਰਿਆ।"
+      },
+      "category": "Banking"
+    }
+  ],
+  "N": [
+    {
+      "word": "Net Banking",
+      "definition": {
+        "en": "Online banking services via the internet.\nExample: He transferred money through net banking.",
+        "hi": "इंटरनेट के माध्यम से ऑनलाइन बैंकिंग सेवाएं।\nउदाहरण: उसने नेट बैंकिंग से पैसे ट्रांसफर किए।",
+        "pa": "ਇੰਟਰਨੈੱਟ ਰਾਹੀਂ ਆਨਲਾਈਨ ਬੈਂਕਿੰਗ।\nਉਦਾਹਰਨ: ਉਸਨੇ ਨੈਟ ਬੈਂਕਿੰਗ ਨਾਲ ਪੈਸਾ ਭੇਜਿਆ।"
+      },
+      "category": "Banking"
+    },
+    {
+      "word": "NEFT",
+      "definition": {
+        "en": "Electronic fund transfer system in India.\nExample: The amount was credited via NEFT.",
+        "hi": "भारत में इलेक्ट्रॉनिक फंड ट्रांसफर प्रणाली।\nउदाहरण: राशि NEFT के माध्यम से जमा की गई।",
+        "pa": "ਭਾਰਤ ਵਿੱਚ ਇਲੈਕਟ੍ਰਾਨਿਕ ਫੰਡ ਟ੍ਰਾਂਸਫਰ ਪ੍ਰਣਾਲੀ।\nਉਦਾਹਰਨ: ਰਕਮ NEFT ਰਾਹੀਂ ਜਮ੍ਹਾਂ ਹੋਈ।"
+      },
+      "category": "Banking"
+    },
+    {
+      "word": "NFT",
+      "definition": {
+        "en": "Non-Fungible Token used to represent unique assets digitally.\nExample: He sold digital art using NFTs.",
+        "hi": "डिजिटल रूप में अद्वितीय संपत्ति को दर्शाने वाला टोकन।\nउदाहरण: उसने NFT के जरिए डिजिटल कला बेची।",
+        "pa": "ਡਿਜੀਟਲ ਤੌਰ 'ਤੇ ਵਿਲੱਖਣ ਜਾਇਦਾਦ ਨੂੰ ਦਰਸਾਉਂਦਾ ਟੋਕਨ।\nਉਦਾਹਰਨ: ਉਸਨੇ NFT ਨਾਲ ਡਿਜੀਟਲ ਆਰਟ ਵੇਚੀ।"
+      },
+      "category": "Investment"
+    },
+    {
+      "word": "NPA",
+      "definition": {
+        "en": "Non-Performing Asset - loan that’s not generating income.\nExample: The loan turned into an NPA after default.",
+        "hi": "जो आमदनी नहीं दे रहा वह ऋण।\nउदाहरण: डिफॉल्ट के बाद ऋण NPA बन गया।",
+        "pa": "ਜੋ ਆਮਦਨ ਨਹੀਂ ਦੇ ਰਿਹਾ ਐਸਾ ਕਰਜ਼ਾ।\nਉਦਾਹਰਨ: ਕਰਜ਼ਾ ਨਾਂ ਚੁਕਾਉਣ ਨਾਲ NPA ਬਣ ਗਿਆ।"
+      },
+      "category": "Finance"
+    },
+    {
+      "word": "Nominee",
+      "definition": {
+        "en": "A person authorized to receive funds in case of death.\nExample: Add a nominee to your bank account.",
+        "hi": "मृत्यु की स्थिति में धन प्राप्त करने के लिए अधिकृत व्यक्ति।\nउदाहरण: अपने बैंक खाते में नॉमिनी जोड़ें।",
+        "pa": "ਮੌਤ ਦੀ ਸਥਿਤੀ ਵਿੱਚ ਰਕਮ ਪ੍ਰਾਪਤ ਕਰਨ ਵਾਲਾ ਵਿਅਕਤੀ।\nਉਦਾਹਰਨ: ਆਪਣੇ ਖਾਤੇ ਵਿੱਚ ਨੋਮੀਨੀ ਜੋੜੋ।"
+      },
+      "category": "Banking"
+    }
+  ],
+  "O": [
+    {
+      "word": "Online Banking",
+      "definition": {
+        "en": "Accessing bank services through the internet.\nExample: Online banking helps save time.",
+        "hi": "इंटरनेट के माध्यम से बैंक सेवाएं प्राप्त करना।\nउदाहरण: ऑनलाइन बैंकिंग समय बचाती है।",
+        "pa": "ਇੰਟਰਨੈੱਟ ਰਾਹੀਂ ਬੈਂਕ ਦੀਆਂ ਸੇਵਾਵਾਂ ਹਾਸਲ ਕਰਨਾ।\nਉਦਾਹਰਨ: ਆਨਲਾਈਨ ਬੈਂਕਿੰਗ ਸਮਾਂ ਬਚਾਉਂਦੀ ਹੈ।"
+      },
+      "category": "Banking"
+    },
+    {
+      "word": "OTP",
+      "definition": {
+        "en": "One-Time Password for verification.\nExample: Enter the OTP to complete the payment.",
+        "hi": "सत्यापन के लिए एक बार का पासवर्ड।\nउदाहरण: भुगतान पूरा करने के लिए OTP दर्ज करें।",
+        "pa": "ਤਸਦੀਕ ਲਈ ਇੱਕ ਵਾਰੀ ਵਰਤੋਂ ਵਾਲਾ ਪਾਸਵਰਡ।\nਉਦਾਹਰਨ: ਭੁਗਤਾਨ ਲਈ OTP ਦਰਜ ਕਰੋ।"
+      },
+      "category": "Cybersecurity"
+    },
+    {
+      "word": "Overdraft",
+      "definition": {
+        "en": "Withdrawing more money than available in account.\nExample: He used an overdraft to pay bills.",
+        "hi": "खाते में उपलब्ध राशि से अधिक निकालना।\nउदाहरण: उसने बिल भरने के लिए ओवरड्राफ्ट का उपयोग किया।",
+        "pa": "ਖਾਤੇ ਵਿੱਚ ਉਪਲਬਧ ਰਕਮ ਤੋਂ ਵੱਧ ਨਿਕਾਲਣਾ।\nਉਦਾਹਰਨ: ਉਸਨੇ ਬਿੱਲ ਭਰਨ ਲਈ ਓਵਰਡ੍ਰਾਫਟ ਵਰਤਿਆ।"
+      },
+      "category": "Banking"
+    },
+    {
+      "word": "Options Trading",
+      "definition": {
+        "en": "Trading contracts to buy/sell assets at a set price.\nExample: Options trading can be risky.",
+        "hi": "निश्चित मूल्य पर संपत्ति खरीदने/बेचने के अनुबंध का व्यापार।\nउदाहरण: ऑप्शन्स ट्रेडिंग जोखिम भरी हो सकती है।",
+        "pa": "ਮਿਟੀ ਕੀਮਤ 'ਤੇ ਐਸਟ ਖਰੀਦਣ ਜਾਂ ਵੇਚਣ ਦਾ ਸੌਦਾ।\nਉਦਾਹਰਨ: ਓਪਸ਼ਨਜ਼ ਟਰੇਡਿੰਗ ਜੋਖਮ ਭਰੀ ਹੁੰਦੀ ਹੈ।"
+      },
+      "category": "Investment"
+    },
+    {
+      "word": "Outward Remittance",
+      "definition": {
+        "en": "Sending money abroad from India.\nExample: He made outward remittance for tuition fees.",
+        "hi": "भारत से विदेश में पैसे भेजना।\nउदाहरण: उसने ट्यूशन फीस के लिए पैसे विदेश भेजे।",
+        "pa": "ਭਾਰਤ ਤੋਂ ਵਿਦੇਸ਼ ਪੈਸਾ ਭੇਜਣਾ।\nਉਦਾਹਰਨ: ਉਸਨੇ ਫੀਸ ਲਈ ਪੈਸਾ ਭੇਜਿਆ।"
+      },
+      "category": "Finance"
+    }
+  ],
+  "P": [
+    {
+      "word": "Phishing",
+      "definition": {
+        "en": "A scam to steal sensitive info via fake messages.\nExample: Beware of phishing emails asking for bank details.",
+        "hi": "धोखा देने के लिए नकली संदेश भेजना।\nउदाहरण: बैंक जानकारी मांगने वाले फिशिंग ईमेल से सावधान रहें।",
+        "pa": "ਠੱਗੀ ਲਈ ਨਕਲੀ ਸੰਦੇਸ਼ ਭੇਜਣ ਦੀ ਤਕਨੀਕ।\nਉਦਾਹਰਨ: ਬੈਂਕ ਵੇਰਵਿਆਂ ਵਾਲੀਆਂ ਫਿਸ਼ਿੰਗ ਈਮੇਲ ਤੋਂ ਬਚੋ।"
+      },
+      "category": "Cybersecurity"
+    },
+    {
+      "word": "PAN Card",
+      "definition": {
+        "en": "Permanent Account Number used for tax purposes.\nExample: You need a PAN card to open a bank account.",
+        "hi": "कर उद्देश्यों के लिए उपयोग किया जाने वाला स्थायी खाता संख्या।\nउदाहरण: बैंक खाता खोलने के लिए पैन कार्ड आवश्यक है।",
+        "pa": "ਟੈਕਸ ਲਈ ਵਰਤੋਂ ਵਾਲਾ ਪੱਕਾ ਖਾਤਾ ਨੰਬਰ।\nਉਦਾਹਰਨ: ਖਾਤਾ ਖੋਲ੍ਹਣ ਲਈ PAN ਲਾਜ਼ਮੀ ਹੈ।"
+      },
+      "category": "Banking"
+    },
+    {
+      "word": "Ponzi Scheme",
+      "definition": {
+        "en": "A scam that pays old investors using new ones' money.\nExample: He lost money in a Ponzi scheme.",
+        "hi": "एक योजना जो नए निवेशकों के पैसे से पुराने को भुगतान करती है।\nउदाहरण: वह पोंजी स्कीम में पैसे गंवा बैठा।",
+        "pa": "ਨਵੇਂ ਨਿਵੇਸ਼ਕਾਂ ਦੇ ਪੈਸੇ ਨਾਲ ਪੁਰਾਣਿਆਂ ਨੂੰ ਭੁਗਤਾਨ ਕਰਨ ਵਾਲੀ ਯੋਜਨਾ।\nਉਦਾਹਰਨ: ਉਸਨੇ ਪੌਂਜ਼ੀ ਸਕੀਮ ਵਿੱਚ ਪੈਸਾ ਗਵਾ ਦਿੱਤਾ।"
+      },
+      "category": "Scam"
+    },
+    {
+      "word": "Prepaid Card",
+      "definition": {
+        "en": "A card with preloaded money for transactions.\nExample: He used a prepaid card for shopping.",
+        "hi": "पूर्व लोडेड राशि वाला कार्ड।\nउदाहरण: उसने खरीदारी के लिए प्रीपेड कार्ड का उपयोग किया।",
+        "pa": "ਪਹਿਲਾਂ ਪੈਸਾ ਭਰਿਆ ਹੋਇਆ ਕਾਰਡ।\nਉਦਾਹਰਨ: ਉਸਨੇ ਖਰੀਦਦਾਰੀ ਲਈ ਪ੍ਰੀਪੇਡ ਕਾਰਡ ਵਰਤਿਆ।"
+      },
+      "category": "Banking"
+    },
+    {
+      "word": "Portfolio",
+      "definition": {
+        "en": "A collection of investments.\nExample: His investment portfolio includes stocks and gold.",
+        "hi": "निवेशों का संग्रह।\nउदाहरण: उसके पोर्टफोलियो में स्टॉक्स और सोना शामिल है।",
+        "pa": "ਨਿਵੇਸ਼ਾਂ ਦਾ ਸੰਗ੍ਰਹਿ।\nਉਦਾਹਰਨ: ਉਸਦੇ ਪੋਰਟਫੋਲਿਓ ਵਿੱਚ ਸਟਾਕ ਅਤੇ ਸੋਨਾ ਹੈ।"
+      },
+      "category": "Investment"
+    }
+  ],
+  "Q": [
+    {
+      "word": "QR Code",
+      "definition": {
+        "en": "Quick Response code for fast payments.\nExample: Scan the QR code to pay instantly.",
+        "hi": "तेज़ भुगतान के लिए क्यूआर कोड।\nउदाहरण: तुरंत भुगतान के लिए क्यूआर कोड स्कैन करें।",
+        "pa": "ਤੁਰੰਤ ਭੁਗਤਾਨ ਲਈ QR ਕੋਡ।\nਉਦਾਹਰਨ: ਭੁਗਤਾਨ ਲਈ QR ਕੋਡ ਸਕੈਨ ਕਰੋ।"
+      },
+      "category": "Banking"
+    },
+    {
+      "word": "Quick Loan",
+      "definition": {
+        "en": "Instant approval loans with minimal checks.\nExample: He got a quick loan via mobile app.",
+        "hi": "त्वरित स्वीकृति वाला ऋण।\nउदाहरण: उसे मोबाइल ऐप से तुरंत ऋण मिल गया।",
+        "pa": "ਤੁਰੰਤ ਮਿਲਣ ਵਾਲਾ ਕਰਜ਼ਾ।\nਉਦਾਹਰਨ: ਉਸਨੇ ਐਪ ਰਾਹੀਂ ਫਟਾਫਟ ਲੋਨ ਲਿਆ।"
+      },
+      "category": "Finance"
+    },
+    {
+      "word": "Quotation",
+      "definition": {
+        "en": "Estimated price of goods/services.\nExample: He received a quotation for car insurance.",
+        "hi": "माल/सेवा की अनुमानित कीमत।\nउदाहरण: उसे कार बीमा का कोटेशन मिला।",
+        "pa": "ਸਮਾਨ ਜਾਂ ਸੇਵਾ ਦੀ ਅਨੁਮਾਨਿਤ ਕੀਮਤ।\nਉਦਾਹਰਨ: ਉਸਨੂੰ ਕਾਰ ਇੰਸ਼ੋਰੈਂਸ ਲਈ ਕੋਟੇਸ਼ਨ ਮਿਲੀ।"
+      },
+      "category": "Finance"
+    },
+    {
+      "word": "Quarterly Report",
+      "definition": {
+        "en": "Company performance report every 3 months.\nExample: Investors check quarterly reports to analyze companies.",
+        "hi": "हर 3 महीने में कंपनी की प्रदर्शन रिपोर्ट।\nउदाहरण: निवेशक कंपनियों की तिमाही रिपोर्ट देखते हैं।",
+        "pa": "ਹਰ 3 ਮਹੀਨੇ ਦੀ ਕੰਪਨੀ ਦੀ ਰਿਪੋਰਟ।\nਉਦਾਹਰਨ: ਨਿਵੇਸ਼ਕ ਤਿਮਾਹੀ ਰਿਪੋਰਟ ਚੈੱਕ ਕਰਦੇ ਹਨ।"
+      },
+      "category": "Investment"
+    },
+    {
+      "word": "Qualified Institutional Buyer",
+      "definition": {
+        "en": "Large investors eligible for special investments.\nExample: QIBs invest in IPOs during anchor rounds.",
+        "hi": "विशेष निवेश के लिए पात्र बड़े निवेशक।\nउदाहरण: QIBs आईपीओ में एंकर इन्वेस्टमेंट करते हैं।",
+        "pa": "ਖਾਸ ਨਿਵੇਸ਼ਾਂ ਲਈ ਯੋਗ ਵੱਡੇ ਨਿਵੇਸ਼ਕ।\nਉਦਾਹਰਨ: QIBs IPO ਵਿੱਚ ਏਂਕਰ ਨਿਵੇਸ਼ ਕਰਦੇ ਹਨ।"
+      },
+      "category": "Stock Market"
+    }
+  ],
+  "R": [
+    {
+      "word": "Risk",
+      "definition": {
+        "en": "The possibility of losing money in an investment.\nExample: High returns come with high risk.",
+        "hi": "निवेश में धन खोने की संभावना।\nउदाहरण: उच्च लाभ के साथ उच्च जोखिम होता है।",
+        "pa": "ਨਿਵੇਸ਼ ਵਿੱਚ ਨੁਕਸਾਨ ਦੀ ਸੰਭਾਵਨਾ।\nਉਦਾਹਰਨ: ਵੱਡਾ ਲਾਭ, ਵੱਡਾ ਖਤਰਾ।"
+      },
+      "category": "Investment"
+    },
+    {
+      "word": "Return",
+      "definition": {
+        "en": "The gain or loss made on an investment.\nExample: The mutual fund gave a 12% return.",
+        "hi": "निवेश पर हुआ लाभ या हानि।\nउदाहरण: म्यूचुअल फंड ने 12% रिटर्न दिया।",
+        "pa": "ਨਿਵੇਸ਼ ਤੇ ਹੋਇਆ ਲਾਭ ਜਾਂ ਨੁਕਸਾਨ।\nਉਦਾਹਰਨ: ਮਿਊਚੁਅਲ ਫੰਡ ਨੇ 12% ਵਾਪਸੀ ਦਿੱਤੀ।"
+      },
+      "category": "Investment"
+    },
+    {
+      "word": "Real Estate",
+      "definition": {
+        "en": "Investment in land or buildings.\nExample: He invested in real estate for long-term gains.",
+        "hi": "जमीन या भवन में निवेश।\nउदाहरण: उसने दीर्घकालिक लाभ के लिए रियल एस्टेट में निवेश किया।",
+        "pa": "ਜ਼ਮੀਨ ਜਾਂ ਇਮਾਰਤਾਂ ਵਿੱਚ ਨਿਵੇਸ਼।\nਉਦਾਹਰਨ: ਉਸਨੇ ਲੰਬੇ ਸਮੇਂ ਲਈ ਰੀਅਲ ਐਸਟੇਟ ਵਿੱਚ ਨਿਵੇਸ਼ ਕੀਤਾ।"
+      },
+      "category": "Investment"
+    },
+    {
+      "word": "RBI",
+      "definition": {
+        "en": "Reserve Bank of India - the central bank.\nExample: RBI regulates all banks in India.",
+        "hi": "भारतीय रिज़र्व बैंक - केंद्रीय बैंक।\nउदाहरण: RBI भारत में सभी बैंकों को नियंत्रित करता है।",
+        "pa": "ਰਿਜ਼ਰਵ ਬੈਂਕ ਆਫ ਇੰਡੀਆ - ਕੇਂਦਰੀ ਬੈਂਕ।\nਉਦਾਹਰਨ: RBI ਭਾਰਤ ਦੇ ਸਾਰੇ ਬੈਂਕਾਂ ਨੂੰ ਨਿਯੰਤ੍ਰਿਤ ਕਰਦਾ ਹੈ।"
+      },
+      "category": "Banking"
+    },
+    {
+      "word": "Red Flag",
+      "definition": {
+        "en": "A warning sign of fraud or scam.\nExample: Sudden account closure is a red flag.",
+        "hi": "धोखाधड़ी या घोटाले की चेतावनी।\nउदाहरण: अचानक खाता बंद होना एक रेड फ्लैग है।",
+        "pa": "ਠੱਗੀ ਜਾਂ ਧੋਖਾਧੜੀ ਦੀ ਚੇਤਾਵਨੀ।\nਉਦਾਹਰਨ: ਅਚਾਨਕ ਖਾਤਾ ਬੰਦ ਹੋਣਾ ਰੈੱਡ ਫਲੈਗ ਹੈ।"
+      },
+      "category": "Fraud"
+    }
+  ],
+  "S": [
+    {
+      "word": "Scam",
+      "definition": {
+        "en": "A dishonest scheme to cheat people.\nExample: He was a victim of a loan scam.",
+        "hi": "लोगों को धोखा देने की योजना।\nउदाहरण: वह एक ऋण घोटाले का शिकार हुआ।",
+        "pa": "ਲੋਕਾਂ ਨੂੰ ਠੱਗਣ ਦੀ ਯੋਜਨਾ।\nਉਦਾਹਰਨ: ਉਹ ਲੋਨ ਸਕੈਮ ਦਾ ਸ਼ਿਕਾਰ ਹੋਇਆ।"
+      },
+      "category": "Fraud"
+    },
+    {
+      "word": "Stock",
+      "definition": {
+        "en": "A share in the ownership of a company.\nExample: I bought 10 stocks of Reliance.",
+        "hi": "किसी कंपनी की स्वामित्व में हिस्सा।\nउदाहरण: मैंने रिलायंस के 10 स्टॉक्स खरीदे।",
+        "pa": "ਇੱਕ ਕੰਪਨੀ ਵਿੱਚ ਮਾਲਕੀ ਦਾ ਹਿੱਸਾ।\nਉਦਾਹਰਨ: ਮੈਂ ਰਿਲਾਇੰਸ ਦੇ 10 ਸਟਾਕ ਖਰੀਦੇ।"
+      },
+      "category": "Investment"
+    },
+    {
+      "word": "SIP",
+      "definition": {
+        "en": "Systematic Investment Plan for regular investing.\nExample: SIPs help build wealth over time.",
+        "hi": "नियमित निवेश के लिए योजना।\nउदाहरण: SIP से समय के साथ संपत्ति बनती है।",
+        "pa": "ਨਿਯਮਤ ਨਿਵੇਸ਼ ਲਈ ਯੋਜਨਾ।\nਉਦਾਹਰਨ: SIP ਨਾਲ ਲੰਬੇ ਸਮੇਂ ਵਿੱਚ ਦੌਲਤ ਬਣਦੀ ਹੈ।"
+      },
+      "category": "Investment"
+    },
+    {
+      "word": "Spam",
+      "definition": {
+        "en": "Unwanted messages often used for phishing.\nExample: Delete all spam emails immediately.",
+        "hi": "अनचाहे संदेश जो अक्सर धोखाधड़ी के लिए होते हैं।\nउदाहरण: सभी स्पैम ईमेल तुरंत हटाएं।",
+        "pa": "ਬਿਨਾਂ ਲੋੜ ਦੇ ਸੁਨੇਹੇ ਜੋ ਅਕਸਰ ਠੱਗੀ ਲਈ ਹੁੰਦੇ ਹਨ।\nਉਦਾਹਰਨ: ਸਾਰੇ ਸਪੈਮ ਈਮੇਲ ਤੁਰੰਤ ਮਿਟਾਓ।"
+      },
+      "category": "Cybersecurity"
+    },
+    {
+      "word": "Savings Account",
+      "definition": {
+        "en": "A bank account to store savings and earn interest.\nExample: I deposit my salary in a savings account.",
+        "hi": "बचत और ब्याज अर्जित करने के लिए खाता।\nउदाहरण: मैं अपनी सैलरी सेविंग्स अकाउंट में जमा करता हूँ।",
+        "pa": "ਬਚਤ ਅਤੇ ਵਿਆਜ ਲਈ ਖਾਤਾ।\nਉਦਾਹਰਨ: ਮੈਂ ਆਪਣੀ ਤਨਖਾਹ ਸੇਵਿੰਗਸ ਖਾਤੇ ਵਿੱਚ ਰੱਖਦਾ ਹਾਂ।"
+      },
+      "category": "Banking"
+    }
+  ],
+  "T": [
+    {
+      "word": "Transaction",
+      "definition": {
+        "en": "An act of buying or selling.\nExample: The transaction was successful via UPI.",
+        "hi": "खरीदने या बेचने की क्रिया।\nउदाहरण: UPI के माध्यम से लेन-देन सफल रहा।",
+        "pa": "ਖਰੀਦਣ ਜਾਂ ਵੇਚਣ ਦੀ ਕਾਰਵਾਈ।\nਉਦਾਹਰਨ: UPI ਰਾਹੀਂ ਲੈਨ-ਦੇਨ ਸਫਲ ਰਿਹਾ।"
+      },
+      "category": "Banking"
+    },
+    {
+      "word": "Tokenization",
+      "definition": {
+        "en": "Replacing sensitive data with a unique token.\nExample: Card tokenization enhances security.",
+        "hi": "संवेदनशील डेटा को टोकन से बदलना।\nउदाहरण: कार्ड टोकनाइजेशन सुरक्षा बढ़ाता है।",
+        "pa": "ਸੰਵੇਦਨਸ਼ੀਲ ਡੇਟਾ ਦੀ ਥਾਂ ਟੋਕਨ ਵਰਤਣਾ।\nਉਦਾਹਰਨ: ਕਾਰਡ ਟੋਕਨਾਈਜ਼ੇਸ਼ਨ ਸੁਰੱਖਿਆ ਵਧਾਉਂਦਾ ਹੈ।"
+      },
+      "category": "Cybersecurity"
+    },
+    {
+      "word": "Trading",
+      "definition": {
+        "en": "Buying and selling stocks or commodities.\nExample: He earns by trading cryptocurrencies.",
+        "hi": "स्टॉक्स या वस्तुओं को खरीदना और बेचना।\nउदाहरण: वह क्रिप्टोकरेंसी ट्रेडिंग से कमाता है।",
+        "pa": "ਸਟਾਕ ਜਾਂ ਵਸਤੂਆਂ ਦੀ ਖਰੀਦ-ਫਰੋਖਤ।\nਉਦਾਹਰਨ: ਉਹ ਕਰਿਪਟੋ ਕਰੰਸੀ ਟਰੇਡਿੰਗ ਕਰਕੇ ਕਮਾਂਦਾ ਹੈ।"
+      },
+      "category": "Stock Market"
+    },
+    {
+      "word": "Third-Party App",
+      "definition": {
+        "en": "Apps not made by your bank but offer services.\nExample: Use secure third-party apps only.",
+        "hi": "ऐप्स जो बैंक से नहीं जुड़े हैं पर सेवाएं देते हैं।\nउदाहरण: केवल सुरक्षित थर्ड पार्टी ऐप्स का उपयोग करें।",
+        "pa": "ਬੈਂਕ ਤੋਂ ਇਲਾਵਾ ਸੇਵਾ ਦੇਣ ਵਾਲੇ ਐਪ।\nਉਦਾਹਰਨ: ਸਿਰਫ਼ ਸੁਰੱਖਿਅਤ ਤੀਜੀ ਧਿਰ ਵਾਲੇ ਐਪ ਵਰਤੋ।"
+      },
+      "category": "Cybersecurity"
+    },
+    {
+      "word": "Term Deposit",
+      "definition": {
+        "en": "Fixed deposits for a specific period.\nExample: I invested ₹50,000 in a term deposit.",
+        "hi": "एक निश्चित समय के लिए फिक्स्ड डिपॉजिट।\nउदाहरण: मैंने 50,000 रुपये टर्म डिपॉजिट में लगाए।",
+        "pa": "ਇੱਕ ਨਿਸ਼ਚਿਤ ਸਮੇਂ ਲਈ ਫਿਕਸਡ ਡਿਪਾਜ਼ਿਟ।\nਉਦਾਹਰਨ: ਮੈਂ ₹50,000 ਟਰਮ ਡਿਪਾਜ਼ਿਟ ਵਿੱਚ ਲਾਇਆ।"
+      },
+      "category": "Banking"
+    }
+  ],
+  "U": [
+    {
+      "word": "UPI",
+      "definition": {
+        "en": "Unified Payment Interface for instant money transfer.\nExample: I paid using UPI.",
+        "hi": "तत्काल पैसे ट्रांसफर के लिए एकीकृत भुगतान इंटरफेस।\nउदाहरण: मैंने UPI का उपयोग करके भुगतान किया।",
+        "pa": "ਤੁਰੰਤ ਭੁਗਤਾਨ ਲਈ ਯੂਨਾਈਫਾਈਡ ਪੇਮੈਂਟ ਇੰਟਰਫੇਸ।\nਉਦਾਹਰਨ: ਮੈਂ UPI ਨਾਲ ਭੁਗਤਾਨ ਕੀਤਾ।"
+      },
+      "category": "Banking"
+    },
+    {
+      "word": "Unauthorized Access",
+      "definition": {
+        "en": "Access to systems without permission.\nExample: He reported unauthorized access to his account.",
+        "hi": "अनुमति के बिना सिस्टम तक पहुंच।\nउदाहरण: उसने अपने खाते में अनधिकृत एक्सेस की सूचना दी।",
+        "pa": "ਬਿਨਾਂ ਇਜਾਜ਼ਤ ਦੇ ਪਹੁੰਚ।\nਉਦਾਹਰਨ: ਉਸਨੇ ਆਪਣੇ ਖਾਤੇ ਵਿੱਚ ਬਿਨਾਂ ਇਜਾਜ਼ਤ ਪਹੁੰਚ ਦੀ ਸ਼ਿਕਾਇਤ ਕੀਤੀ।"
+      },
+      "category": "Cybersecurity"
+    },
+    {
+      "word": "Unsecured Loan",
+      "definition": {
+        "en": "A loan without any collateral.\nExample: Personal loans are usually unsecured.",
+        "hi": "बिना किसी जमानत के ऋण।\nउदाहरण: पर्सनल लोन आमतौर पर अनसिक्योर्ड होते हैं।",
+        "pa": "ਬਿਨਾਂ ਜਮਾਨਤ ਵਾਲਾ ਕਰਜ਼ਾ।\nਉਦਾਹਰਨ: ਨਿੱਜੀ ਕਰਜ਼ੇ ਅਕਸਰ ਅਣਸੁਰੱਖਿਅਤ ਹੁੰਦੇ ਹਨ।"
+      },
+      "category": "Finance"
+    },
+    {
+      "word": "Utility Bill Scam",
+      "definition": {
+        "en": "Fake calls/messages asking for payment.\nExample: Utility bill scams are rising these days.",
+        "hi": "भुगतान के लिए नकली कॉल/मैसेज।\nउदाहरण: आजकल यूटिलिटी बिल स्कैम बढ़ रहे हैं।",
+        "pa": "ਨਕਲੀ ਕਾਲਾਂ ਜਾਂ ਸੁਨੇਹੇ ਭੁਗਤਾਨ ਲਈ।\nਉਦਾਹਰਨ: ਅੱਜਕੱਲ੍ਹ ਯੂਟਿਲਿਟੀ ਬਿੱਲ ਠੱਗੀਆਂ ਵਧ ਰਹੀਆਂ ਹਨ।"
+      },
+      "category": "Scam"
+    },
+    {
+      "word": "Usage Limit",
+      "definition": {
+        "en": "Maximum allowed limit for transactions.\nExample: I reached my UPI usage limit today.",
+        "hi": "लेन-देन के लिए अधिकतम सीमा।\nउदाहरण: मैंने आज अपनी UPI सीमा पार कर ली।",
+        "pa": "ਲੈਨ-ਦੇਨ ਲਈ ਵੱਧ ਤੋਂ ਵੱਧ ਸੀਮਾ।\nਉਦਾਹਰਨ: ਮੈਂ ਅੱਜ ਆਪਣੀ UPI ਸੀਮਾ ਪੂਰੀ ਕਰ ਲਈ।"
+      },
+      "category": "Banking"
+    }
+  ],
+  "V": [
+    {
+      "word": "Virtual Card",
+      "definition": {
+        "en": "A digital version of a debit/credit card.\nExample: I used a virtual card for online shopping.",
+        "hi": "डेबिट/क्रेडिट कार्ड का डिजिटल संस्करण।\nउदाहरण: मैंने ऑनलाइन खरीदारी के लिए वर्चुअल कार्ड का उपयोग किया।",
+        "pa": "ਡਿਜੀਟਲ ਡੈਬਿਟ ਜਾਂ ਕਰੈਡਿਟ ਕਾਰਡ।\nਉਦਾਹਰਨ: ਮੈਂ ਆਨਲਾਈਨ ਖਰੀਦਦਾਰੀ ਲਈ ਵਰਚੁਅਲ ਕਾਰਡ ਵਰਤਿਆ।"
+      },
+      "category": "Cybersecurity"
+    },
+    {
+      "word": "Volatility",
+      "definition": {
+        "en": "Frequent price fluctuations in the market.\nExample: Cryptocurrency market has high volatility.",
+        "hi": "बाजार में लगातार मूल्य उतार-चढ़ाव।\nउदाहरण: क्रिप्टोकरेंसी बाजार में अधिक अस्थिरता है।",
+        "pa": "ਬਾਜ਼ਾਰ ਵਿੱਚ ਮੁੱਲਾਂ ਦਾ ਬਦਲਾਅ।\nਉਦਾਹਰਨ: ਕਰਿਪਟੋ ਮਾਰਕੀਟ ਬਹੁਤ ਵੋਲਾਟਾਈਲ ਹੈ।"
+      },
+      "category": "Investment"
+    },
+    {
+      "word": "Verification Code",
+      "definition": {
+        "en": "A code to verify identity during transactions.\nExample: Enter the verification code to proceed.",
+        "hi": "सत्यापन के लिए एक कोड।\nउदाहरण: आगे बढ़ने के लिए कोड दर्ज करें।",
+        "pa": "ਤਸਦੀਕ ਲਈ ਕੋਡ।\nਉਦਾਹਰਨ: ਅੱਗੇ ਵਧਣ ਲਈ ਕੋਡ ਦਰਜ ਕਰੋ।"
+      },
+      "category": "Cybersecurity"
+    },
+    {
+      "word": "Vendor",
+      "definition": {
+        "en": "A person or company selling goods/services.\nExample: The vendor accepted UPI payments.",
+        "hi": "वस्तु/सेवा बेचने वाला व्यक्ति या कंपनी।\nउदाहरण: विक्रेता ने UPI से भुगतान स्वीकार किया।",
+        "pa": "ਸਾਮਾਨ ਜਾਂ ਸੇਵਾ ਵੇਚਣ ਵਾਲਾ।\nਉਦਾਹਰਨ: ਵੇਂਡਰ ਨੇ UPI ਭੁਗਤਾਨ ਸਵੀਕਾਰ ਕੀਤਾ।"
+      },
+      "category": "Finance"
+    },
+    {
+      "word": "Value Investing",
+      "definition": {
+        "en": "Buying undervalued stocks for long-term gain.\nExample: He follows value investing strategy.",
+        "hi": "लंबे समय के लिए कम कीमत वाले स्टॉक्स खरीदना।\nउदाहरण: वह वैल्यू इन्वेस्टिंग अपनाता है।",
+        "pa": "ਘੱਟ ਕੀਮਤ ਵਾਲੀਆਂ ਸ਼ੇਅਰਾਂ ਵਿੱਚ ਨਿਵੇਸ਼ ਕਰਨਾ।\nਉਦਾਹਰਨ: ਉਹ ਵੈਲਯੂ ਇਨਵੈਸਟਿੰਗ ਕਰਦਾ ਹੈ।"
+      },
+      "category": "Investment"
+    }
+  ],
+  "W": [
+    {
+      "word": "Wallet",
+      "definition": {
+        "en": "An app to store digital money.\nExample: I recharged using a mobile wallet.",
+        "hi": "डिजिटल पैसे रखने का ऐप।\nउदाहरण: मैंने मोबाइल वॉलेट से रिचार्ज किया।",
+        "pa": "ਡਿਜੀਟਲ ਪੈਸਾ ਰੱਖਣ ਵਾਲਾ ਐਪ।\nਉਦਾਹਰਨ: ਮੈਂ ਵੋਲੇਟ ਰਾਹੀਂ ਰੀਚਾਰਜ ਕੀਤਾ।"
+      },
+      "category": "Banking"
+    },
+    {
+      "word": "Withdrawal",
+      "definition": {
+        "en": "Taking money out from a bank account.\nExample: I made a cash withdrawal today.",
+        "hi": "बैंक खाते से पैसे निकालना।\nउदाहरण: मैंने आज नकद निकासी की।",
+        "pa": "ਬੈਂਕ ਖਾਤੇ ਤੋਂ ਪੈਸਾ ਕੱਢਣਾ।\nਉਦਾਹਰਨ: ਮੈਂ ਅੱਜ ਨਕਦ ਕੱਢਿਆ।"
+      },
+      "category": "Banking"
+    },
+    {
+      "word": "Wire Fraud",
+      "definition": {
+        "en": "Scam through electronic transfer.\nExample: He was trapped in a wire fraud case.",
+        "hi": "इलेक्ट्रॉनिक ट्रांसफर के जरिए धोखाधड़ी।\nउदाहरण: वह वायर फ्रॉड का शिकार हुआ।",
+        "pa": "ਇਲੈਕਟ੍ਰਾਨਿਕ ਟ੍ਰਾਂਸਫਰ ਰਾਹੀਂ ਠੱਗੀ।\nਉਦਾਹਰਨ: ਉਹ ਵਾਇਰ ਫਰਾਡ ਦਾ ਸ਼ਿਕਾਰ ਹੋਇਆ।"
+      },
+      "category": "Fraud"
+    },
+    {
+      "word": "Watchlist",
+      "definition": {
+        "en": "List of stocks to monitor closely.\nExample: Reliance is on my watchlist.",
+        "hi": "करीबी निगरानी के लिए स्टॉक्स की सूची।\nउदाहरण: मेरी वॉचलिस्ट में रिलायंस है।",
+        "pa": "ਘਣੀ ਨਿਗਰਾਨੀ ਵਾਲੀਆਂ ਸਟਾਕਾਂ ਦੀ ਸੂਚੀ।\nਉਦਾਹਰਨ: ਮੇਰੀ ਵਾਚਲਿਸਟ ਵਿੱਚ ਰਿਲਾਇੰਸ ਹੈ।"
+      },
+      "category": "Stock Market"
+    },
+    {
+      "word": "Withholding Tax",
+      "definition": {
+        "en": "Tax deducted before payment.\nExample: The company deducted withholding tax.",
+        "hi": "भुगतान से पहले काटा गया टैक्स।\nउदाहरण: कंपनी ने टैक्स काट लिया।",
+        "pa": "ਭੁਗਤਾਨ ਤੋਂ ਪਹਿਲਾਂ ਕੱਟਿਆ ਗਿਆ ਟੈਕਸ।\nਉਦਾਹਰਨ: ਕੰਪਨੀ ਨੇ ਟੈਕਸ ਕੱਟ ਲਿਆ।"
+      },
+      "category": "Finance"
+    }
+  ],
+  "X": [
+    {
+      "word": "XBRL",
+      "definition": {
+        "en": "A standard for sharing business info electronically.",
+        "hi": "इलेक्ट्रॉनिक रूप से व्यावसायिक जानकारी साझा करने का मानक।",
+        "pa": "ਵਪਾਰਕ ਜਾਣਕਾਰੀ ਨੂੰ ਇਲੈਕਟ੍ਰਾਨਿਕ ਤਰੀਕੇ ਨਾਲ ਸਾਂਝਾ ਕਰਨ ਦਾ ਮਾਪਦੰਡ।"
+      },
+      "category": "Finance"
+    }
+  ],
+  "Y": [
+    {
+      "word": "Yield",
+      "definition": {
+        "en": "Earnings from an investment over time.",
+        "hi": "निवेश से समय के साथ आय।",
+        "pa": "ਨਿਵੇਸ਼ ਤੋਂ ਸਮੇਂ ਦੇ ਨਾਲ ਆਉਣ ਵਾਲੀ ਕਮਾਈ।"
+      },
+      "category": "Investment"
+    }
+  ],
+  "Z": [
+    {
+      "word": "Zero Balance Account",
+      "definition": {
+        "en": "A bank account with no minimum balance requirement.",
+        "hi": "जिसमें न्यूनतम शेष की आवश्यकता नहीं होती।",
+        "pa": "ਜਿਸ ਵਿੱਚ ਘੱਟੋ-ਘੱਟ ਬਕਾਇਆ ਦੀ ਲੋੜ ਨਹੀਂ ਹੁੰਦੀ।"
+      },
+      "category": "Banking"
+    }
+  ]
+}

@@ -1,0 +1,615 @@
+{
+  "Unauthorized Transaction": {
+    
+    "psb": {
+      "steps": [
+        { "step": "Acknowledge Issue", "type": "message", "content": "I understand you noticed an unauthorized transaction. Let's secure your account quickly." },
+        { "step": "Give the Number", "type": "call", "value": ["1800 419 8300"] },
+        { "step": "Visit Bank Website", "type": "link", "value": "https://punjabandsindbank.co.in/" },
+        { "step": "Go to Cyber Crime Portal", "type": "link", "value": "https://services.india.gov.in/service/detail/national-cyber-crime-reporting-portal" },
+        { "step": "Safety Advice", "type": "message", "content": "Never share OTP, PIN, or CVV. Bank employees never ask for these." }
+      ]
+    },
+    "hdfc": {
+      "steps": [
+        { "step": "Acknowledge Issue", "type": "message", "content": "I understand you noticed an unauthorized transaction. Let's secure your account quickly." },
+        { "step": "Give the Number", "type": "call", "value": ["1800 2600", "1800 1600"] },
+        { "step": "Visit Bank Website", "type": "link", "value": "https://www.hdfcbank.com/personal/useful-links/security" },
+        { "step": "Go to Cyber Crime Portal", "type": "link", "value": "https://services.india.gov.in/service/detail/national-cyber-crime-reporting-portal" },
+        { "step": "Safety Advice", "type": "message", "content": "Never share OTP, PIN, or CVV. Bank employees never ask for these." }
+      ]
+    },
+    "pnb": {
+      "steps": [
+        { "step": "Acknowledge Issue", "type": "message", "content": "I understand you noticed an unauthorized transaction. Let's secure your account quickly." },
+        { "step": "Give the Number", "type": "call", "value": ["1800 1800", "1800 2021", "0120-2490000"] },
+        { "step": "Visit Bank Website", "type": "link", "value": "https://www.pnbindia.in/CcsrmsFormComplaint.aspx" },
+        { "step": "Go to Cyber Crime Portal", "type": "link", "value": "https://services.india.gov.in/service/detail/national-cyber-crime-reporting-portal" },
+        { "step": "Safety Advice", "type": "message", "content": "Never share OTP, PIN, or CVV. Bank employees never ask for these." }
+      ]
+    },
+    "icici": {
+      "steps": [
+        { "step": "Acknowledge Issue", "type": "message", "content": "I understand you noticed an unauthorized transaction. Let's secure your account quickly." },
+        { "step": "Give the Number", "type": "call", "value": ["02233551122", "18601231122"] },
+        { "step": "Visit Bank Website", "type": "link", "value": "https://www.icicibank.com/online-safe-banking/report-fraud" },
+        { "step": "Go to Cyber Crime Portal", "type": "link", "value": "https://services.india.gov.in/service/detail/national-cyber-crime-reporting-portal" },
+        { "step": "Safety Advice", "type": "message", "content": "Never share OTP, PIN, or CVV. Bank employees never ask for these." }
+      ]
+    },
+    "axis": {
+      "steps": [
+        { "step": "Acknowledge Issue", "type": "message", "content": "I understand you noticed an unauthorized transaction. Let's secure your account quickly." },
+        { "step": "Give the Number", "type": "call", "value": ["1860 419 5555", "1860 500 5555"] },
+        { "step": "Visit Bank Website", "type": "link", "value": "https://www.axisbank.com/bank-smart/safe-banking/protecting-your-account" },
+        { "step": "Go to Cyber Crime Portal", "type": "link", "value": "https://services.india.gov.in/service/detail/national-cyber-crime-reporting-portal" },
+        { "step": "Safety Advice", "type": "message", "content": "Never share OTP, PIN, or CVV. Bank employees never ask for these." }
+      ]
+    },
+    "sbi": {
+      "steps": [
+        { "step": "Acknowledge Issue", "type": "message", "content": "I understand you noticed an unauthorized transaction. Let's secure your account quickly." },
+        { "step": "Give the Number", "type": "call", "value": ["1800 1234", "1800 2100", "1800 425 3800", "1800 11 2211"] },
+        { "step": "Visit Bank Website", "type": "link", "value": "https://sbi.co.in/web/personal-banking/cyber-security" },
+        { "step": "Go to Cyber Crime Portal", "type": "link", "value": "https://services.india.gov.in/service/detail/national-cyber-crime-reporting-portal" },
+        { "step": "Safety Advice", "type": "message", "content": "Never share OTP, PIN, or CVV. Bank employees never ask for these." }
+      ]
+    },
+    "kotak": {
+      "steps": [
+        { "step": "Acknowledge Issue", "type": "message", "content": "I understand you noticed an unauthorized transaction. Let's secure your account quickly." },
+        { "step": "Give the Number", "type": "call", "value": ["18002090000", "1860 266 2666"] },
+        { "step": "Visit Bank Website", "type": "link", "value": "https://www.kotak.com" },
+        { "step": "Go to Cyber Crime Portal", "type": "link", "value": "https://services.india.gov.in/service/detail/national-cyber-crime-reporting-portal" },
+        { "step": "Safety Advice", "type": "message", "content": "Never share OTP, PIN, or CVV. Bank employees never ask for these." }
+      ]
+    },
+    "union": {
+      "steps": [
+        { "step": "Acknowledge Issue", "type": "message", "content": "I understand you noticed an unauthorized transaction. Let's secure your account quickly." },
+        { "step": "Give the Number", "type": "call", "value": ["1800 22 2244", "1800 208 2244"] },
+        { "step": "Visit Bank Website", "type": "link", "value": "https://www.unionbankofindia.co.in/en/common/cyber-security" },
+        { "step": "Go to Cyber Crime Portal", "type": "link", "value": "https://services.india.gov.in/service/detail/national-cyber-crime-reporting-portal" },
+        { "step": "Safety Advice", "type": "message", "content": "Never share OTP, PIN, or CVV. Bank employees never ask for these." }
+      ]
+    },
+    "indusind": {
+      "steps": [
+        { "step": "Acknowledge Issue", "type": "message", "content": "I understand you noticed an unauthorized transaction. Let's secure your account quickly." },
+        { "step": "Give the Number", "type": "call", "value": ["1860 267 7777", "+91 22 4406 6666"] },
+        { "step": "Visit Bank Website", "type": "link", "value": "https://www.indusind.com/in/en/personal/customer-limited-liability.html" },
+        { "step": "Go to Cyber Crime Portal", "type": "link", "value": "https://services.india.gov.in/service/detail/national-cyber-crime-reporting-portal" },
+        { "step": "Safety Advice", "type": "message", "content": "Never share OTP, PIN, or CVV. Bank employees never ask for these." }
+      ]
+    },
+    "yesbank": {
+      "steps": [
+        { "step": "Acknowledge Issue", "type": "message", "content": "I understand you noticed an unauthorized transaction. Let's secure your account quickly." },
+        { "step": "Give the Number", "type": "call", "value": ["1800 1200", "+91 22 4935 0000"] },
+        { "step": "Visit Bank Website", "type": "link", "value": "https://www.yesbank.in/digital-banking/secure-banking" },
+        { "step": "Go to Cyber Crime Portal", "type": "link", "value": "https://services.india.gov.in/service/detail/national-cyber-crime-reporting-portal" },
+        { "step": "Safety Advice", "type": "message", "content": "Never share OTP, PIN, or CVV. Bank employees never ask for these." }
+      ]
+    },
+    "bob": {
+      "steps": [
+        { "step": "Acknowledge Issue", "type": "message", "content": "I understand you noticed an unauthorized transaction. Let's secure your account quickly." },
+        { "step": "Give the Number", "type": "call", "value": ["1800 5700", "1800 103 1006", "1800 225 100"] },
+        { "step": "Visit Bank Website", "type": "link", "value": "https://www.bankofbaroda.in/contact-us" },
+        { "step": "Go to Cyber Crime Portal", "type": "link", "value": "https://services.india.gov.in/service/detail/national-cyber-crime-reporting-portal" },
+        { "step": "Safety Advice", "type": "message", "content": "Never share OTP, PIN, or CVV. Bank employees never ask for these." }
+      ]
+    },
+    "canara": {
+      "steps": [
+        { "step": "Acknowledge Issue", "type": "message", "content": "I understand you noticed an unauthorized transaction. Let's secure your account quickly." },
+        { "step": "Give the Number", "type": "call", "value": ["1800-1030", "+91-80-22064232"] },
+        { "step": "Visit Bank Website", "type": "link", "value": "https://canarabank.com/pages/cyber-security-awareness" },
+        { "step": "Go to Cyber Crime Portal", "type": "link", "value": "https://services.india.gov.in/service/detail/national-cyber-crime-reporting-portal" },
+        { "step": "Safety Advice", "type": "message", "content": "Never share OTP, PIN, or CVV. Bank employees never ask for these." }
+      ]
+    }
+  },
+  "Credentials Changed": {
+    "psb": {
+      "steps": [
+        { "step": "Acknowledge Issue", "type": "message", "content": "I understand your login credentials have changed unexpectedly. Let's secure your account." },
+        { "step": "Give the Number", "type": "call", "value": ["1800 419 8300"] },
+        { "step": "Login Website", "type": "link", "value": "https://punjabandsindbank.co.in/" },
+        { "step": "Visit Bank Website", "type": "link", "value": "https://punjabandsindbank.co.in/content/security-advisory" },
+        { "step": "Go to Cyber Crime Portal", "type": "link", "value": "https://services.india.gov.in/service/detail/national-cyber-crime-reporting-portal" },
+        { "step": "Safety Advice", "type": "message", "content": "Immediately change your password and enable two-factor authentication." }
+      ]
+    },
+    "hdfc": {
+      "steps": [
+        { "step": "Acknowledge Issue", "type": "message", "content": "I understand your login credentials have changed unexpectedly. Let's secure your account." },
+        { "step": "Give the Number", "type": "call", "value": ["1800 2600", "1800 1600"] },
+        { "step": "Login Website", "type": "link", "value": "https://netbanking.hdfcbank.com" },
+        { "step": "Visit Bank Website", "type": "link", "value": "https://www.hdfcbank.com/personal/useful-links/security" },
+        { "step": "Go to Cyber Crime Portal", "type": "link", "value": "https://services.india.gov.in/service/detail/national-cyber-crime-reporting-portal" },
+        { "step": "Safety Advice", "type": "message", "content": "Immediately change your password and enable two-factor authentication." }
+      ]
+    },
+    "pnb": {
+      "steps": [
+        { "step": "Acknowledge Issue", "type": "message", "content": "I understand your login credentials have changed unexpectedly. Let's secure your account." },
+        { "step": "Give the Number", "type": "call", "value": ["1800 1800", "1800 2021", "0120-2490000"] },
+        { "step": "Login Website", "type": "link", "value": "https://netbanking.pnbindia.in" },
+        { "step": "Visit Bank Website", "type": "link", "value": "https://www.pnbindia.in/CcsrmsFormComplaint.aspx" },
+        { "step": "Go to Cyber Crime Portal", "type": "link", "value": "https://services.india.gov.in/service/detail/national-cyber-crime-reporting-portal" },
+        { "step": "Safety Advice", "type": "message", "content": "Immediately change your password and enable two-factor authentication." }
+      ]
+    },
+    "icici": {
+      "steps": [
+        { "step": "Acknowledge Issue", "type": "message", "content": "I understand your login credentials have changed unexpectedly. Let's secure your account." },
+        { "step": "Give the Number", "type": "call", "value": ["02233551122", "18601231122"] },
+        { "step": "Login Website", "type": "link", "value": "https://www.icicibank.com/Personal-Banking/insta-banking/internet-banking/index.page" },
+        { "step": "Visit Bank Website", "type": "link", "value": "https://www.icicibank.com/online-safe-banking/report-fraud" },
+        { "step": "Go to Cyber Crime Portal", "type": "link", "value": "https://services.india.gov.in/service/detail/national-cyber-crime-reporting-portal" },
+        { "step": "Safety Advice", "type": "message", "content": "Immediately change your password and enable two-factor authentication." }
+      ]
+    },
+    "axis": {
+      "steps": [
+        { "step": "Acknowledge Issue", "type": "message", "content": "I understand your login credentials have changed unexpectedly. Let's secure your account." },
+        { "step": "Give the Number", "type": "call", "value": ["1860 419 5555", "1860 500 5555"] },
+        { "step": "Login Website", "type": "link", "value": "https://www.axisbank.com/retail/online-banking/login" },
+        { "step": "Visit Bank Website", "type": "link", "value": "https://www.axisbank.com/bank-smart/safe-banking/protecting-your-account" },
+        { "step": "Go to Cyber Crime Portal", "type": "link", "value": "https://services.india.gov.in/service/detail/national-cyber-crime-reporting-portal" },
+        { "step": "Safety Advice", "type": "message", "content": "Immediately change your password and enable two-factor authentication." }
+      ]
+    },
+    "sbi": {
+      "steps": [
+        { "step": "Acknowledge Issue", "type": "message", "content": "I understand your login credentials have changed unexpectedly. Let's secure your account." },
+        { "step": "Give the Number", "type": "call", "value": ["1800 1234", "1800 2100", "1800 425 3800", "1800 11 2211"] },
+        { "step": "Login Website", "type": "link", "value": "https://onlinesbi.sbi" },
+        { "step": "Visit Bank Website", "type": "link", "value": "https://sbi.co.in/web/personal-banking/cyber-security" },
+        { "step": "Go to Cyber Crime Portal", "type": "link", "value": "https://services.india.gov.in/service/detail/national-cyber-crime-reporting-portal" },
+        { "step": "Safety Advice", "type": "message", "content": "Immediately change your password and enable two-factor authentication." }
+      ]
+    },
+    "kotak": {
+      "steps": [
+        { "step": "Acknowledge Issue", "type": "message", "content": "I understand your login credentials have changed unexpectedly. Let's secure your account." },
+        { "step": "Give the Number", "type": "call", "value": ["18002090000", "1860 266 2666"] },
+        { "step": "Login Website", "type": "link", "value": "https://www.kotak.com/en/digital-banking/net-banking.html" },
+        { "step": "Visit Bank Website", "type": "link", "value": "https://www.kotak.com" },
+        { "step": "Go to Cyber Crime Portal", "type": "link", "value": "https://services.india.gov.in/service/detail/national-cyber-crime-reporting-portal" },
+        { "step": "Safety Advice", "type": "message", "content": "Immediately change your password and enable two-factor authentication." }
+      ]
+    },
+    "union": {
+      "steps": [
+        { "step": "Acknowledge Issue", "type": "message", "content": "I understand your login credentials have changed unexpectedly. Let's secure your account." },
+        { "step": "Give the Number", "type": "call", "value": ["1800 22 2244", "1800 208 2244"] },
+        { "step": "Login Website", "type": "link", "value": "https://www.unionbankonline.co.in" },
+        { "step": "Visit Bank Website", "type": "link", "value": "https://www.unionbankofindia.co.in/en/common/cyber-security" },
+        { "step": "Go to Cyber Crime Portal", "type": "link", "value": "https://services.india.gov.in/service/detail/national-cyber-crime-reporting-portal" },
+        { "step": "Safety Advice", "type": "message", "content": "Immediately change your password and enable two-factor authentication." }
+      ]
+    },
+    "indusind": {
+      "steps": [
+        { "step": "Acknowledge Issue", "type": "message", "content": "I understand your login credentials have changed unexpectedly. Let's secure your account." },
+        { "step": "Give the Number", "type": "call", "value": ["1860 267 7777", "+91 22 4406 6666"] },
+        { "step": "Login Website", "type": "link", "value": "https://netbanking.indusind.com" },
+        { "step": "Visit Bank Website", "type": "link", "value": "https://www.indusind.com/in/en/personal/customer-limited-liability.html" },
+        { "step": "Go to Cyber Crime Portal", "type": "link", "value": "https://services.india.gov.in/service/detail/national-cyber-crime-reporting-portal" },
+        { "step": "Safety Advice", "type": "message", "content": "Immediately change your password and enable two-factor authentication." }
+      ]
+    },
+    "yesbank": {
+      "steps": [
+        { "step": "Acknowledge Issue", "type": "message", "content": "I understand your login credentials have changed unexpectedly. Let's secure your account." },
+        { "step": "Give the Number", "type": "call", "value": ["1800 1200", "+91 22 4935 0000"] },
+        { "step": "Visit Bank Website", "type": "link", "value": "https://www.yesbank.in/digital-banking/secure-banking" },
+        { "step": "Go to Cyber Crime Portal", "type": "link", "value": "https://services.india.gov.in/service/detail/national-cyber-crime-reporting-portal" },
+        { "step": "Safety Advice", "type": "message", "content": "Immediately change your password and enable two-factor authentication." }
+      ]
+    },
+    "bob": {
+      "steps": [
+        { "step": "Acknowledge Issue", "type": "message", "content": "I understand your login credentials have changed unexpectedly. Let's secure your account." },
+        { "step": "Give the Number", "type": "call", "value": ["1800 5700", "1800 103 1006", "1800 225 100"] },
+        { "step": "Login Website", "type": "link", "value": "https://www.bankofbaroda.in/online-banking" },
+        { "step": "Visit Bank Website", "type": "link", "value": "https://www.bankofbaroda.in/contact-us" },
+        { "step": "Go to Cyber Crime Portal", "type": "link", "value": "https://services.india.gov.in/service/detail/national-cyber-crime-reporting-portal" },
+        { "step": "Safety Advice", "type": "message", "content": "Immediately change your password and enable two-factor authentication." }
+      ]
+    },
+    "canara": {
+      "steps": [
+        { "step": "Acknowledge Issue", "type": "message", "content": "I understand your login credentials have changed unexpectedly. Let's secure your account." },
+        { "step": "Give the Number", "type": "call", "value": ["1800-1030", "+91-80-22064232"] },
+        { "step": "Login Website", "type": "link", "value": "https://www.canarabank.com/Net-Banking" },
+        { "step": "Visit Bank Website", "type": "link", "value": "https://canarabank.com/pages/cyber-security-awareness" },
+        { "step": "Go to Cyber Crime Portal", "type": "link", "value": "https://services.india.gov.in/service/detail/national-cyber-crime-reporting-portal" },
+        { "step": "Safety Advice", "type": "message", "content": "Immediately change your password and enable two-factor authentication." }
+      ]
+    }
+  },
+  "Lost/Stolen Card": {
+    
+    "psb": {
+      "steps": [
+        { "step": "Acknowledge Issue", "type": "message", "content": "I understand your card is lost/stolen. Let's block it immediately." },
+        { "step": "Give the Number", "type": "call", "value": ["1800 419 8300"] },
+        { "step": "Visit Bank Website", "type": "link", "value": "https://punjabandsindbank.co.in/" },
+        { "step": "Go to Cyber Crime Portal", "type": "link", "value": "https://services.india.gov.in/service/detail/national-cyber-crime-reporting-portal" },
+        { "step": "Safety Advice", "type": "message", "content": "Always keep your card in sight during transactions and regularly check statements." }
+      ]
+    },
+    "pnb": {
+      "steps": [
+        { "step": "Acknowledge Issue", "type": "message", "content": "I understand your card is lost/stolen. Let's block it immediately." },
+        { "step": "Give the Number", "type": "call", "value": ["1800 1800", "1800 2021", "0120-2490000"] },
+        { "step": "Visit Bank Website", "type": "link", "value": "https://www.pnbindia.in/CcsrmsFormComplaint.aspx" },
+        { "step": "Go to Cyber Crime Portal", "type": "link", "value": "https://services.india.gov.in/service/detail/national-cyber-crime-reporting-portal" },
+        { "step": "Safety Advice", "type": "message", "content": "Always keep your card in sight during transactions and regularly check statements." }
+      ]
+    },
+    "icici": {
+      "steps": [
+        { "step": "Acknowledge Issue", "type": "message", "content": "I understand your card is lost/stolen. Let's block it immediately." },
+        { "step": "Give the Number", "type": "call", "value": ["02233551122", "18601231122"] },
+        { "step": "Visit Bank Website", "type": "link", "value": "https://www.icicibank.com/online-safe-banking/report-fraud" },
+        { "step": "Go to Cyber Crime Portal", "type": "link", "value": "https://services.india.gov.in/service/detail/national-cyber-crime-reporting-portal" },
+        { "step": "Safety Advice", "type": "message", "content": "Always keep your card in sight during transactions and regularly check statements." }
+      ]
+    },
+    "axis": {
+      "steps": [
+        { "step": "Acknowledge Issue", "type": "message", "content": "I understand your card is lost/stolen. Let's block it immediately." },
+        { "step": "Give the Number", "type": "call", "value": ["1860 419 5555", "1860 500 5555"] },
+        { "step": "Visit Bank Website", "type": "link", "value": "https://www.axisbank.com/bank-smart/safe-banking/protecting-your-account" },
+        { "step": "Go to Cyber Crime Portal", "type": "link", "value": "https://services.india.gov.in/service/detail/national-cyber-crime-reporting-portal" },
+        { "step": "Safety Advice", "type": "message", "content": "Always keep your card in sight during transactions and regularly check statements." }
+      ]
+    },
+    "sbi": {
+      "steps": [
+        { "step": "Acknowledge Issue", "type": "message", "content": "I understand your card is lost/stolen. Let's block it immediately." },
+        { "step": "Give the Number", "type": "call", "value": ["1800 1234", "1800 2100", "1800 425 3800", "1800 11 2211"] },
+        { "step": "Visit Bank Website", "type": "link", "value": "https://sbi.co.in/web/personal-banking/cyber-security" },
+        { "step": "Go to Cyber Crime Portal", "type": "link", "value": "https://services.india.gov.in/service/detail/national-cyber-crime-reporting-portal" },
+        { "step": "Safety Advice", "type": "message", "content": "Always keep your card in sight during transactions and regularly check statements." }
+      ]
+    },
+    "kotak": {
+      "steps": [
+        { "step": "Acknowledge Issue", "type": "message", "content": "I understand your card is lost/stolen. Let's block it immediately." },
+        { "step": "Give the Number", "type": "call", "value": ["18002090000", "1860 266 2666"] },
+        { "step": "Visit Bank Website", "type": "link", "value": "https://www.kotak.com" },
+        { "step": "Go to Cyber Crime Portal", "type": "link", "value": "https://services.india.gov.in/service/detail/national-cyber-crime-reporting-portal" },
+        { "step": "Safety Advice", "type": "message", "content": "Always keep your card in sight during transactions and regularly check statements." }
+      ]
+    },
+    "union": {
+      "steps": [
+        { "step": "Acknowledge Issue", "type": "message", "content": "I understand your card is lost/stolen. Let's block it immediately." },
+        { "step": "Give the Number", "type": "call", "value": ["1800 22 2244", "1800 208 2244"] },
+        { "step": "Visit Bank Website", "type": "link", "value": "https://www.unionbankofindia.co.in/en/common/cyber-security" },
+        { "step": "Go to Cyber Crime Portal", "type": "link", "value": "https://services.india.gov.in/service/detail/national-cyber-crime-reporting-portal" },
+        { "step": "Safety Advice", "type": "message", "content": "Always keep your card in sight during transactions and regularly check statements." }
+      ]
+    },
+    "indusind": {
+      "steps": [
+        { "step": "Acknowledge Issue", "type": "message", "content": "I understand your card is lost/stolen. Let's block it immediately." },
+        { "step": "Give the Number", "type": "call", "value": ["1860 267 7777", "+91 22 4406 6666"] },
+        { "step": "Visit Bank Website", "type": "link", "value": "https://www.indusind.com/in/en/personal/customer-limited-liability.html" },
+        { "step": "Go to Cyber Crime Portal", "type": "link", "value": "https://services.india.gov.in/service/detail/national-cyber-crime-reporting-portal" },
+        { "step": "Safety Advice", "type": "message", "content": "Always keep your card in sight during transactions and regularly check statements." }
+      ]
+    },
+    "yesbank": {
+      "steps": [
+        { "step": "Acknowledge Issue", "type": "message", "content": "I understand your card is lost/stolen. Let's block it immediately." },
+        { "step": "Give the Number", "type": "call", "value": ["1800 1200", "+91 22 4935 0000"] },
+        { "step": "Visit Bank Website", "type": "link", "value": "https://www.yesbank.in/digital-banking/secure-banking" },
+        { "step": "Go to Cyber Crime Portal", "type": "link", "value": "https://services.india.gov.in/service/detail/national-cyber-crime-reporting-portal" },
+        { "step": "Safety Advice", "type": "message", "content": "Always keep your card in sight during transactions and regularly check statements." }
+      ]
+    },
+    "bob": {
+      "steps": [
+        { "step": "Acknowledge Issue", "type": "message", "content": "I understand your card is lost/stolen. Let's block it immediately." },
+        { "step": "Give the Number", "type": "call", "value": ["1800 5700", "1800 103 1006", "1800 225 100"] },
+        { "step": "Visit Bank Website", "type": "link", "value": "https://www.bankofbaroda.in/contact-us" },
+        { "step": "Go to Cyber Crime Portal", "type": "link", "value": "https://services.india.gov.in/service/detail/national-cyber-crime-reporting-portal" },
+        { "step": "Safety Advice", "type": "message", "content": "Always keep your card in sight during transactions and regularly check statements." }
+      ]
+    },
+    "canara": {
+      "steps": [
+        { "step": "Acknowledge Issue", "type": "message", "content": "I understand your card is lost/stolen. Let's block it immediately." },
+        { "step": "Give the Number", "type": "call", "value": ["1800-1030", "+91-80-22064232"] },
+        { "step": "Visit Bank Website", "type": "link", "value": "https://canarabank.com/pages/cyber-security-awareness" },
+        { "step": "Go to Cyber Crime Portal", "type": "link", "value": "https://services.india.gov.in/service/detail/national-cyber-crime-reporting-portal" },
+        { "step": "Safety Advice", "type": "message", "content": "Always keep your card in sight during transactions and regularly check statements." }
+      ]
+    }
+  },"Suspicious Message or Scam": {
+    "psb": {
+    "steps": [
+      { "step": "Acknowledge the Issue", "type": "message", "content": "I understand you received a suspicious message. Let's verify it." },
+      { "step": "Bank Verification", "type": "message", "content": "Psb Bank never asks for sensitive information via SMS/email." },
+      { "step": "Do Not Share Information", "type": "message", "content": "Never share your PIN, OTP, password, or card details with anyone." },
+      { "step": "Avoid Clicking Links", "type": "message", "content": "Do not click on any links or download attachments from unknown or suspicious sources." },
+      {
+        "step": "Report to Bank",
+        "type": "message",
+        "content": "You can report suspicious messages to PSB at customerexperience@psbank.com.ph or call their customer care.",
+        "options": ["1800 419 8300", "check message"]
+      },
+      { "step": "Check Account Activity", "type": "message", "content": "Please review your recent transactions to spot any unauthorized activity." },
+      { "step": "Redirect to Spam Module", "type": "redirect", "content": "I hope your problem is solved . Thank you" }
+    ]
+  },
+  "hdfc": {
+    "steps": [
+      { "step": "Acknowledge the Issue", "type": "message", "content": "I understand you received a suspicious message. Let's verify it." },
+      { "step": "Bank Verification", "type": "message", "content": "HDFC Bank never asks for sensitive information via SMS/email." },
+      { "step": "Do Not Share Information", "type": "message", "content": "Never share your PIN, OTP, password, or card details with anyone." },
+      { "step": "Avoid Clicking Links", "type": "message", "content": "Do not click on any links or download attachments from unknown or suspicious sources." },
+      {
+        "step": "Report to Bank",
+        "type": "message",
+        "content": "You can report suspicious messages to HDFC at phishing@hdfcbank.com or call their customer care.",
+        "options": ["1800-270-3333", "check message"]
+      },
+      { "step": "Check Account Activity", "type": "message", "content": "Please review your recent transactions to spot any unauthorized activity." },
+      { "step": "Redirect to Spam Module", "type": "redirect", "content": "I hope your problem is solved . Thank you" }
+    ]
+  },
+  "pnb": {
+    "steps": [
+      { "step": "Acknowledge the Issue", "type": "message", "content": "I understand you received a suspicious message. Let's verify it." },
+      { "step": "Bank Verification", "type": "message", "content": "Punjab National Bank never asks for sensitive information via SMS/email." },
+      { "step": "Do Not Share Information", "type": "message", "content": "Never share your PIN, OTP, password, or card details with anyone." },
+      { "step": "Avoid Clicking Links", "type": "message", "content": "Do not click on any links or download attachments from unknown or suspicious sources." },
+      {
+        "step": "Report to Bank",
+        "type": "message",
+        "content": "You can report suspicious messages to PNB at phishing@pnbindia.in or call their customer care.",
+        "options": ["1800-180-2222", "check message"]
+      },
+      { "step": "Check Account Activity", "type": "message", "content": "Please review your recent transactions to spot any unauthorized activity." },
+      { "step": "Redirect to Spam Module", "type": "redirect", "content": "I hope your problem is solved . Thank you" }
+    ]
+  },
+  "icici": {
+    "steps": [
+      { "step": "Acknowledge the Issue", "type": "message", "content": "I understand you received a suspicious message. Let's verify it." },
+      { "step": "Bank Verification", "type": "message", "content": "ICICI Bank never asks for sensitive information via SMS/email." },
+      { "step": "Do Not Share Information", "type": "message", "content": "Never share your PIN, OTP, password, or card details with anyone." },
+      { "step": "Avoid Clicking Links", "type": "message", "content": "Do not click on any links or download attachments from unknown or suspicious sources." },
+      {
+        "step": "Report to Bank",
+        "type": "message",
+        "content": "You can report suspicious messages to ICICI at phishing@icicibank.com or call their customer care.",
+        "options": ["1860-120-7777", "check message"]
+      },
+      { "step": "Check Account Activity", "type": "message", "content": "Please review your recent transactions to spot any unauthorized activity." },
+      { "step": "Redirect to Spam Module", "type": "redirect", "content": "I hope your problem is solved . Thank you" }
+    ]
+  },
+  "axis": {
+    "steps": [
+      { "step": "Acknowledge the Issue", "type": "message", "content": "I understand you received a suspicious message. Let's verify it." },
+      { "step": "Bank Verification", "type": "message", "content": "Axis Bank never asks for sensitive information via SMS/email." },
+      { "step": "Do Not Share Information", "type": "message", "content": "Never share your PIN, OTP, password, or card details with anyone." },
+      { "step": "Avoid Clicking Links", "type": "message", "content": "Do not click on any links or download attachments from unknown or suspicious sources." },
+      {
+        "step": "Report to Bank",
+        "type": "message",
+        "content": "You can report suspicious messages to Axis Bank at phishing@axisbank.com or call their customer care.",
+        "options": ["1860-419-5555", "check message"]
+      },
+      { "step": "Check Account Activity", "type": "message", "content": "Please review your recent transactions to spot any unauthorized activity." },
+      { "step": "Redirect to Spam Module", "type": "redirect", "content": "I hope your problem is solved . Thank you" }
+    ]
+  },
+  "sbi": {
+    "steps": [
+      { "step": "Acknowledge the Issue", "type": "message", "content": "I understand you received a suspicious message. Let's verify it." },
+      { "step": "Bank Verification", "type": "message", "content": "State Bank of India never asks for sensitive information via SMS/email." },
+      { "step": "Do Not Share Information", "type": "message", "content": "Never share your PIN, OTP, password, or card details with anyone." },
+      { "step": "Avoid Clicking Links", "type": "message", "content": "Do not click on any links or download attachments from unknown or suspicious sources." },
+      {
+        "step": "Report to Bank",
+        "type": "message",
+        "content": "You can report suspicious messages to SBI at phishing@sbi.co.in or call their customer care.",
+        "options": ["1800-11-2211", "check message"]
+      },
+      { "step": "Check Account Activity", "type": "message", "content": "Please review your recent transactions to spot any unauthorized activity." },
+      { "step": "Redirect to Spam Module", "type": "redirect", "content": "I hope your problem is solved . Thank you" }
+    ]
+  },
+  "kotak": {
+    "steps": [
+      { "step": "Acknowledge the Issue", "type": "message", "content": "I understand you received a suspicious message. Let's verify it." },
+      { "step": "Bank Verification", "type": "message", "content": "Kotak Mahindra Bank never asks for sensitive information via SMS/email." },
+      { "step": "Do Not Share Information", "type": "message", "content": "Never share your PIN, OTP, password, or card details with anyone." },
+      { "step": "Avoid Clicking Links", "type": "message", "content": "Do not click on any links or download attachments from unknown or suspicious sources." },
+      {
+        "step": "Report to Bank",
+        "type": "message",
+        "content": "You can report suspicious messages to Kotak at phishing@kotak.com or call their customer care.",
+        "options": ["1860-266-2666", "check message"]
+      },
+      { "step": "Check Account Activity", "type": "message", "content": "Please review your recent transactions to spot any unauthorized activity." },
+      { "step": "Redirect to Spam Module", "type": "redirect", "content": "I hope your problem is solved . Thank you" }
+    ]
+  },
+  "union": {
+    "steps": [
+      { "step": "Acknowledge the Issue", "type": "message", "content": "I understand you received a suspicious message. Let's verify it." },
+      { "step": "Bank Verification", "type": "message", "content": "Union Bank of India never asks for sensitive information via SMS/email." },
+      { "step": "Do Not Share Information", "type": "message", "content": "Never share your PIN, OTP, password, or card details with anyone." },
+      { "step": "Avoid Clicking Links", "type": "message", "content": "Do not click on any links or download attachments from unknown or suspicious sources." },
+      {
+        "step": "Report to Bank",
+        "type": "message",
+        "content": "You can report suspicious messages to Union Bank at phishing@unionbankofindia.com or call their customer care.",
+        "options": ["1800-22-2244", "check message"]
+      },
+      { "step": "Check Account Activity", "type": "message", "content": "Please review your recent transactions to spot any unauthorized activity." },
+      { "step": "Redirect to Spam Module", "type": "redirect", "content": "I hope your problem is solved . Thank you" }
+    ]
+  },
+  "indusind": {
+    "steps": [
+      { "step": "Acknowledge the Issue", "type": "message", "content": "I understand you received a suspicious message. Let's verify it." },
+      { "step": "Bank Verification", "type": "message", "content": "IndusInd Bank never asks for sensitive information via SMS/email." },
+      { "step": "Do Not Share Information", "type": "message", "content": "Never share your PIN, OTP, password, or card details with anyone." },
+      { "step": "Avoid Clicking Links", "type": "message", "content": "Do not click on any links or download attachments from unknown or suspicious sources." },
+      {
+        "step": "Report to Bank",
+        "type": "message",
+        "content": "You can report suspicious messages to IndusInd at phishing@indusind.com or call their customer care.",
+        "options": ["1860-267-7777", "check message"]
+      },
+      { "step": "Check Account Activity", "type": "message", "content": "Please review your recent transactions to spot any unauthorized activity." },
+      { "step": "Redirect to Spam Module", "type": "redirect", "value": "spam_module" }
+    ]
+  },
+  "yesbank": {
+    "steps": [
+      { "step": "Acknowledge the Issue", "type": "message", "content": "I understand you received a suspicious message. Let's verify it." },
+      { "step": "Bank Verification", "type": "message", "content": "Yes Bank never asks for sensitive information via SMS/email." },
+      { "step": "Do Not Share Information", "type": "message", "content": "Never share your PIN, OTP, password, or card details with anyone." },
+      { "step": "Avoid Clicking Links", "type": "message", "content": "Do not click on any links or download attachments from unknown or suspicious sources." },
+      {
+        "step": "Report to Bank",
+        "type": "message",
+        "content": "You can report suspicious messages to Yes Bank at phishing@yesbank.in or call their customer care.",
+        "options": ["1860-121-1911", "check message"]
+      },
+      { "step": "Check Account Activity", "type": "message", "content": "Please review your recent transactions to spot any unauthorized activity." },
+      { "step": "Redirect to Spam Module", "type": "redirect", "value": "spam_module" }
+    ]
+  },
+  "bob": {
+    "steps": [
+      { "step": "Acknowledge the Issue", "type": "message", "content": "I understand you received a suspicious message. Let's verify it." },
+      { "step": "Bank Verification", "type": "message", "content": "Bank of Baroda never asks for sensitive information via SMS/email." },
+      { "step": "Do Not Share Information", "type": "message", "content": "Never share your PIN, OTP, password, or card details with anyone." },
+      { "step": "Avoid Clicking Links", "type": "message", "content": "Do not click on any links or download attachments from unknown or suspicious sources." },
+      {
+        "step": "Report to Bank",
+        "type": "message",
+        "content": "You can report suspicious messages to Bank of Baroda at phishing@bankofbaroda.com or call their customer care.",
+        "options": ["1800-258-4455", "check message"]
+      },
+      { "step": "Check Account Activity", "type": "message", "content": "Please review your recent transactions to spot any unauthorized activity." },
+      { "step": "Redirect to Spam Module", "type": "redirect", "value": "spam_module" }
+    ]
+  },
+  "canara": {
+    "steps": [
+      { "step": "Acknowledge the Issue", "type": "message", "content": "I understand you received a suspicious message. Let's verify it." },
+      { "step": "Bank Verification", "type": "message", "content": "Canara Bank never asks for sensitive information via SMS/email." },
+      { "step": "Do Not Share Information", "type": "message", "content": "Never share your PIN, OTP, password, or card details with anyone." },
+      { "step": "Avoid Clicking Links", "type": "message", "content": "Do not click on any links or download attachments from unknown or suspicious sources." },
+      {
+        "step": "Report to Bank",
+        "type": "message",
+        "content": "You can report suspicious messages to Canara Bank at phishing@canarabank.com or call their customer care.",
+        "options": ["1800-425-0018", "check message"]
+      },
+      { "step": "Check Account Activity", "type": "message", "content": "Please review your recent transactions to spot any unauthorized activity." },
+      { "step": "Redirect to Spam Module", "type": "redirect", "content": "I hope your problem is solved . Thank you" }
+    ]
+  }
+},
+  "General Enquiry": {
+    "psb": {
+      "steps": [
+        { "step": "Ask Query Type", "type": "message", "content": "What specific information are you looking for about PS Bank?" },
+        { "step": "Give the Number", "type": "call", "value": ["1800 419 8300"] },
+        { "step": "Safety Precautions", "type": "message", "content": "Remember: Never share your banking details with anyone." }
+      ]
+    },
+    "hdfc": {
+      "steps": [
+        { "step": "Ask Query Type", "type": "message", "content": "What specific information are you looking for about HDFC Bank?" },
+        { "step": "Give the Number", "type": "call", "value": ["1800 2600", "1800 1600"] },
+        { "step": "Safety Precautions", "type": "message", "content": "Remember: Never share your banking details with anyone." }
+      ]
+    },
+    "pnb": {
+      "steps": [
+        { "step": "Ask Query Type", "type": "message", "content": "What specific information are you looking for about PNB?" },
+        { "step": "Give the Number", "type": "call", "value": ["1800 1800", "1800 2021", "0120-2490000"] },
+        { "step": "Safety Precautions", "type": "message", "content": "Remember: Never share your banking details with anyone." }
+      ]
+    },
+    "icici": {
+      "steps": [
+        { "step": "Ask Query Type", "type": "message", "content": "What specific information are you looking for about ICICI Bank?" },
+        { "step": "Give the Number", "type": "call", "value": ["02233551122", "18601231122"] },
+        { "step": "Safety Precautions", "type": "message", "content": "Remember: Never share your banking details with anyone." }
+      ]
+    },
+    "axis": {
+      "steps": [
+        { "step": "Ask Query Type", "type": "message", "content": "What specific information are you looking for about Axis Bank?" },
+        { "step": "Give the Number", "type": "call", "value": ["1860 419 5555", "1860 500 5555"] },
+        { "step": "Safety Precautions", "type": "message", "content": "Remember: Never share your banking details with anyone." }
+      ]
+    },
+    "sbi": {
+      "steps": [
+        { "step": "Ask Query Type", "type": "message", "content": "What specific information are you looking for about SBI?" },
+        { "step": "Give the Number", "type": "call", "value": ["1800 1234", "1800 2100", "1800 425 3800", "1800 11 2211"] },
+        { "step": "Safety Precautions", "type": "message", "content": "Remember: Never share your banking details with anyone." }
+      ]
+    },
+    "kotak": {
+      "steps": [
+        { "step": "Ask Query Type", "type": "message", "content": "What specific information are you looking for about Kotak Mahindra Bank?" },
+        { "step": "Give the Number", "type": "call", "value": ["1860 266 2666", "18002090000"] },
+        { "step": "Safety Precautions", "type": "message", "content": "Remember: Never share your banking details with anyone." }
+      ]
+    },
+    "union": {
+      "steps": [
+        { "step": "Ask Query Type", "type": "message", "content": "What specific information are you looking for about Union Bank?" },
+        { "step": "Give the Number", "type": "call", "value": ["1800 22 2244", "1800 208 2244"] },
+        { "step": "Safety Precautions", "type": "message", "content": "Remember: Never share your banking details with anyone." }
+      ]
+    },
+    "indusind": {
+      "steps": [
+        { "step": "Ask Query Type", "type": "message", "content": "What specific information are you looking for about IndusInd Bank?" },
+        { "step": "Give the Number", "type": "call", "value": ["1860 267 7777", "+91 22 4406 6666"] },
+        { "step": "Safety Precautions", "type": "message", "content": "Remember: Never share your banking details with anyone." }
+      ]
+    },
+    "yesbank": {
+      "steps": [
+        { "step": "Ask Query Type", "type": "message", "content": "What specific information are you looking for about Yes Bank?" },
+        { "step": "Give the Number", "type": "call", "value": ["1800 1200", "+91 22 4935 0000"] },
+        { "step": "Safety Precautions", "type": "message", "content": "Remember: Never share your banking details with anyone." }
+      ]
+    },
+    "bob": {
+      "steps": [
+        { "step": "Ask Query Type", "type": "message", "content": "What specific information are you looking for about Bank of Baroda?" },
+        { "step": "Give the Number", "type": "call", "value": ["1800 5700", "1800 103 1006", "1800 225 100"] },
+        { "step": "Safety Precautions", "type": "message", "content": "Remember: Never share your banking details with anyone." }
+      ]
+    },
+    "canara": {
+      "steps": [
+        { "step": "Ask Query Type", "type": "message", "content": "What specific information are you looking for about Canara Bank?" },
+        { "step": "Give the Number", "type": "call", "value": ["1800-1030", "+91-80-22064232"] },
+        { "step": "Safety Precautions", "type": "message", "content": "Remember: Never share your banking details with anyone." }
+      ]
+    }
+  }
+}

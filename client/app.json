@@ -1,0 +1,59 @@
+{
+  "expo": {
+    "name": "dhanrakshak",
+    "slug": "dhanrakshak",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "dhanrakshak",
+    "userInterfaceStyle": "automatic",
+    "notification": {
+      "icon": "./assets/images/icon.png"
+    },
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.dhanrakshak"
+    },
+    "android": {
+      "googleServicesFile": "./android/app/google-services.json",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.dhanrakshak",
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/icon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share them within the community."
+        }
+      ],
+      [
+        "@react-native-google-signin/google-signin",
+        {
+          "iosUrlScheme": "com.googleusercontent.apps.81936eb6192a4879a98e5aca1da012a3"
+        }
+      ],
+      "expo-font",
+      "expo-secure-store"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "81936eb6-192a-4879-a98e-5aca1da012a3"
+      }
+    }
+  }
+}
