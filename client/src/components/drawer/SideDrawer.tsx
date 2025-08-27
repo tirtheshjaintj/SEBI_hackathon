@@ -58,6 +58,19 @@ const drawerItems = [
       router.push("/news/news");
     },
   },
+  {
+    label: "SEBI Search",
+    icon: "newspaper-outline",
+    onPress: () => {
+      router.push("/sebisearch");
+    },
+  }, {
+    label: "Today Stocks",
+    icon: "newspaper-outline",
+    onPress: () => {
+      router.push("/livestocks");
+    },
+  },
   // {
   //   label: "Goals",
   //   icon: "trophy",
@@ -164,7 +177,7 @@ const SideDrawer = ({ navigation }: any) => {
                   name="chevron-forward"
                   size={18}
                   color="#ddd"
-                  // style={styles.menuChevron}
+                // style={styles.menuChevron}
                 />
               </TouchableOpacity>
             ))}
@@ -211,16 +224,17 @@ const SideDrawer = ({ navigation }: any) => {
               <Text style={styles.signOutText}>{t("Sign Out")}</Text>
             </TouchableOpacity>
             <View style={styles.fabWrapper}>
-              <Text style={styles.tooltip}>{t("Cyber Crime Helpline")}</Text>
+              <Text style={styles.tooltip}>{t("SEBI Helpline")}</Text>
               <Animated.View style={[shakeStyle]}>
                 <TouchableOpacity
                   style={styles.fab}
                   onPress={() =>
                     handleCall(
-                      t("Cyber Crime Helpline"),
+                      t("SEBI Helpline"),
                       t("Would you like to call the helpline?"),
                       t("Cancel"),
-                      t("Call")
+                      t("Call"),
+                      "1800-266-7575"
                     )
                   }
                 >
@@ -252,7 +266,7 @@ const SideDrawer = ({ navigation }: any) => {
 
       <ModalWrapper
         visible={openLanguageModal}
-        onClose={() => {}}
+        onClose={() => { }}
         disableTouchClose
         animationType="slide"
       >

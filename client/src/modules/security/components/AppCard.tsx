@@ -7,7 +7,7 @@ import { Ionicons } from "@expo/vector-icons";
 import { Image } from "expo-image";
 import React from "react";
 import { useTranslation } from "react-i18next";
-import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
+import { Linking, StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import Animated, { FadeInDown, FadeOutUp } from "react-native-reanimated";
 
 interface AppCardProps {
@@ -77,6 +77,28 @@ const AppCard = ({
             );
           })()}
         </View>
+        {app.sebiVerified && (
+          <View
+            style={{
+              backgroundColor: "#2E8B57",
+              paddingHorizontal: 8,
+              paddingVertical: 4,
+              borderRadius: 16,
+              marginTop: 4,
+              alignSelf: "flex-start",
+            }}
+          >
+            <Text
+              style={{
+                color: "#fff",
+                fontSize: 12,
+                fontFamily: "Quicksand-Bold",
+              }}
+            >
+              SEBI Verified
+            </Text>
+          </View>
+        )}
       </View>
 
       <View style={styles.meta}>
@@ -124,7 +146,37 @@ const AppCard = ({
                 : "Unknown"}
             </Text>
           </Text>
+          {app.sebiVerified && app.sebiDetails && (
+            <View style={{ marginTop: 10 }}>
+              <Text style={styles.detailText}>
+                🏦 {t("Company")}:{" "}
+                <Text style={styles.boldText}>{app.sebiDetails.company_name}</Text>
+              </Text>
+              <Text style={styles.detailText}>
+                👨‍💻 {t("Developer")}:{" "}
+                <Text style={styles.boldText}>{app.sebiDetails.developer_name}</Text>
+              </Text>
 
+              <View style={{ flexDirection: "row", marginTop: 6 }}>
+                {app.sebiDetails.play_store_link && (
+                  <TouchableOpacity
+                    style={[styles.reportButton, { backgroundColor: "#007AFF", marginRight: 8 }]}
+                    onPress={() => Linking.openURL(app.sebiDetails.play_store_link)}
+                  >
+                    <Text style={styles.reportButtonText}>Play Store</Text>
+                  </TouchableOpacity>
+                )}
+                {app.sebiDetails.app_store_link && (
+                  <TouchableOpacity
+                    style={[styles.reportButton, { backgroundColor: "#34C759" }]}
+                    onPress={() => Linking.openURL(app.sebiDetails.app_store_link)}
+                  >
+                    <Text style={styles.reportButtonText}>App Store</Text>
+                  </TouchableOpacity>
+                )}
+              </View>
+            </View>
+          )}
           <TouchableOpacity
             style={[
               styles.reportButton,

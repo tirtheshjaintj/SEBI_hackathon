@@ -14,7 +14,7 @@ import CommonToolbar from "@/src/components/toolBars/commonToolbar";
 import AppSafeAreaView from "@/src/components/viewWrappers/AppSafeAreaView";
 
 import axiosInstance from "@/src/apis/axiosInstance";
-import DeveloperOptionsModal from "@/src/components/modal/DeveloperOptionsModal";
+import sebiApps from "@/src/modules/security/SEBI_DATA/apps.json";
 import { formatTimeAgo } from "@/src/utils/datetime/datetime";
 import { getSavedItem, saveItem } from "@/src/utils/storage/async_storage";
 import { useTranslation } from "react-i18next";
@@ -71,11 +71,24 @@ export default function AppScanScreen() {
     try {
       const nativeApps = await InstalledApps.getInstalledApps();
       getSecurityData();
-      const enriched = nativeApps.map((app: any) => ({
-        ...app,
-        readablePermissions: getReadablePermissions(app.permissions),
-        risk: getRiskScore(app),
-      }));
+      const enriched = nativeApps.map((app: any) => {
+        const sebiMatch = sebiApps.find((s: any) => {
+          // Only check if play_store_link exists
+          if (s.play_store_link) {
+            const playId = s.play_store_link.split("id=")[1]?.split("&")[0];
+            return app.packageName === playId;
+          }
+          return false;
+        });
+
+        return {
+          ...app,
+          readablePermissions: getReadablePermissions(app.permissions),
+          risk: getRiskScore(app),
+          sebiVerified: !!sebiMatch,
+          sebiDetails: sebiMatch || null,
+        }
+      });
       setApps(enriched);
       const suspiciousApps = enriched.filter(
         (a: any) => a.risk === "Suspicious"
@@ -126,6 +139,7 @@ export default function AppScanScreen() {
       (a: any) => a.installerPackageName !== "com.android.vending"
     );
     if (filter == "Financial") return apps.filter((a: any) => a.category == "upi");
+    if (filter == "SEBI Verified") return apps.filter((a: any) => a.sebiVerified);
 
     return apps.filter((a: any) => a.risk === filter);
   },
@@ -242,9 +256,9 @@ export default function AppScanScreen() {
           >
             {filteredApps.map((app: any, index: number) => (
               <AppCard
-                openAppOptions={openAppOptions}
                 key={app.installerPackageName + index}
                 app={app}
+                openAppOptions={openAppOptions}
                 toggleExpand={toggleExpand}
                 reportApp={reportApp}
                 expanded={expanded}
@@ -255,12 +269,12 @@ export default function AppScanScreen() {
           </ScrollView>
         )}
       </View>
-      <DeveloperOptionsModal deviceInfo={deviceInfo} onClose={() => {
+      {/* <DeveloperOptionsModal deviceInfo={deviceInfo} onClose={() => {
         getSecurityData();
         if (deviceInfo.developerOptionsEnabled) {
           openDeveloperOptions();
         }
-      }} />
+      }} /> */}
     </AppSafeAreaView>
   );
 }
