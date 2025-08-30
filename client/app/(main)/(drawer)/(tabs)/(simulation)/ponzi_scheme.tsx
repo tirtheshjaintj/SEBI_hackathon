@@ -116,7 +116,7 @@ const PonziSchemePage = () => {
         visible={isSimulationOn}
         onClose={() => setIsSimulationOn(false)}
       >
-        <PonziSimulation />
+        <PonziSimulation onCloseModal={() => setIsSimulationOn(false)} />
       </ModalWrapper>
     </View>
   );
