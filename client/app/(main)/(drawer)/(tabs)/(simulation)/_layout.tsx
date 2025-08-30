@@ -61,7 +61,7 @@ const SimulationLayout = () => {
           tabBarIcon: () => (
             <Image
               source={{
-                uri: "https://imgs.search.brave.com/SMgg1khnA9KEV96_WWjAKWmwugXY23Lkm9GS72BTsUM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS12ZWN0b3Iv/aW5mbHVlbmNlci1y/ZWNvcmRpbmctbmV3/LXZpZGVvXzIzLTIx/NDg1MjYyMzYuanBn/P3NlbXQ9YWlzX2h5/YnJpZCZ3PTc0MCZx/PTgw",
+                uri: "https://img.icons8.com/stickers/100/candle-sticks.png",
               }}
               style={styles.tab_icon_image}
               contentFit="cover"
@@ -95,7 +95,7 @@ const SimulationLayout = () => {
           tabBarIcon: () => (
             <Image
               source={{
-                uri: "https://imgs.search.brave.com/7rN86xdIWq4-tWE92XVUsRcWxe6b-wGbl-t90EdQMro/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/aWNvbnNjb3V0LmNv/bS9pY29uL3ByZW1p/dW0vcG5nLTI1Ni10/aHVtYi9weXJhbWlk/LXNjaGVtZS1pY29u/LWRvd25sb2FkLWlu/LXN2Zy1wbmctZ2lm/LWZpbGUtZm9ybWF0/cy0taGllcmFyY2h5/LW5ldHdvcmstc2Nh/bS1wb256aS1qdXN0/aWNlLWFuZC1jb3Vy/dC1wYWNrLWNyaW1l/LXNlY3VyaXR5LWlj/b25zLTExNDI0MzMz/LnBuZz9mPXdlYnAm/dz0xMjg",
+                uri: "https://img.icons8.com/external-filled-outline-wichaiwi/64/external-ponzinomic-gamefi-filled-outline-wichaiwi.png",
               }}
               style={styles.tab_icon_image}
               contentFit="cover"
