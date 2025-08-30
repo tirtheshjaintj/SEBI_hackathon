@@ -34,7 +34,7 @@ const CommunityScreen = ({
   }, [refreshHanlder]);
   return (
     <View style={{ flex: 1 }}>
-      {/* <StatusBar style="light" translucent /> */}
+      <StatusBar style="light" />
       <AppLinearGradient
         colors={[Colors.primaryCyanColor, Colors.gradientCyanSecondary]}
         start={{ x: 0, y: 0 }}

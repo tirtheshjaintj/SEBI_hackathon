@@ -10,7 +10,8 @@ import {
 } from "@react-navigation/native";
 import { BottomTabNavigationOptions } from "@react-navigation/bottom-tabs";
 import AppLinearGradient from "../shared/AppLinearGradient";
- 
+import { StatusBar } from "expo-status-bar";
+
 type TabBarDescriptor = {
   options: BottomTabNavigationOptions & { title?: string };
   navigation: any;
@@ -32,6 +33,8 @@ const SimulationTabs: React.FC<SimulationTabsProps> = ({
 }) => {
   return (
     <View style={styles.container}>
+      <StatusBar style="light" />
+
       <AppLinearGradient
         colors={[
           Colors.primaryCyanColor,

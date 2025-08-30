@@ -23,6 +23,7 @@ import { AnimatedCircularProgress } from "react-native-circular-progress";
 import Toast from "react-native-toast-message";
 import NewsShimmer from "../../news/NewsShimmer";
 import styles from "../styles";
+import { StatusBar } from "expo-status-bar";
 const { DeviceSecurity } = NativeModules;
 
 interface Chat {
@@ -313,6 +314,8 @@ export default function ChatBotScreen() {
 
   return (
     <View style={[styles.container]}>
+      <StatusBar style="dark" />
+
       <KeyboardAvoidingView
         style={{ flex: 1 }}
         behavior={Platform.OS === "ios" ? "padding" : "height"}

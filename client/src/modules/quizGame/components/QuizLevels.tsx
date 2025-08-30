@@ -125,7 +125,7 @@ const QuizLevels = ({ data }: { data: any }) => {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: Colors.bgGreenTint,
+    backgroundColor: Colors.grayTint,
     flex: 1,
     padding: moderateScale(16),
   },

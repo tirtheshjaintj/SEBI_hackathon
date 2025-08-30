@@ -2,115 +2,157 @@ const topicsByLocale = {
   en: [
     {
       id: "1",
-      title: "Fraud through vishing calls",
-      description: "Learn how to protect yourself from fraudulent vishing calls seeking your personal details.",
-      url: "https://youtu.be/pPZZbz1lR6Y?si=hdmfQWVABMOqCCB9",
-      icon: "📞"
+      title: "Beware of stock market scams on social media",
+      description: "Learn how SEBI and MoneyControl are exposing fake endorsements, AI-generated content, and misleading testimonials designed to trick investors.",
+      url: "https://www.youtube.com/watch?v=FmGts5XVQpE",
+      icon: "📢"
     },
     {
       id: "2",
-      title: "Online purchase scam",
-      description: "Identify and avoid scams while shopping online to keep your money safe.",
-      url: "https://youtu.be/qRWpvcjpQNw?si=FPk-26CEdeuTH34L",
-      icon: "🛒"
+      title: "SEBI’s new tool to stop UPI fraud in the market",
+      description: "SEBI explains how it’s protecting market payments from fake UPI fraud by ensuring transactions go to genuine intermediaries.",
+      url: "https://www.youtube.com/watch?v=FGRrkHQRa50",
+      icon: "🛡️"
     },
     {
       id: "3",
-      title: "Stock market working",
-      description: "Understand how the stock market functions and what you need to know before investing.",
-      url: "https://youtu.be/p7HKvqRI_Bo?si=XIwrHRUDbrNFnNYC",
-      icon: "📈"
+      title: "SEBI Pushes Advanced Tools For Fraud Prevention",
+      description: "SEBI unveils advanced technology tools to counter fraud following recent scams involving banks.",
+      url: "https://www.youtube.com/watch?v=9CKU7xrXhWY",
+      icon: "🔧"
     },
     {
       id: "4",
-      title: "Importance of saving money",
-      description: "Discover why saving money is crucial for your future financial security.",
-      url: "https://youtu.be/JqYoLQXO7j4?si=lrarj7pNbWeJBme0",
-      icon: "💰"
+      title: "Dabba Trading and its risks: What You Need to Know",
+      description: "Discover why illegal dabba-trading schemes are dangerous and how SEBI is monitoring them.",
+      url: "https://www.youtube.com/watch?v=ZvGAenX-INU",
+      icon: "⚠️"
     },
     {
       id: "5",
-      title: "RBI",
-      description: "Explore the role and importance of the Reserve Bank of India (RBI).",
-      url: "https://youtu.be/Bqyek4dnycM?si=fUPu_r8BdUWuXzQz",
-      icon: "🏦"
+      title: "Deep Dive Into How The Illegal Dabba Trading Operates",
+      description: "An in-depth look at SEBI’s crackdown, including actions following media exposés on dabba-trading.",
+      url: "https://www.youtube.com/watch?v=7QiZYmi1RAI",
+      icon: "🔍"
     },
+    {
+      id: "6",
+      title: "Application Supported by Blocked Amount (ASBA)",
+      description: "Understand how ASBA ensures safer IPO transactions through blocked funds until allotment.",
+      url: "https://investor.sebi.gov.in/video_gallery.html", // Placeholder—insert actual YouTube URL if available
+      icon: "💼"
+    },
+    {
+      id: "7",
+      title: "What Is 'Dabba' Trading And Why It Is Dangerous?",
+      description: "SEBI explains the illegality and risks of dabba-trading in simple terms.",
+      url: "https://investor.sebi.gov.in/video_gallery.html", // Placeholder again
+      icon: "🚫"
+    }
   ],
 
   hi: [
     {
       id: "1",
-      title: "आरबीआई डिजिटल सीमित दायित्व",
-      description: "जानें कि डिजिटल लेनदेन में सीमित दायित्व का क्या मतलब है और इसका लाभ कैसे लें।",
-      url: "https://youtu.be/-rtiO26ur9A?si=QWSQDTtm_nH1EKlW",
-      icon: "💳"
+      title: "सोशल मीडिया पर स्टॉक मार्केट घोटालों से सावधान",
+      description: "जानें कि सेबी और मनीकंट्रोल कैसे नकली एंडोर्समेंट्स और एआई-जनित सामग्री से निवेशकों को होने वाले धोखे उजागर कर रहे हैं।",
+      url: "https://www.youtube.com/watch?v=FmGts5XVQpE",
+      icon: "📢"
     },
     {
       id: "2",
-      title: "आरबीआई सेविंग्स और चक्रवृद्धि की शक्ति",
-      description: "सेविंग्स और चक्रवृद्धि ब्याज के ज़रिए धन कैसे बढ़ाएं, इसे सरल भाषा में समझें।",
-      url: "https://youtu.be/3CGrArOTS0o?si=VFWzxY53sAY8NYys",
-      icon: "💰"
+      title: "UPI फ्रॉड रोकने के लिए सेबी का नया टूल",
+      description: "सेबी बताता है कि नकली UPI फ्रॉड से बाजार भुगतान को कैसे बचाया जा रहा है, ताकि लेनदेन सही इंटरमीडियरी को जाए।",
+      url: "https://www.youtube.com/watch?v=FGRrkHQRa50",
+      icon: "🛡️"
     },
     {
       id: "3",
-      title: "डिजिटल अरेस्ट",
-      description: "डिजिटल धोखाधड़ी से बचने के लिए जरूरी सावधानियां और सुझाव जानें।",
-      url: "https://youtu.be/siyTZ6DaFeQ?si=zx3GGoHK9Hhh1TPs",
-      icon: "🚨"
+      title: "धोखाधड़ी को रोकने में सेबी के उन्नत उपकरण",
+      description: "हाल के बैंकों से जुड़े घोटालों के बाद सेबी ने ऐसे तकनीकी टूल्स पेश किए हैं जो धोखाधड़ी को रोकने में मदद करेंगे।",
+      url: "https://www.youtube.com/watch?v=9CKU7xrXhWY",
+      icon: "🔧"
     },
     {
       id: "4",
-      title: "बच्चों - अनजान लिंक पर क्लिक न करें",
-      description: "बच्चों को सिखाएं कि ऑनलाइन सुरक्षा क्यों जरूरी है और संदिग्ध लिंक से कैसे बचें।",
-      url: "https://youtu.be/0AGUZ1b7AFM?si=i_POjuhVceRSC-ao",
-      icon: "🧒🚫"
+      title: "डब्बा ट्रेडिंग और इसके खतरे",
+      description: "जानें कि गैरकानूनी डब्बा-ट्रेडिंग क्या है और सेबी इसे कैसे रोक रहा है।",
+      url: "https://www.youtube.com/watch?v=ZvGAenX-INU",
+      icon: "⚠️"
     },
     {
       id: "5",
-      title: "डिजिटल लेंडिंग ऐप",
-      description: "डिजिटल लोन ऐप्स का सुरक्षित उपयोग और उनसे जुड़े खतरे जानें।",
-      url: "https://youtu.be/snqLAAK6_UI?si=mZpYjsnQ79bMS0uK",
-      icon: "📱"
+      title: "डब्बा ट्रेडिंग का गहराई से विश्लेषण",
+      description: "मीडिया रिपोर्टों के बाद सेबी की कार्रवाई और डब्बा-ट्रेडिंग पर निगरानी का विश्लेषण।",
+      url: "https://www.youtube.com/watch?v=7QiZYmi1RAI",
+      icon: "🔍"
     },
+    {
+      id: "6",
+      title: "ASBA क्या है और यह कैसे सुरक्षित आईपीओ बनाता है?",
+      description: "ASBA पद्धति से सुरक्षित आईपीओ लेनदेन सुनिश्चित करने की जानकारी।",
+      url: "https://investor.sebi.gov.in/video_gallery.html",
+      icon: "💼"
+    },
+    {
+      id: "7",
+      title: "डब्बा ट्रेडिंग क्या है और यह कितना खतरनाक है?",
+      description: "सरल भाषा में डब्बा ट्रेडिंग की गैरकानूनी प्रकृति और खतरों की व्याख्या।",
+      url: "https://investor.sebi.gov.in/video_gallery.html",
+      icon: "🚫"
+    }
   ],
 
   pa: [
     {
       id: "1",
-      title: "ਆਰਬੀਆਈ ਡਿਜ਼ੀਟਲ ਸੀਮਤ ਜ਼ਿੰਮੇਵਾਰੀ",
-      description: "ਡਿਜ਼ੀਟਲ ਲੈਣ-ਦੇਣ ਵਿਚ ਸੀਮਤ ਜ਼ਿੰਮੇਵਾਰੀ ਦਾ ਮਤਲਬ ਅਤੇ ਇਸ ਦੇ ਫਾਇਦੇ ਜਾਣੋ।",
-      url: "https://youtu.be/d8knQiCfi90?si=wEY-W8YI_A-p-yay",
-      icon: "💳"
+      title: "ਸੋਸ਼ਲ ਮੀਡੀਆ 'ਤੇ ਸਟਾਕ ਮਾਰਕਿਟ ਠੱਗੀਆਂ ਤੋਂ ਸਾਵਧਾਨ",
+      description: "ਜਾਣੋ ਕਿ SEBI ਅਤੇ MoneyControl ਕਿਵੇਂ ਨਕਲੀ endorsement ਅਤੇ AI-ਤਿਆਰ ਕੀਤਾ ਸਮੱਗਰੀ ਦੇ ਨਾਲ ਹੋਣ ਵਾਲੇ ਧੋਖੇ ਖੋਲ੍ਹ ਰਹੇ ਹਨ।",
+      url: "https://www.youtube.com/watch?v=FmGts5XVQpE",
+      icon: "📢"
     },
     {
       id: "2",
-      title: "ਯੂਪੀਆਈ ਰਾਹੀਂ ਧੋਖਾਧੜੀ",
-      description: "ਯੂਪੀਆਈ ਦੇ ਜ਼ਰੀਏ ਹੋਣ ਵਾਲੀ ਧੋਖਾਧੜੀ ਤੋਂ ਕਿਵੇਂ ਬਚਿਆ ਜਾ ਸਕਦਾ ਹੈ।",
-      url: "https://youtu.be/tf1qJmLck-I?si=H523Q6d5mk67KnyU",
-      icon: "⚠️"
-    },
-    {
-      id: "3",
-      title: "ਡਿਜ਼ੀਟਲ ਲੈਂਡਿੰਗ ਐਪ",
-      description: "ਡਿਜ਼ੀਟਲ ਲੋਨ ਐਪਸ ਦੀ ਵਰਤੋਂ ਕਰਨ ਸਮੇਂ ਸਾਵਧਾਨੀਆਂ ਅਤੇ ਖਤਰੇ।",
-      url: "https://youtu.be/yxzgFB8uQ1I?si=qaCiePEvEbmZL8nW",
-      icon: "📱"
-    },
-    {
-      id: "4",
-      title: "ਆਰਬੀਆਈ ਡਿਜ਼ੀਟਲ ਅਤੇ ਸਾਈਬਰ ਹਾਈਜੀਨ",
-      description: "ਆਰਬੀਆਈ ਦੀ ਡਿਜ਼ੀਟਲ ਅਤੇ ਸਾਈਬਰ ਸੁਰੱਖਿਆ ਨਾਲ ਜੁੜੀਆਂ ਸਿਫਾਰਸ਼ਾਂ।",
-      url: "https://youtu.be/q-wxOOJEV3s?si=MlF2U5HmaodTkM79",
+      title: "UPI ਫਰਾਡ ਤੋਂ ਬਚਾਉਣ ਲਈ SEBI ਦਾ ਨਵਾਂ ਟੂਲ",
+      description: "SEBI ਦੱਸਦਾ ਹੈ ਕਿ ਨਕਲੀ UPI ਫਰਾਡ ਤੋਂ ਮਾਰਕੀਟ ਦੇ ਭੁਗਤਾਨ ਨੂੰ ਕਿਵੇਂ ਸੁਰੱਖਿਅਤ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ।",
+      url: "https://www.youtube.com/watch?v=FGRrkHQRa50",
       icon: "🛡️"
     },
     {
-      id: "5",
-      title: "ਆਰਬੀਆਈ ਸੇਵਿੰਗਜ਼ ਅਤੇ ਕਪਾਉਂਡਿੰਗ",
-      description: "ਸੇਵਿੰਗਜ਼ ਅਤੇ ਚੱਕਰਵ੍ਰਿੱਦੀ ਰਾਹੀਂ ਆਪਣੇ ਪੈਸੇ ਨੂੰ ਕਿਵੇਂ ਵਧਾਇਆ ਜਾ ਸਕਦਾ ਹੈ।",
-      url: "https://youtu.be/3CGrArOTS0o?si=Q9uOuz86lDKRrjGm",
-      icon: "💰"
+      id: "3",
+      title: "ਧੋਖਾਧੜੀ ਰੋਕਣ ਲਈ SEBI ਦੇ ਉन्नਤ ਸਾਧਨ",
+      description: "SEBI ਨੇ ਨਵੀਨਤਮ ਤਕਨੀਕੀ ਸੰਦ ਪੇਸ਼ ਕੀਤੇ ਹਨ ਤਾਂ ਜੋ ਬੈਂਕਾਂ ਨਾਲ ਜੁੜੇ ਘੋਟਾਲਿਆਂ ਤੋਂ ਬਾਅਦ fraud ਨੂੰ ਰੋਕਿਆ ਜਾ ਸਕੇ।",
+      url: "https://www.youtube.com/watch?v=9CKU7xrXhWY",
+      icon: "🔧"
     },
+    {
+      id: "4",
+      title: "ਡੈਬਾ ਟ੍ਰੇਡਿੰਗ ਅਤੇ ਇਸ ਦੇ ਖ਼ਤਰੇ",
+      description: "ਜਾਣੋ ਕਿ ਗੈਰਕਾਨੂੰਨੀ ਡੈਬਾ-ਟਰੇਡਿੰਗ ਕੀ ਹੈ ਅਤੇ SEBI ਇਸ 'ਤੇ ਨਿਗਰਾਨੀ ਕਿਵੇਂ ਕਰ ਰਿਹਾ ਹੈ।",
+      url: "https://www.youtube.com/watch?v=ZvGAenX-INU",
+      icon: "⚠️"
+    },
+    {
+      id: "5",
+      title: "ਡੈਬਾ ਟ੍ਰੇਡਿੰਗ ਦਾ ਵਿਸਤ੍ਰਤ ਵਿਸ਼ਲੇਸ਼ਣ",
+      description: "ਮੀਡੀਆ ਅਗਾਅ ਨਾਲ SEBI ਦੀ ਕਾਰਰਵਾਈ ਅਤੇ ਡੈਬਾ-ਟ੍ਰੇਡਿੰਗ 'ਤੇ ਕੰਟਰੋਲ ਦਾ ਧਿਆਨਾਢਾਈ ਨਾਲ ਅਧਿਐਨ।",
+      url: "https://www.youtube.com/watch?v=7QiZYmi1RAI",
+      icon: "🔍"
+    },
+    {
+      id: "6",
+      title: "ASBA: IPO ਨੂੰ ਸੁਰੱਖਿਅਤ ਬਣਾਣ ਦਾ ਤਰੀਕਾ",
+      description: "ਜਾਣੋ ਕਿ ASBA ਸਹਾਇਤਾ ਪ੍ਰਕਿਰਿਆ ਕਿਵੇਂ IPOs ਨੂੰ ਵੱਧ ਸੁਰੱਖਿਅਤ ਬਣਾਂਦੀ ਹੈ।",
+      url: "https://investor.sebi.gov.in/video_gallery.html",
+      icon: "💼"
+    },
+    {
+      id: "7",
+      title: "ਡੈਬਾ ਟ੍ਰੇਡਿੰਗ ਕੀ ਹੈ ਅਤੇ ਇਹ ਕਿੰਨਾ ਖ਼ਤਰਨਾਕ ਹੈ?",
+      description: "ਪੰਜਾਬੀ ਵਿੱਚ ਡੈਬਾ ਟ੍ਰੇਡਿੰਗ ਦੀ ਗੈਰਕਾਨੂੰਨੀ ਨੁਹਰ ਅਤੇ ਖ਼ਤਰੇ ਸਪੱਸ਼ਟ ਰੂਪ ਵਿੱਚ।",
+      url: "https://investor.sebi.gov.in/video_gallery.html",
+      icon: "🚫"
+    }
   ],
 };
 

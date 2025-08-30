@@ -30,10 +30,11 @@ export const handleCall = (
   title: string,
   desc: string,
   cancel: string,
-  call: string
+  call: string,
+  number: string
 ) => {
   Alert.alert(
-    title + " 1930",
+    title + " " + number,
     desc,
     [
       {
@@ -42,7 +43,7 @@ export const handleCall = (
       },
       {
         text: call,
-        onPress: () => Linking.openURL("tel:1930"),
+        onPress: () => Linking.openURL(`tel:${number}`),
       },
     ],
     { cancelable: true }

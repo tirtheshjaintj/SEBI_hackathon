@@ -14,6 +14,7 @@ import { MaterialIcons } from "@expo/vector-icons";
 import { verticalScale } from "@/src/utils/responsiveness/responsiveness";
 import { router } from "expo-router";
 import { useTranslation } from "react-i18next";
+import { StatusBar } from "expo-status-bar";
 
 const { width } = Dimensions.get("window");
 const CARD_WIDTH = width / 2 - 20;
@@ -81,6 +82,8 @@ const CalculatorsScreen = () => {
 
   return (
     <AppSafeAreaView style={styles.container}>
+      <StatusBar style="dark" />
+
       <CommonToolbar title={t("Financial Calculators")} />
       <FlatList
         data={calculatorData}

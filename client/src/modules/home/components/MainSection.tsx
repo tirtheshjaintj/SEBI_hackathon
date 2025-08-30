@@ -15,19 +15,19 @@ import TopWidget from "./TopWidget";
 import WidgetCard from "./WidgetCard";
 
 const imagesHindi = [
-  "https://res.cloudinary.com/duwypp4g5/image/upload/v1752407775/An_Initiative_By_PSB_3_dgs5h9.png",
-  "https://res.cloudinary.com/duwypp4g5/image/upload/v1752409217/An_Initiative_By_PSB_6_vpavjs.png",
+  "https://res.cloudinary.com/duwypp4g5/image/upload/v1756488553/An_Initiative_By_PSB_12_vhoa1q.png",
+  "https://res.cloudinary.com/duwypp4g5/image/upload/v1756489468/An_Initiative_By_PSB_15_gnscbe.png",
   "https://res.cloudinary.com/duwypp4g5/image/upload/v1752410213/An_Initiative_By_PSB_9_hn78iy.png",
 ];
 
 const imagesEng = [
-  "https://res.cloudinary.com/duwypp4g5/image/upload/v1752407775/An_Initiative_By_PSB_1_qasdl7.png",
-  "https://res.cloudinary.com/duwypp4g5/image/upload/v1752409217/An_Initiative_By_PSB_5_cotkaz.png",
+  "https://res.cloudinary.com/duwypp4g5/image/upload/v1756488559/An_Initiative_By_PSB_11_dqqyem.png",
+  "https://res.cloudinary.com/duwypp4g5/image/upload/v1756489468/An_Initiative_By_PSB_14_e3zziu.png",
   "https://res.cloudinary.com/duwypp4g5/image/upload/v1752410213/An_Initiative_By_PSB_8_ctybrp.png",
 ];
 const imagesPunjabi = [
-  "https://res.cloudinary.com/duwypp4g5/image/upload/v1752409217/An_Initiative_By_PSB_7_ycdfg4.png",
-  "https://res.cloudinary.com/duwypp4g5/image/upload/v1752407776/An_Initiative_By_PSB_4_giuwpj.png",
+  "https://res.cloudinary.com/duwypp4g5/image/upload/v1756488553/An_Initiative_By_PSB_13_nwwngu.png",
+  "https://res.cloudinary.com/duwypp4g5/image/upload/v1756489468/An_Initiative_By_PSB_16_rukrhk.png",
   "https://res.cloudinary.com/duwypp4g5/image/upload/v1752410213/An_Initiative_By_PSB_10_khmtkm.png",
 ];
 

@@ -19,6 +19,7 @@ import cyberTopicsByLocale from "./data";
 import { MaterialIcons } from "@expo/vector-icons";
 import { useTranslation } from "react-i18next";
 import { languageType } from "@/src/types/constants";
+import { StatusBar } from "expo-status-bar";
 
 interface Item {
   id: string;
@@ -50,6 +51,8 @@ const CyberSafetyTopics = () => {
 
   return (
     <AppSafeAreaView style={styles.safeArea}>
+      <StatusBar style="dark" />
+
       <CommonToolbar title={t("Cybersecurity")} />
       <View style={styles.mainContainer}>
         {/* <Text style={styles.header}>{t("Cyber Safety Guide")}</Text>

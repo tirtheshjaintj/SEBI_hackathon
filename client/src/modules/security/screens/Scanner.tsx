@@ -14,7 +14,7 @@ import CommonToolbar from "@/src/components/toolBars/commonToolbar";
 import AppSafeAreaView from "@/src/components/viewWrappers/AppSafeAreaView";
 
 import axiosInstance from "@/src/apis/axiosInstance";
-import DeveloperOptionsModal from "@/src/components/modal/DeveloperOptionsModal";
+import sebiApps from "@/src/modules/security/SEBI_DATA/apps.json";
 import { formatTimeAgo } from "@/src/utils/datetime/datetime";
 import { getSavedItem, saveItem } from "@/src/utils/storage/async_storage";
 import { useTranslation } from "react-i18next";
@@ -25,15 +25,16 @@ import FilterTabs from "../components/FilterTabs";
 import ScannerButton from "../components/ScannerButton";
 import { getAllReports } from "../services/security";
 import { getReadablePermissions, getRiskScore } from "../utils/security";
+import { StatusBar } from "expo-status-bar";
 const { InstalledApps, DeviceSecurity } = NativeModules;
 
 export const openDeveloperOptions = () => {
   InstalledApps.openDeveloperOptions();
-}
+};
 
 export const openAppOptions = (packageName: string) => {
   InstalledApps.openAppInfo(packageName);
-}
+};
 
 export default function AppScanScreen() {
   const {
@@ -71,11 +72,24 @@ export default function AppScanScreen() {
     try {
       const nativeApps = await InstalledApps.getInstalledApps();
       getSecurityData();
-      const enriched = nativeApps.map((app: any) => ({
-        ...app,
-        readablePermissions: getReadablePermissions(app.permissions),
-        risk: getRiskScore(app),
-      }));
+      const enriched = nativeApps.map((app: any) => {
+        const sebiMatch = sebiApps.find((s: any) => {
+          // Only check if play_store_link exists
+          if (s.play_store_link) {
+            const playId = s.play_store_link.split("id=")[1]?.split("&")[0];
+            return app.packageName === playId;
+          }
+          return false;
+        });
+
+        return {
+          ...app,
+          readablePermissions: getReadablePermissions(app.permissions),
+          risk: getRiskScore(app),
+          sebiVerified: !!sebiMatch,
+          sebiDetails: sebiMatch || null,
+        };
+      });
       setApps(enriched);
       const suspiciousApps = enriched.filter(
         (a: any) => a.risk === "Suspicious"
@@ -111,26 +125,28 @@ export default function AppScanScreen() {
     }
   }, []);
 
-
   const toggleExpand = (pkg: any) => {
     setExpanded((prev) => ({ ...prev, [pkg]: !prev[pkg] }));
   };
   const filteredApps = useMemo(() => {
     if (filter === "All") return apps;
     if (filter === "System") return apps.filter((a: any) => a.isSystemApp);
-    if (filter === "Play Store") return apps.filter(
-      (a: any) => a.installerPackageName === "com.android.vending"
-    );
+    if (filter === "Play Store")
+      return apps.filter(
+        (a: any) => a.installerPackageName === "com.android.vending"
+      );
 
-    if (filter === "Unknown") return apps.filter(
-      (a: any) => a.installerPackageName !== "com.android.vending"
-    );
-    if (filter == "Financial") return apps.filter((a: any) => a.category == "upi");
+    if (filter === "Unknown")
+      return apps.filter(
+        (a: any) => a.installerPackageName !== "com.android.vending"
+      );
+    if (filter == "Financial")
+      return apps.filter((a: any) => a.category == "upi");
+    if (filter == "SEBI Verified")
+      return apps.filter((a: any) => a.sebiVerified);
 
     return apps.filter((a: any) => a.risk === filter);
-  },
-    [apps, filter]
-  );
+  }, [apps, filter]);
 
   const getSecurityData = async () => {
     try {
@@ -193,19 +209,19 @@ export default function AppScanScreen() {
     getReportData();
   }, []);
 
-
-
   return (
     <AppSafeAreaView style={{ flex: 1, backgroundColor: Colors.white }}>
+      <StatusBar style="dark" />
+
       <CommonToolbar title={t("App Scanner")} />
       <View style={{ flex: 1 }}>
-        <AppLinearGradient
+        {/* <AppLinearGradient
           colors={[Colors.primaryCyanColor, Colors.gradientCyanSecondary]}
           start={{ x: 0, y: 0 }}
           end={{ x: 1, y: 1 }}
           locations={[0, 0.5]}
           style={{ position: "absolute", top: 0, left: 0, right: 0, bottom: 0 }}
-        />
+        /> */}
 
         {/* Scan Circle with Animated Ring */}
         <ScannerButton
@@ -232,7 +248,7 @@ export default function AppScanScreen() {
           </View>
         )}
 
-        {apps.length > 0 && (
+         {apps.length > 0 && (
           <FilterTabs filter={filter} handleFilter={setFilter} />
         )}
 
@@ -242,9 +258,9 @@ export default function AppScanScreen() {
           >
             {filteredApps.map((app: any, index: number) => (
               <AppCard
-                openAppOptions={openAppOptions}
                 key={app.installerPackageName + index}
                 app={app}
+                openAppOptions={openAppOptions}
                 toggleExpand={toggleExpand}
                 reportApp={reportApp}
                 expanded={expanded}
@@ -255,12 +271,12 @@ export default function AppScanScreen() {
           </ScrollView>
         )}
       </View>
-      <DeveloperOptionsModal deviceInfo={deviceInfo} onClose={() => {
+      {/* <DeveloperOptionsModal deviceInfo={deviceInfo} onClose={() => {
         getSecurityData();
         if (deviceInfo.developerOptionsEnabled) {
           openDeveloperOptions();
         }
-      }} />
+      }} /> */}
     </AppSafeAreaView>
   );
 }
