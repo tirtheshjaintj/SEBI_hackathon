@@ -811,5 +811,6 @@ export const pa = {
   Error: "ਗਲਤੀ",
   "Something went wrong. Please try again.": "ਕੁਝ ਗਲਤ ਹੋ ਗਿਆ। ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
   "SEBI Search": "ਸੇਬੀ ਖੋਜ",
-  "Today Stocks": "ਅੱਜ ਦੇ ਸ਼ੇਅਰ"
+  "Today Stocks": "ਅੱਜ ਦੇ ਸ਼ੇਅਰ",
+  "SEBI News": "ਸੇਬੀ ਖਬਰਾਂ"
 };

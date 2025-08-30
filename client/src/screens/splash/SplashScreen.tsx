@@ -74,7 +74,7 @@ const SplashScreen = () => {
             fontFamily: "Quicksand-Medium",
           }}
         >
-          Powered by Securities and Exchange Board of India
+          Securities and Exchange Board of India
         </Text>
       </AppLinearGradient>
     </AppSafeAreaView>

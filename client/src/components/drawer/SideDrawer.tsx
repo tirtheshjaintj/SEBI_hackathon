@@ -60,15 +60,23 @@ const drawerItems = [
   },
   {
     label: "SEBI Search",
-    icon: "newspaper-outline",
+    icon: "search-outline", // magnifying glass
     onPress: () => {
       router.push("/sebisearch");
     },
-  }, {
+  },
+  {
     label: "Today Stocks",
-    icon: "newspaper-outline",
+    icon: "trending-up-outline", // stock/graph line
     onPress: () => {
       router.push("/livestocks");
+    },
+  },
+  {
+    label: "SEBI News",
+    icon: "newspaper-outline", // news paper for press/circulars
+    onPress: () => {
+      router.push("/sebiupdates");
     },
   },
   // {
