@@ -1,19 +1,18 @@
+import ModalWrapper from "@/src/components/modal/ModalWrapper";
+import TtsManager from "@/src/services/texttospeech/TtsManager";
 import React, { useEffect, useRef, useState } from "react";
 import {
-  View,
-  Text,
-  FlatList,
   Animated,
-  TouchableOpacity,
-  Easing,
   Dimensions,
+  Easing,
+  FlatList,
   Modal,
+  Text,
+  TouchableOpacity,
+  View,
 } from "react-native";
-import styles from "./useStyles";
-import TtsManager from "@/src/services/texttospeech/TtsManager";
-import { Ionicons } from "@expo/vector-icons";
 import narrationStyles from "./narrationStyles";
-import ModalWrapper from "@/src/components/modal/ModalWrapper";
+import styles from "./useStyles";
 
 const MULTIPLIER = 1.5;
 const INVEST_AMOUNT = 100;
@@ -83,12 +82,12 @@ export default function PonziSimulation({onCloseModal}:{onCloseModal:()=>void}) 
 
 
   useEffect(() => {
-  if (investors.length > 0) {
-    setTimeout(() => {
-      listRef.current?.scrollToEnd({ animated: true });
-    }, 300); // small delay so animations settle
-  }
-}, [investors]);
+    if (investors.length > 0) {
+      setTimeout(() => {
+        listRef.current?.scrollToEnd({ animated: true });
+      }, 300); // small delay so animations settle
+    }
+  }, [investors]);
 
   // keep refs updated
   useEffect(() => {
@@ -112,7 +111,7 @@ export default function PonziSimulation({onCloseModal}:{onCloseModal:()=>void}) 
     return () => {
       try {
         TtsManager.stop?.();
-      } catch {}
+      } catch { }
     };
   }, []);
 
@@ -154,7 +153,7 @@ export default function PonziSimulation({onCloseModal}:{onCloseModal:()=>void}) 
     if (isSpeaking) {
       try {
         await TtsManager.stop();
-      } catch {}
+      } catch { }
     }
 
     setIsSpeaking(true);
@@ -166,7 +165,7 @@ export default function PonziSimulation({onCloseModal}:{onCloseModal:()=>void}) 
         setCurrentNarration("");
         try {
           TtsManager.removeOnDone?.(onDone);
-        } catch {}
+        } catch { }
         resolve();
       };
 
@@ -187,23 +186,23 @@ export default function PonziSimulation({onCloseModal}:{onCloseModal:()=>void}) 
       // Play intro but keep modal visible until user presses Start
       (async () => {
         await speak(introText);
-        
+
         startSimulation();
         // after intro finishes we keep the modal open so user can press Start
       })();
-      
+
     }
 
     // only trigger when modal becomes visible
   }, [showIntroModal]);
 
-  
 
-  useEffect(()=>{
-    if(!showIntroModal){
+
+  useEffect(() => {
+    if (!showIntroModal) {
     }
 
-  },[showIntroModal])
+  }, [showIntroModal])
 
   // bucket animation when value changes (snappy scale)
   useEffect(() => {
@@ -439,9 +438,9 @@ export default function PonziSimulation({onCloseModal}:{onCloseModal:()=>void}) 
       <View style={styles.header}>
         <Text style={styles.title}>💰 Ponzi Scheme Simulation</Text>
         <Text style={styles.subtitle}>Live narration of each step</Text>
-        <TouchableOpacity style={narrationStyles.floatingButton} onPress={() => TtsManager.stop()}>
+        {/* <TouchableOpacity style={narrationStyles.floatingButton} onPress={() => TtsManager.stop()}>
           <Ionicons name="volume-mute" size={20} color="#fff" />
-        </TouchableOpacity>
+        </TouchableOpacity> */}
       </View>
 
       {/* Bucket card */}

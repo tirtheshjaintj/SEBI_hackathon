@@ -1,5 +1,5 @@
 
-import { View, Text, FlatList, StyleSheet, Animated, TouchableOpacity, Easing, Dimensions } from "react-native";
+import { StyleSheet } from "react-native";
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -151,12 +151,13 @@ const styles = StyleSheet.create({
   },
   infoLabel: {
     fontSize: 11,
-    color: "#94a3b8",
+    color: "white",
     marginBottom: 4,
   },
   infoValue: {
     fontSize: 14,
     fontWeight: "600",
+    color: "white"
   },
   positiveValue: {
     color: "#10b981",

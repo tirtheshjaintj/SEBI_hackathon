@@ -1,18 +1,18 @@
-import React, { useState } from "react";
-import {
-  StyleSheet,
-  Text,
-  View,
-  ScrollView,
-  TouchableOpacity,
-} from "react-native";
-import { Ionicons } from "@expo/vector-icons";
 import ModalWrapper from "@/src/components/modal/ModalWrapper";
 import AppSafeAreaView from "@/src/components/viewWrappers/AppSafeAreaView";
-import Colors from "@/src/theme/colors";
-import { Image } from "expo-image";
 import StreamStockScreen from "@/src/modules/simulations/stock_stream/StockStream";
+import Colors from "@/src/theme/colors";
+import { Ionicons } from "@expo/vector-icons";
+import { Image } from "expo-image";
+import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
+import {
+  ScrollView,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+  View,
+} from "react-native";
 
 const InfluencerStockScam = () => {
   const [isSimulationOn, setIsSimulationOn] = useState(false);
@@ -209,8 +209,8 @@ const styles = StyleSheet.create({
   tipBox: {
     flexDirection: "row",
     alignItems: "flex-start",
-    backgroundColor: Colors.secondayCyanLite,
-    borderRadius: 12,
+    backgroundColor: "white",
+    borderRadius: 25,
     padding: 16,
     marginHorizontal: 24,
     marginTop: 24,
