@@ -1,9 +1,12 @@
 import CommonToolbar from "@/src/components/toolBars/commonToolbar";
 import AppSafeAreaView from "@/src/components/viewWrappers/AppSafeAreaView";
+import { styles as styles2 } from "@/src/modules/sebisearch/styles";
 import updates from "@/src/modules/security/SEBI_DATA/press.json";
-import { Feather, MaterialIcons } from "@expo/vector-icons";
+import { Feather, Ionicons, MaterialIcons } from "@expo/vector-icons";
+import { Image } from "expo-image";
 import React, { useMemo, useState } from "react";
 import {
+    Animated,
     FlatList,
     Linking,
     StyleSheet,
@@ -88,6 +91,40 @@ export default function SebiUpdates() {
     return (
         <AppSafeAreaView style={{ flex: 1 }}>
             <CommonToolbar title="SEBI NEWS" />
+            <View
+                style={{
+                    flexDirection: "row",
+                    gap: 16,
+                    justifyContent: "center",
+                    alignItems: "center",
+                }}
+            >
+                <Image
+                    source={require("@/assets/images/SEBI_LOGO.png")}
+                    contentFit="contain"
+                    style={{ width: 100, height: 100, borderRadius: 60 }}
+                    priority={"high"}
+                />
+            </View>
+            {/* ✅ Banner */}
+            <Animated.View
+                style={[
+                    styles2.dataSourceBanner,
+                ]}
+            >
+                <View style={styles2.dataSourceContent}>
+                    <Ionicons name="shield-checkmark" size={16} color="#0284C7" />
+                    <Text style={styles2.dataSourceText}>
+                        Verified data sourced from{" "}
+                        <Text
+                            style={styles2.link}
+                            onPress={() => Linking.openURL("https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListingAll=yes&sid=6&ssid=0&smid=0")}
+                        >
+                            sebi.gov.in
+                        </Text>
+                    </Text>
+                </View>
+            </Animated.View>
             <View>
                 {/* Search */}
                 <View style={styles.searchBar}>

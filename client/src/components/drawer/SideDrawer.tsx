@@ -36,33 +36,17 @@ import AppSafeAreaView from "../viewWrappers/AppSafeAreaView";
 
 const drawerItems = [
   {
-    label: "Dictionary",
-    icon: "book-outline",
-    onPress: () => {
-      router.push("/dictionary");
-    },
-    // color: Colors.redLight,
-  },
-  {
-    label: "Tutorials",
-    icon: "play-circle-outline",
-    onPress: () => {
-      router.push("/tutorial/topics");
-    },
-    // color : "blue"
-  },
-  {
-    label: "Latest News & Updates",
-    icon: "newspaper-outline",
-    onPress: () => {
-      router.push("/news/news");
-    },
-  },
-  {
     label: "SEBI Search",
     icon: "search-outline", // magnifying glass
     onPress: () => {
       router.push("/sebisearch");
+    },
+  },
+  {
+    label: "SEBI News",
+    icon: "newspaper-outline", // news paper for press/circulars
+    onPress: () => {
+      router.push("/sebiupdates");
     },
   },
   {
@@ -73,12 +57,29 @@ const drawerItems = [
     },
   },
   {
-    label: "SEBI News",
-    icon: "newspaper-outline", // news paper for press/circulars
+    label: "Tutorials",
+    icon: "play-circle-outline",
     onPress: () => {
-      router.push("/sebiupdates");
+      router.push("/tutorial/topics");
+    },
+    // color : "blue"
+  },
+  {
+    label: "Dictionary",
+    icon: "book-outline",
+    onPress: () => {
+      router.push("/dictionary");
+    },
+    // color: Colors.redLight,
+  },
+  {
+    label: "Latest News & Updates",
+    icon: "newspaper-outline",
+    onPress: () => {
+      router.push("/news/news");
     },
   },
+
   // {
   //   label: "Goals",
   //   icon: "trophy",

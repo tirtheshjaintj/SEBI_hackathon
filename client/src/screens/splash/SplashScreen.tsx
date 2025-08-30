@@ -60,7 +60,7 @@ const SplashScreen = () => {
           <Image
             source={require("@/assets/images/SEBI_LOGO.png")}
             contentFit="contain"
-            style={{ width: 100, height: 100, borderRadius: 60 }}
+            style={{ width: 150, height: 150, borderRadius: 60 }}
             priority={"high"}
           />
         </View>
