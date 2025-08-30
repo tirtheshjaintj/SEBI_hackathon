@@ -16,7 +16,7 @@ import { styles } from "@/src/modules/sebisearch/styles";
 import sebiApps from "@/src/modules/security/SEBI_DATA/apps.json";
 import socialData from "@/src/modules/security/SEBI_DATA/socials.json";
 
-// ✅ Animation wrapper component (fixes hook issue)
+// ✅ Animation wrapper component
 const AnimatedCard = ({ index, children }: { index: number; children: React.ReactNode }) => {
     const anim = React.useRef(new Animated.Value(0)).current;
 
@@ -52,6 +52,7 @@ export default function SearchScreen() {
     const [query, setQuery] = useState("");
     const [fadeAnim] = useState(new Animated.Value(1));
     const [slideAnim] = useState(new Animated.Value(0));
+    const [activeFilter, setActiveFilter] = useState("all");
 
     // ✅ Prepare combined data once
     const combinedData = useMemo(() => {
@@ -66,6 +67,7 @@ export default function SearchScreen() {
                 twitter: s["X (formerly Twitter)"] || s["Twitter"] || "",
                 youtube: s["Youtube"] || "",
                 linkedin: s["LinkedIn"] || "",
+                searchableText: `${s["Member Name"]} ${s["Member Code"]} ${s["Facebook"]} ${s["Instagram"]} ${s["X (formerly Twitter)"] || s["Twitter"] || ""} ${s["Youtube"]} ${s["LinkedIn"]}`.toLowerCase(),
             })),
             ...sebiApps.map((a: any) => ({
                 type: "app",
@@ -75,18 +77,26 @@ export default function SearchScreen() {
                 developer: a.developer_name || "",
                 playStore: a.play_store_link || "",
                 appStore: a.app_store_link || "",
+                searchableText: `${a.app_product_name || a.app_name || ""} ${a.company_name || ""} ${a.developer_name || ""}`.toLowerCase(),
             }))
         ];
     }, []);
 
-    // ✅ Proper search filtering
+    // ✅ Proper search filtering across all attributes
     const results = useMemo(() => {
-        const q = query.toLowerCase();
-        return combinedData.filter(
-            (item) =>
-                item.name?.toLowerCase().includes(q)
+        const q = query.toLowerCase().trim();
+
+        let filteredResults = combinedData.filter(item =>
+            item.searchableText.includes(q)
         );
-    }, [query, combinedData]);
+
+        // Apply type filter if needed
+        if (activeFilter !== "all") {
+            filteredResults = filteredResults.filter(item => item.type === activeFilter);
+        }
+
+        return filteredResults;
+    }, [query, combinedData, activeFilter]);
 
     const renderItem = ({ item, index }: { item: any; index: number }) => {
         return (
@@ -100,19 +110,30 @@ export default function SearchScreen() {
                                 color="#fff"
                             />
                         </View>
-                        <Text style={styles.title}>{item.name}</Text>
+                        <View style={{ flex: 1 }}>
+                            <Text style={styles.title}>{item.name}</Text>
+                            <View style={[styles.typeBadge, item.type === "app" ? styles.appBadge : styles.socialBadge]}>
+                                <Text style={[styles.badgeText, item.type === "app" ? styles.appBadgeText : styles.socialBadgeText]}>
+                                    {item.type === "app" ? "APP" : "BROKER"}
+                                </Text>
+                            </View>
+                        </View>
                     </View>
 
                     {item.type === "app" ? (
                         <>
-                            <View style={styles.detailRow}>
-                                <Ionicons name="business" size={16} color="#007AFF" />
-                                <Text style={styles.detailText}>{item.company}</Text>
-                            </View>
-                            <View style={styles.detailRow}>
-                                <Ionicons name="person" size={16} color="#007AFF" />
-                                <Text style={styles.detailText}>{item.developer}</Text>
-                            </View>
+                            {item.company && (
+                                <View style={styles.detailRow}>
+                                    <Ionicons name="business" size={16} color="#3B82F6" />
+                                    <Text style={styles.detailText}>{item.company}</Text>
+                                </View>
+                            )}
+                            {item.developer && (
+                                <View style={styles.detailRow}>
+                                    <Ionicons name="person" size={16} color="#3B82F6" />
+                                    <Text style={styles.detailText}>{item.developer}</Text>
+                                </View>
+                            )}
                             <View style={styles.linkContainer}>
                                 {!!item.playStore && (
                                     <TouchableOpacity
@@ -137,7 +158,7 @@ export default function SearchScreen() {
                     ) : (
                         <>
                             <View style={styles.detailRow}>
-                                <MaterialIcons name="qr-code" size={16} color="#007AFF" />
+                                <MaterialIcons name="qr-code" size={16} color="#8B5CF6" />
                                 <Text style={styles.detailText}>
                                     Member Code: {item.memberCode}
                                 </Text>
@@ -192,7 +213,7 @@ export default function SearchScreen() {
     };
 
     return (
-        <AppSafeAreaView style={{ flex: 1, backgroundColor: "#F5F5F5" }}>
+        <AppSafeAreaView style={{ flex: 1, backgroundColor: "#F8FAFF" }}>
             <CommonToolbar title="SEBI Verified Search" />
 
             {/* ✅ Banner */}
@@ -203,9 +224,9 @@ export default function SearchScreen() {
                 ]}
             >
                 <View style={styles.dataSourceContent}>
-                    <Ionicons name="shield-checkmark" size={16} color="#28A745" />
+                    <Ionicons name="shield-checkmark" size={16} color="#0284C7" />
                     <Text style={styles.dataSourceText}>
-                        Data sourced in real-time from{" "}
+                        Verified data sourced from{" "}
                         <Text
                             style={styles.link}
                             onPress={() => Linking.openURL("https://investor.sebi.gov.in")}
@@ -224,25 +245,59 @@ export default function SearchScreen() {
                         { opacity: fadeAnim, transform: [{ translateY: slideAnim }] },
                     ]}
                 >
-                    <Ionicons name="search" size={20} color="#808080" style={styles.searchIcon} />
+                    <Ionicons name="search" size={20} color="#64748B" style={styles.searchIcon} />
                     <TextInput
                         placeholder="Search SEBI registered apps or brokers..."
-                        placeholderTextColor="#808080"
+                        placeholderTextColor="#94A3B8"
                         value={query}
                         onChangeText={setQuery}
                         style={styles.input}
                     />
                     {query.length > 0 && (
                         <TouchableOpacity onPress={() => setQuery("")} style={styles.clearButton}>
-                            <Ionicons name="close-circle" size={20} color="#808080" />
+                            <Ionicons name="close-circle" size={20} color="#94A3B8" />
                         </TouchableOpacity>
                     )}
                 </Animated.View>
 
-                {/* ✅ Results */}
+                {/* ✅ Filter buttons */}
+
+                <>
+                    <Text style={styles.sectionTitle}>Filter Results</Text>
+                    <View style={styles.filterContainer}>
+                        <TouchableOpacity
+                            style={[styles.filterButton, activeFilter === "all" && styles.activeFilter]}
+                            onPress={() => setActiveFilter("all")}
+                        >
+                            <Text style={[styles.filterText, activeFilter === "all" && styles.activeFilterText]}>
+                                All
+                            </Text>
+                        </TouchableOpacity>
+                        <TouchableOpacity
+                            style={[styles.filterButton, activeFilter === "app" && styles.activeFilter]}
+                            onPress={() => setActiveFilter("app")}
+                        >
+                            <Text style={[styles.filterText, activeFilter === "app" && styles.activeFilterText]}>
+                                Apps
+                            </Text>
+                        </TouchableOpacity>
+                        <TouchableOpacity
+                            style={[styles.filterButton, activeFilter === "social" && styles.activeFilter]}
+                            onPress={() => setActiveFilter("social")}
+                        >
+                            <Text style={[styles.filterText, activeFilter === "social" && styles.activeFilterText]}>
+                                Brokers
+                            </Text>
+                        </TouchableOpacity>
+                    </View>
+                </>
+
+
+                {/* ✅ Results count */}
                 {query.length > 0 && (
                     <Text style={styles.resultsCount}>
                         {results.length} result{results.length !== 1 ? "s" : ""} found
+                        {activeFilter !== "all" && ` in ${activeFilter === "app" ? "Apps" : "Brokers"}`}
                     </Text>
                 )}
 
@@ -253,7 +308,7 @@ export default function SearchScreen() {
                     ListEmptyComponent={
                         query ? (
                             <Animated.View style={[styles.emptyState, { opacity: fadeAnim }]}>
-                                <Ionicons name="search-outline" size={60} color="#C0C0C0" />
+                                <Ionicons name="search-outline" size={60} color="#CBD5E1" />
                                 <Text style={styles.emptyStateText}>No results found</Text>
                                 <Text style={styles.emptyStateSubtext}>
                                     Try different keywords or check the official SEBI website
@@ -261,7 +316,7 @@ export default function SearchScreen() {
                             </Animated.View>
                         ) : (
                             <Animated.View style={[styles.emptyState, { opacity: fadeAnim }]}>
-                                <Ionicons name="search-outline" size={60} color="#C0C0C0" />
+                                <Ionicons name="search-outline" size={60} color="#CBD5E1" />
                                 <Text style={styles.emptyStateText}>Search SEBI Database</Text>
                                 <Text style={styles.emptyStateSubtext}>
                                     Enter keywords to find SEBI registered apps and brokers

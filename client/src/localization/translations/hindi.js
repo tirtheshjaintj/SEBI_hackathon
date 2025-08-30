@@ -813,5 +813,7 @@ export const hi = {
   Success: "सफलता",
   "Thank you for your feedback!": "आपकी प्रतिक्रिया के लिए धन्यवाद!",
   Error: "त्रुटि",
-  "Something went wrong. Please try again.": "कुछ गलत हो गया। कृपया पुनः प्रयास करें।"
+  "Something went wrong. Please try again.": "कुछ गलत हो गया। कृपया पुनः प्रयास करें।",
+  "SEBI Search": "सेबी खोज",
+  "Today Stocks": "आज के शेयर",
 };

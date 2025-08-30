@@ -809,5 +809,7 @@ export const pa = {
   Success: "ਸਫਲਤਾ",
   "Thank you for your feedback!": "ਤੁਹਾਡੇ ਫੀਡਬੈਕ ਲਈ ਧੰਨਵਾਦ!",
   Error: "ਗਲਤੀ",
-  "Something went wrong. Please try again.": "ਕੁਝ ਗਲਤ ਹੋ ਗਿਆ। ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।"
+  "Something went wrong. Please try again.": "ਕੁਝ ਗਲਤ ਹੋ ਗਿਆ। ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
+  "SEBI Search": "ਸੇਬੀ ਖੋਜ",
+  "Today Stocks": "ਅੱਜ ਦੇ ਸ਼ੇਅਰ"
 };
