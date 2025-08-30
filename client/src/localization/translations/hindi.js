@@ -816,4 +816,5 @@ export const hi = {
   "Something went wrong. Please try again.": "कुछ गलत हो गया। कृपया पुनः प्रयास करें।",
   "SEBI Search": "सेबी खोज",
   "Today Stocks": "आज के शेयर",
+  "SEBI News": "सेबी समाचार"
 };

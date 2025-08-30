@@ -15,6 +15,7 @@ import AppSafeAreaView from "@/src/components/viewWrappers/AppSafeAreaView";
 import { styles } from "@/src/modules/sebisearch/styles";
 import sebiApps from "@/src/modules/security/SEBI_DATA/apps.json";
 import socialData from "@/src/modules/security/SEBI_DATA/socials.json";
+import { Image } from "expo-image";
 
 // ✅ Animation wrapper component
 const AnimatedCard = ({ index, children }: { index: number; children: React.ReactNode }) => {
@@ -215,7 +216,21 @@ export default function SearchScreen() {
     return (
         <AppSafeAreaView style={{ flex: 1, backgroundColor: "#F8FAFF" }}>
             <CommonToolbar title="SEBI Verified Search" />
-
+            <View
+                style={{
+                    flexDirection: "row",
+                    gap: 16,
+                    justifyContent: "center",
+                    alignItems: "center",
+                }}
+            >
+                <Image
+                    source={require("@/assets/images/SEBI_LOGO.png")}
+                    contentFit="contain"
+                    style={{ width: 100, height: 100, borderRadius: 60 }}
+                    priority={"high"}
+                />
+            </View>
             {/* ✅ Banner */}
             <Animated.View
                 style={[

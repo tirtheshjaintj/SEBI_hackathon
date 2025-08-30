@@ -36,12 +36,25 @@ import AppSafeAreaView from "../viewWrappers/AppSafeAreaView";
 
 const drawerItems = [
   {
-    label: "Dictionary",
-    icon: "book-outline",
+    label: "SEBI Search",
+    icon: "search-outline", // magnifying glass
     onPress: () => {
-      router.push("/dictionary");
+      router.push("/sebisearch");
     },
-    // color: Colors.redLight,
+  },
+  {
+    label: "SEBI News",
+    icon: "newspaper-outline", // news paper for press/circulars
+    onPress: () => {
+      router.push("/sebiupdates");
+    },
+  },
+  {
+    label: "Today Stocks",
+    icon: "trending-up-outline", // stock/graph line
+    onPress: () => {
+      router.push("/livestocks");
+    },
   },
   {
     label: "Tutorials",
@@ -52,25 +65,21 @@ const drawerItems = [
     // color : "blue"
   },
   {
+    label: "Dictionary",
+    icon: "book-outline",
+    onPress: () => {
+      router.push("/dictionary");
+    },
+    // color: Colors.redLight,
+  },
+  {
     label: "Latest News & Updates",
     icon: "newspaper-outline",
     onPress: () => {
       router.push("/news/news");
     },
   },
-  {
-    label: "SEBI Search",
-    icon: "newspaper-outline",
-    onPress: () => {
-      router.push("/sebisearch");
-    },
-  }, {
-    label: "Today Stocks",
-    icon: "newspaper-outline",
-    onPress: () => {
-      router.push("/livestocks");
-    },
-  },
+
   // {
   //   label: "Goals",
   //   icon: "trophy",
