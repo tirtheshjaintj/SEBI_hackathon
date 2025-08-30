@@ -80,9 +80,8 @@ const LanguageModal = ({ onClose }: { onClose: () => void }) => {
 
   return (
     <View style={styles.container}>
-      <StatusBar style="dark" />
-
       <AppSafeAreaView style={{ flex: 1, paddingBottom: 0 }}>
+        <StatusBar style="dark" translucent />
         <View style={{ flex: 1, backgroundColor: Colors.white }}>
           <CommonToolbar onBackPress={onClose} title={t("Change Language")} />
           <Text style={styles.sectionTitle}>
