@@ -8,7 +8,10 @@ import {
   Modal,
   Image,
 } from "react-native";
-import { moderateScale, verticalScale } from "@/src/utils/responsiveness/responsiveness";
+import {
+  moderateScale,
+  verticalScale,
+} from "@/src/utils/responsiveness/responsiveness";
 import Colors from "@/src/theme/colors";
 import CommonToolbar from "@/src/components/toolBars/commonToolbar";
 import AppSafeAreaView from "@/src/components/viewWrappers/AppSafeAreaView";
@@ -17,6 +20,7 @@ import { MaterialIcons } from "@expo/vector-icons";
 
 import { useTranslation } from "react-i18next";
 import { languageType } from "@/src/types/constants";
+import { StatusBar } from "expo-status-bar";
 interface Item {
   id: string;
   title: string;
@@ -25,9 +29,7 @@ interface Item {
 }
 
 const InvestmentTips = () => {
-  
-  
-  const {t, i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
   const localeObj = i18n.language as languageType;
   const locale: languageType = localeObj;
   const tips = investmentTipsByLocale[locale];
@@ -50,6 +52,8 @@ const InvestmentTips = () => {
 
   return (
     <AppSafeAreaView style={styles.safeArea}>
+      <StatusBar style="dark" />
+
       <CommonToolbar title={t("Investment Tips")} />
       <View style={styles.mainContainer}>
         <Text style={styles.header}>{t("Investment Guide")}</Text>
@@ -77,7 +81,11 @@ const InvestmentTips = () => {
               style={styles.closeButton}
               activeOpacity={0.7}
             >
-              <MaterialIcons name="close" size={22} color={Colors.textPrimary} />
+              <MaterialIcons
+                name="close"
+                size={22}
+                color={Colors.textPrimary}
+              />
             </TouchableOpacity>
             {selectedTip && (
               <>
@@ -87,7 +95,9 @@ const InvestmentTips = () => {
                   resizeMode="contain"
                 />
                 <Text style={styles.modalTitle}>{selectedTip.title}</Text>
-                <Text style={styles.modalDescription}>{selectedTip.description}</Text>
+                <Text style={styles.modalDescription}>
+                  {selectedTip.description}
+                </Text>
               </>
             )}
           </View>

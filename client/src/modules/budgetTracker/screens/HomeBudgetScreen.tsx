@@ -29,7 +29,8 @@ import IncomeExpenseCards from "../components/IncomeExpenseCard";
 import RecentTransactions from "../components/RecentTransaction";
 import SpendFrequencyGraph from "../components/SpendFrequencyGraph";
 import { addExpense } from "../services/budget";
- 
+import { StatusBar } from "expo-status-bar";
+
 interface Props {
   data: any;
   fetchData: () => Promise<void>;
@@ -74,9 +75,10 @@ const BudgetScreen = ({ data, fetchData }: Props) => {
     },
     []
   );
-  console.log(data.expenses);
   return (
     <View style={{ flex: 1 }}>
+      <StatusBar style="light" />
+
       {data && (
         <AppLinearGradient
           colors={[
@@ -121,7 +123,7 @@ const BudgetScreen = ({ data, fetchData }: Props) => {
                 setOpenAddBudgetModal(true);
               }}
             />
-       
+
             <IncomeExpenseCards
               income={data?.totalIncome ?? 0}
               expenses={data?.totalExpenses ?? 0}

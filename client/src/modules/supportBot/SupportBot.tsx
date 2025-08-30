@@ -11,6 +11,7 @@ import RenderMessage from "./components/RenderMessage";
 import { banks, issues } from "./constants";
 import jsonData from "./main.json";
 import styles from "./styles";
+import { StatusBar } from "expo-status-bar";
 
 export type Message = {
   id: number;
@@ -179,6 +180,8 @@ const SupportBot = () => {
   // ------------------ Render ------------------
   return (
     <AppSafeAreaView style={{ flex: 1 }}>
+      <StatusBar style="dark" />
+
       {/* Bot Header */}
       <View
         style={{

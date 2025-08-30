@@ -24,6 +24,7 @@ import Toast from "react-native-toast-message";
 import NewsShimmer from "../../news/NewsShimmer";
 import ReportModal from "../components/reportModal";
 import styles from "../styles";
+import { StatusBar } from "expo-status-bar";
 const { DeviceSecurity } = NativeModules;
 
 const CallLogsScreen = () => {
@@ -184,12 +185,12 @@ const CallLogsScreen = () => {
     const color = isSpam
       ? "#ff4757"
       : item.type.includes("MISSED") || item.type.includes("REJECTED")
-        ? "#e74c3c"
-        : item.type.includes("INCOMING")
-          ? "#2ecc71"
-          : item.type.includes("OUTGOING")
-            ? "#3498db"
-            : "#95a5a6";
+      ? "#e74c3c"
+      : item.type.includes("INCOMING")
+      ? "#2ecc71"
+      : item.type.includes("OUTGOING")
+      ? "#3498db"
+      : "#95a5a6";
 
     return (
       <LinearGradient
@@ -216,8 +217,8 @@ const CallLogsScreen = () => {
                   item.type.includes("INCOMING")
                     ? "call-received"
                     : item.type.includes("OUTGOING")
-                      ? "call-made"
-                      : "call-missed"
+                    ? "call-made"
+                    : "call-missed"
                 }
                 size={20}
                 color={color}
@@ -319,6 +320,8 @@ const CallLogsScreen = () => {
 
   return (
     <>
+      <StatusBar style="dark"  />
+
       <AppSafeAreaView style={styles.container}>
         <CommonToolbar
           title={t("Call Logs Security")}

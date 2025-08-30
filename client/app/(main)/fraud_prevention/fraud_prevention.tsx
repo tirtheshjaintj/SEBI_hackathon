@@ -8,7 +8,10 @@ import {
   Modal,
   Image,
 } from "react-native";
-import { moderateScale, verticalScale } from "@/src/utils/responsiveness/responsiveness";
+import {
+  moderateScale,
+  verticalScale,
+} from "@/src/utils/responsiveness/responsiveness";
 import Colors from "@/src/theme/colors";
 import CommonToolbar from "@/src/components/toolBars/commonToolbar";
 import AppSafeAreaView from "@/src/components/viewWrappers/AppSafeAreaView";
@@ -17,6 +20,7 @@ import { MaterialIcons } from "@expo/vector-icons";
 
 import { useTranslation } from "react-i18next";
 import { languageType } from "@/src/types/constants";
+import { StatusBar } from "expo-status-bar";
 
 interface Item {
   id: string;
@@ -26,8 +30,7 @@ interface Item {
 }
 
 const FraudPreventionTopics = () => {
-  
-  const { t , i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
   const localeObj = i18n.language as languageType;
   const locale: languageType = localeObj;
   const topics = fraudPreventionTopicsByLocale[locale];
@@ -50,10 +53,14 @@ const FraudPreventionTopics = () => {
 
   return (
     <AppSafeAreaView style={styles.safeArea}>
+      <StatusBar style="dark" />
+
       <CommonToolbar title={t("Fraud Prevention")} />
       <View style={styles.mainContainer}>
         <Text style={styles.header}>{t("Fraud Prevention Guide")}</Text>
-        <Text style={styles.subHeader}>{t("Tap to learn about each topic")}</Text>
+        <Text style={styles.subHeader}>
+          {t("Tap to learn about each topic")}
+        </Text>
         <FlatList
           data={topics}
           numColumns={2}
@@ -77,7 +84,11 @@ const FraudPreventionTopics = () => {
               style={styles.closeButton}
               activeOpacity={0.7}
             >
-              <MaterialIcons name="close" size={22} color={Colors.textPrimary} />
+              <MaterialIcons
+                name="close"
+                size={22}
+                color={Colors.textPrimary}
+              />
             </TouchableOpacity>
             {selectedTopic && (
               <>
@@ -87,7 +98,9 @@ const FraudPreventionTopics = () => {
                   resizeMode="contain"
                 />
                 <Text style={styles.modalTitle}>{selectedTopic.title}</Text>
-                <Text style={styles.modalDescription}>{selectedTopic.description}</Text>
+                <Text style={styles.modalDescription}>
+                  {selectedTopic.description}
+                </Text>
               </>
             )}
           </View>

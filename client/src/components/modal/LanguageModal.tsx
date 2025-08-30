@@ -15,6 +15,7 @@ import Toast from "react-native-toast-message";
 import LoaderFullScreen from "../loaders/LoaderFullScreen";
 import CommonToolbar from "../toolBars/commonToolbar";
 import AppSafeAreaView from "../viewWrappers/AppSafeAreaView";
+import { StatusBar } from "expo-status-bar";
 
 const LANGUAGES: { name: string; code: languageType; word: string }[] = [
   { name: "English", code: "en", word: "Eng" },
@@ -79,10 +80,14 @@ const LanguageModal = ({ onClose }: { onClose: () => void }) => {
 
   return (
     <View style={styles.container}>
+      <StatusBar style="dark" />
+
       <AppSafeAreaView style={{ flex: 1, paddingBottom: 0 }}>
         <View style={{ flex: 1, backgroundColor: Colors.white }}>
           <CommonToolbar onBackPress={onClose} title={t("Change Language")} />
-        <Text style={styles.sectionTitle}>{t("All")} {t("Languages")}</Text>
+          <Text style={styles.sectionTitle}>
+            {t("All")} {t("Languages")}
+          </Text>
           <FlatList
             data={LANGUAGES}
             keyExtractor={(item) => item.code}

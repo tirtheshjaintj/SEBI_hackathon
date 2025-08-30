@@ -11,6 +11,7 @@ import {
 } from "@/src/utils/responsiveness/responsiveness";
 import { saveItem } from "@/src/utils/storage/async_storage";
 import { Ionicons } from "@expo/vector-icons";
+import { StatusBar } from "expo-status-bar";
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { Image, StyleSheet, Text, TouchableOpacity, View } from "react-native";
@@ -22,7 +23,7 @@ const LANGUAGES: { name: string; code: languageType; word: string }[] = [
   { name: "Punjabi", code: "pa", word: "ਪੰਜਾਬੀ" },
 ];
 
-const LanguageScreen = ({ navigation }: { navigation: any }) => {
+const LanguageScreen = () => {
   const [loading, setLoading] = useState(false);
   const { language, setLanguage } = useAuthStore((state) => state);
   const { i18n, t } = useTranslation();
@@ -36,9 +37,6 @@ const LanguageScreen = ({ navigation }: { navigation: any }) => {
       await i18n.changeLanguage(selectedLang);
       await saveItem("locale", selectedLang);
       setLanguage({ language: selectedLang });
-
-      // Navigate to next onboarding screen or main app
-      // navigation.navigate('NextScreen');
 
       Toast.show({
         type: "success",
@@ -77,7 +75,7 @@ const LanguageScreen = ({ navigation }: { navigation: any }) => {
             <Ionicons
               name="radio-button-on"
               size={moderateScale(20)}
-              color={Colors.primaryCyanColor}
+              color={Colors.themeSecondary}
             />
           ) : (
             <Ionicons
@@ -112,6 +110,8 @@ const LanguageScreen = ({ navigation }: { navigation: any }) => {
 
   return (
     <View style={styles.container}>
+      <StatusBar style="dark"  />
+
       <AppSafeAreaView style={styles.safeArea}>
         <View style={styles.contentContainer}>
           <View style={styles.headerContainer}>
@@ -207,9 +207,9 @@ const styles = StyleSheet.create({
     borderColor: Colors.primaryCyanColor,
   },
   unselectedLanguageOption: {
-    backgroundColor: Colors.bgGreenTint,
-    borderWidth: 0.5,
-    borderColor: Colors.primaryCyanColor,
+    backgroundColor: Colors.white,
+    borderWidth: 1,
+    borderColor: Colors.themeSecondary,
   },
   radioContainer: {
     marginRight: scale(12),

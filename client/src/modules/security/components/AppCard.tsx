@@ -7,7 +7,13 @@ import { Ionicons } from "@expo/vector-icons";
 import { Image } from "expo-image";
 import React from "react";
 import { useTranslation } from "react-i18next";
-import { Linking, StyleSheet, Text, TouchableOpacity, View } from "react-native";
+import {
+  Linking,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+  View,
+} from "react-native";
 import Animated, { FadeInDown, FadeOutUp } from "react-native-reanimated";
 
 interface AppCardProps {
@@ -27,7 +33,7 @@ const AppCard = ({
   reportApp,
   reportData,
   reportedApps,
-  openAppOptions
+  openAppOptions,
 }: AppCardProps) => {
   const isReported = reportedApps.includes(app.packageName);
   const { t } = useTranslation();
@@ -116,10 +122,12 @@ const AppCard = ({
           style={styles.expandedDetails}
         >
           <Text style={styles.detailText}>
-            {t("Package")}: <Text style={styles.boldText}>{app.packageName}</Text>
+            {t("Package")}:{" "}
+            <Text style={styles.boldText}>{app.packageName}</Text>
           </Text>
           <Text style={styles.detailText}>
-            {t("Category")}: <Text style={styles.boldText}>{app.category.toUpperCase()}</Text>
+            {t("Category")}:{" "}
+            <Text style={styles.boldText}>{app.category.toUpperCase()}</Text>
           </Text>
           <Text style={styles.detailText}>
             ⚠️ {t("Total Reports")}: {reportData?.[app.packageName] || 0}
@@ -150,26 +158,40 @@ const AppCard = ({
             <View style={{ marginTop: 10 }}>
               <Text style={styles.detailText}>
                 🏦 {t("Company")}:{" "}
-                <Text style={styles.boldText}>{app.sebiDetails.company_name}</Text>
+                <Text style={styles.boldText}>
+                  {app.sebiDetails.company_name}
+                </Text>
               </Text>
               <Text style={styles.detailText}>
                 👨‍💻 {t("Developer")}:{" "}
-                <Text style={styles.boldText}>{app.sebiDetails.developer_name}</Text>
+                <Text style={styles.boldText}>
+                  {app.sebiDetails.developer_name}
+                </Text>
               </Text>
 
               <View style={{ flexDirection: "row", marginTop: 6 }}>
                 {app.sebiDetails.play_store_link && (
                   <TouchableOpacity
-                    style={[styles.reportButton, { backgroundColor: "#007AFF", marginRight: 8 }]}
-                    onPress={() => Linking.openURL(app.sebiDetails.play_store_link)}
+                    style={[
+                      styles.reportButton,
+                      { backgroundColor: "#007AFF", marginRight: 8 },
+                    ]}
+                    onPress={() =>
+                      Linking.openURL(app.sebiDetails.play_store_link)
+                    }
                   >
                     <Text style={styles.reportButtonText}>Play Store</Text>
                   </TouchableOpacity>
                 )}
                 {app.sebiDetails.app_store_link && (
                   <TouchableOpacity
-                    style={[styles.reportButton, { backgroundColor: "#34C759" }]}
-                    onPress={() => Linking.openURL(app.sebiDetails.app_store_link)}
+                    style={[
+                      styles.reportButton,
+                      { backgroundColor: "#34C759" },
+                    ]}
+                    onPress={() =>
+                      Linking.openURL(app.sebiDetails.app_store_link)
+                    }
                   >
                     <Text style={styles.reportButtonText}>App Store</Text>
                   </TouchableOpacity>
@@ -178,28 +200,24 @@ const AppCard = ({
             </View>
           )}
           <TouchableOpacity
-            style={[
-              styles.reportButton,
-              isReported && { opacity: 0.7 },
-            ]}
+            style={[styles.reportButton, isReported && { opacity: 0.7 }]}
             activeOpacity={0.8}
             onPress={() => reportApp(app.packageName)}
           >
-            <Text style={[styles.reportButtonText,]}>
-              {isReported ? "🚨" + t("Reported By You") : "🚨" + t("Report App")}
+            <Text style={[styles.reportButtonText]}>
+              {isReported
+                ? "🚨" + t("Reported By You")
+                : "🚨" + t("Report App")}
             </Text>
           </TouchableOpacity>
           <TouchableOpacity
-            style={[
-              styles.reportButton,
-            ]}
+            style={[styles.reportButton]}
             onPress={() => openAppOptions(app.packageName)}
           >
-            <Text style={[styles.reportButtonText,]}>
+            <Text style={[styles.reportButtonText]}>
               👁️ {t("View App Details")}
             </Text>
           </TouchableOpacity>
-
         </Animated.View>
       )}
     </TouchableOpacity>
@@ -217,6 +235,8 @@ const styles = StyleSheet.create({
     shadowRadius: 8,
     shadowOffset: { width: 0, height: 4 },
     elevation: 4,
+    borderWidth: 1,
+    borderColor: Colors.divider,
   },
   iconWrapper: {
     borderRadius: 20,

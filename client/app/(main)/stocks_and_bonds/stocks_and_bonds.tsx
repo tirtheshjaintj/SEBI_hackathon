@@ -6,10 +6,13 @@ import {
   TouchableOpacity,
   FlatList,
   Modal,
-  Image
+  Image,
 } from "react-native";
 import { MaterialIcons } from "@expo/vector-icons";
-import { moderateScale, verticalScale } from "@/src/utils/responsiveness/responsiveness";
+import {
+  moderateScale,
+  verticalScale,
+} from "@/src/utils/responsiveness/responsiveness";
 import Colors from "@/src/theme/colors";
 import CommonToolbar from "@/src/components/toolBars/commonToolbar";
 import AppSafeAreaView from "@/src/components/viewWrappers/AppSafeAreaView";
@@ -17,6 +20,7 @@ import stocksAndBondsByLocale from "./data";
 
 import { useTranslation } from "react-i18next";
 import { languageType } from "@/src/types/constants";
+import { StatusBar } from "expo-status-bar";
 interface Item {
   id: string;
   title: string;
@@ -25,8 +29,7 @@ interface Item {
 }
 
 const StocksAndBondsTopics = () => {
-  
-  const { t , i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
   const localeObj = i18n.language as languageType;
   const locale: languageType = localeObj;
   const topics = stocksAndBondsByLocale[locale];
@@ -49,10 +52,14 @@ const StocksAndBondsTopics = () => {
 
   return (
     <AppSafeAreaView style={styles.safeArea}>
+      <StatusBar style="dark" />
+
       <CommonToolbar title={t("Stocks & Bonds")} />
       <View style={styles.mainContainer}>
         <Text style={styles.header}>{t("Stocks & Bonds Guide")}</Text>
-        <Text style={styles.subHeader}>{t("Tap to learn about each topic")}</Text>
+        <Text style={styles.subHeader}>
+          {t("Tap to learn about each topic")}
+        </Text>
         <FlatList
           data={topics}
           numColumns={2}
@@ -76,7 +83,11 @@ const StocksAndBondsTopics = () => {
               style={styles.closeButton}
               activeOpacity={0.7}
             >
-              <MaterialIcons name="close" size={22} color={Colors.textPrimary} />
+              <MaterialIcons
+                name="close"
+                size={22}
+                color={Colors.textPrimary}
+              />
             </TouchableOpacity>
             {selectedTopic && (
               <>
@@ -86,7 +97,9 @@ const StocksAndBondsTopics = () => {
                   resizeMode="contain"
                 />
                 <Text style={styles.modalTitle}>{selectedTopic.title}</Text>
-                <Text style={styles.modalDescription}>{selectedTopic.description}</Text>
+                <Text style={styles.modalDescription}>
+                  {selectedTopic.description}
+                </Text>
               </>
             )}
           </View>
@@ -105,13 +118,13 @@ const styles = StyleSheet.create({
     color: Colors.textPrimary,
     marginTop: verticalScale(16),
     marginBottom: verticalScale(4),
-    fontFamily: "Quicksand-Bold"
+    fontFamily: "Quicksand-Bold",
   },
   subHeader: {
     fontSize: moderateScale(13),
     color: Colors.textSecondaryDark,
     marginBottom: verticalScale(16),
-    fontFamily: "Quicksand-Medium"
+    fontFamily: "Quicksand-Medium",
   },
   listContent: { paddingBottom: verticalScale(32) },
   row: { justifyContent: "space-between", marginBottom: verticalScale(16) },
@@ -126,25 +139,25 @@ const styles = StyleSheet.create({
     shadowColor: "#000",
     shadowOpacity: 0.08,
     shadowOffset: { width: 0, height: 2 },
-    paddingVertical: 30
+    paddingVertical: 30,
   },
   iconImage: {
     width: moderateScale(48),
     height: moderateScale(48),
-    marginBottom: verticalScale(8)
+    marginBottom: verticalScale(8),
   },
   cardTitle: {
     fontSize: moderateScale(13),
     color: Colors.textPrimary,
     textAlign: "center",
-    fontFamily: "Quicksand-SemiBold"
+    fontFamily: "Quicksand-SemiBold",
   },
   modalOverlay: {
     flex: 1,
     backgroundColor: "rgba(0,0,0,0.4)",
     justifyContent: "center",
     alignItems: "center",
-    paddingHorizontal: moderateScale(16)
+    paddingHorizontal: moderateScale(16),
   },
   modalCard: {
     width: "100%",
@@ -156,7 +169,7 @@ const styles = StyleSheet.create({
     shadowOffset: { width: 0, height: 4 },
     shadowOpacity: 0.1,
     shadowRadius: 10,
-    elevation: 5
+    elevation: 5,
   },
   closeButton: {
     position: "absolute",
@@ -167,12 +180,12 @@ const styles = StyleSheet.create({
     borderRadius: moderateScale(15),
     backgroundColor: "#f1f1f1",
     justifyContent: "center",
-    alignItems: "center"
+    alignItems: "center",
   },
   modalImage: {
     width: moderateScale(80),
     height: moderateScale(80),
-    marginBottom: verticalScale(16)
+    marginBottom: verticalScale(16),
   },
   modalTitle: {
     fontSize: moderateScale(18),
@@ -180,15 +193,15 @@ const styles = StyleSheet.create({
     color: Colors.textPrimary,
     fontFamily: "Quicksand-Bold",
     textAlign: "center",
-    marginBottom: verticalScale(12)
+    marginBottom: verticalScale(12),
   },
   modalDescription: {
     fontSize: moderateScale(14),
     color: Colors.textGraySecondary,
     lineHeight: verticalScale(22),
     fontFamily: "Quicksand-Regular",
-    textAlign: "justify"
-  }
+    textAlign: "justify",
+  },
 });
 
 export default StocksAndBondsTopics;

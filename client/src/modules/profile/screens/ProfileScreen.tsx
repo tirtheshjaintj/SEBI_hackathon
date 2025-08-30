@@ -7,6 +7,7 @@ import useAuthStore from "@/src/store/authSlice";
 import Colors from "@/src/theme/colors";
 import { userAvatar } from "@/src/utils/user/user";
 import { Ionicons, MaterialCommunityIcons } from "@expo/vector-icons";
+import { StatusBar } from "expo-status-bar";
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 import {
@@ -25,6 +26,8 @@ const ProfileAndSettingsScreen = () => {
 
   return (
     <AppSafeAreaView style={styles.container}>
+      <StatusBar style="dark" />
+
       <CommonToolbar title={t("Profile and Settings")} />
       <ScrollView
         contentContainerStyle={styles.scrollContainer}
@@ -101,7 +104,12 @@ const ProfileAndSettingsScreen = () => {
         <View style={styles.footer}>
           <Text style={styles.footerText}>
             Made with ❤️ by Team:{" "}
-            <Text style={{ color: Colors.textSecondaryLight, fontFamily: "Poppins-Medium" }}>
+            <Text
+              style={{
+                color: Colors.textSecondaryLight,
+                fontFamily: "Poppins-Medium",
+              }}
+            >
               Tirthesh Jain, Aniket Gupta & Suraj Singh
             </Text>
           </Text>

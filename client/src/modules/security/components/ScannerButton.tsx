@@ -76,7 +76,7 @@ const ScannerButton = ({
 
             {/* Gradient Button Core */}
             <LinearGradient
-              colors={["#0fd9d9", "#07b6ce", "#0c77b9"]}
+              colors={[Colors.primaryCyanColor,Colors.secondaryCyanColor, Colors.primaryBackground]}
               start={{ x: 0.2, y: 0 }}
               end={{ x: 1, y: 1 }}
               style={styles.gradientWrapper}

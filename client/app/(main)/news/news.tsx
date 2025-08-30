@@ -11,7 +11,7 @@ import {
   StyleSheet,
   Text,
   TouchableOpacity,
-  View
+  View,
 } from "react-native";
 
 import axiosInstance from "@/src/apis/axiosInstance";
@@ -23,6 +23,7 @@ import {
   verticalScale,
 } from "@/src/utils/responsiveness/responsiveness";
 import { useTranslation } from "react-i18next";
+import { StatusBar } from "expo-status-bar";
 
 interface Article {
   title: string;
@@ -49,15 +50,15 @@ const NewsFeed: React.FC = () => {
   const locale: languageType = localeObj;
 
   async function fetchNews() {
-
-
     setLoading(true);
     try {
-      // header locale 
-      const res = await axiosInstance.get('/news/', { headers: { 'language': locale } });
-      console.log({ locale })
+      // header locale
+      const res = await axiosInstance.get("/news/", {
+        headers: { language: locale },
+      });
+      console.log({ locale });
 
-      console.log({ res: res.data.news.data.articles })
+      console.log({ res: res.data.news.data.articles });
       if (res.data.news.data.articles) {
         setArticles(res.data.news.data.articles);
       } else {
@@ -71,7 +72,6 @@ const NewsFeed: React.FC = () => {
       setLoading(false);
     }
   }
-
 
   useEffect(() => {
     fetchNews();
@@ -88,7 +88,6 @@ const NewsFeed: React.FC = () => {
     }
   }, [isOffline]);
 
-
   const renderItem = ({ item }: { item: Article }) => (
     <TouchableOpacity
       style={styles.card}
@@ -102,6 +101,8 @@ const NewsFeed: React.FC = () => {
 
   return (
     <AppSafeAreaView style={{ backgroundColor: Colors.white }}>
+      <StatusBar style="dark" />
+
       <CommonToolbar title={t("Latest Updates")} />
 
       {loading ? (
@@ -184,7 +185,7 @@ const styles = StyleSheet.create({
   listContent: {
     paddingVertical: verticalScale(20),
     paddingHorizontal: scale(16),
-    marginBottom: 100
+    marginBottom: 100,
   },
   card: {
     backgroundColor: Colors.white,
@@ -202,7 +203,7 @@ const styles = StyleSheet.create({
   image: {
     width: "100%",
     height: 200,
-    objectFit: "fill"
+    objectFit: "fill",
   },
   title: {
     fontSize: 16,
