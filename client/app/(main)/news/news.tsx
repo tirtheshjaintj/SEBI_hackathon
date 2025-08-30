@@ -2,7 +2,6 @@ import ModalWrapper from "@/src/components/modal/ModalWrapper";
 import CommonToolbar from "@/src/components/toolBars/commonToolbar";
 import AppSafeAreaView from "@/src/components/viewWrappers/AppSafeAreaView";
 import Colors from "@/src/theme/colors";
-import axios from "axios";
 import React, { useEffect, useState } from "react";
 import {
   FlatList,
@@ -15,6 +14,7 @@ import {
   View
 } from "react-native";
 
+import axiosInstance from "@/src/apis/axiosInstance";
 import { useNetworkStatus } from "@/src/hooks/useNetworkStatus";
 import NewsShimmer from "@/src/modules/news/NewsShimmer";
 import { languageType } from "@/src/types/constants";
@@ -23,7 +23,6 @@ import {
   verticalScale,
 } from "@/src/utils/responsiveness/responsiveness";
 import { useTranslation } from "react-i18next";
-import axiosInstance from "@/src/apis/axiosInstance";
 
 interface Article {
   title: string;
@@ -50,17 +49,15 @@ const NewsFeed: React.FC = () => {
   const locale: languageType = localeObj;
 
   async function fetchNews() {
-    
+
 
     setLoading(true);
     try {
       // header locale 
       const res = await axiosInstance.get('/news/', { headers: { 'language': locale } });
-      console.log({locale})
+      console.log({ locale })
 
-      console.log({res : res.data.news.data.articles})
-
-
+      console.log({ res: res.data.news.data.articles })
       if (res.data.news.data.articles) {
         setArticles(res.data.news.data.articles);
       } else {

@@ -58,15 +58,9 @@ const SplashScreen = () => {
           }}
         >
           <Image
-            source={require("@/assets/images/psb_logo.jpg")}
-            contentFit="cover"
-            style={{ width: 60, height: 60, borderRadius: 60 }}
-            priority={"high"}
-          />
-          <Image
-            source={require("@/assets/images/ptu_logo.png")}
-            contentFit="cover"
-            style={{ width: 60, height: 60, borderRadius: 60 }}
+            source={require("@/assets/images/SEBI_LOGO.png")}
+            contentFit="contain"
+            style={{ width: 100, height: 100, borderRadius: 60 }}
             priority={"high"}
           />
         </View>
@@ -80,7 +74,7 @@ const SplashScreen = () => {
             fontFamily: "Quicksand-Medium",
           }}
         >
-          Powered by Punjab & Sind Bank
+          Powered by Securities and Exchange Board of India
         </Text>
       </AppLinearGradient>
     </AppSafeAreaView>
