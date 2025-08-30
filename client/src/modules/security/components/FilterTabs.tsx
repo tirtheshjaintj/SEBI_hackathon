@@ -25,13 +25,13 @@ const FilterTabs = ({ filter, handleFilter }: FilterTabsProps) => {
             style={[
               styles.filterBtn,
               filter === item && styles.activeFilterBtn,
-              {
-                shadowColor: "#000",
-                shadowOffset: { width: 0, height: 3 },
-                shadowOpacity: 0.1,
-                shadowRadius: 5,
-                elevation: 4,
-              },
+              // {
+              //   shadowColor: "#000",
+              //   shadowOffset: { width: 0, height: 3 },
+              //   shadowOpacity: 0.1,
+              //   shadowRadius: 5,
+              //   elevation: 4,
+              // },
             ]}
           >
             <Text
@@ -55,6 +55,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: moderateScale(14),
     paddingVertical: moderateScale(6),
     marginRight: 10,
+    marginVertical: 5,
     backgroundColor: "#f2f2f2",
     borderRadius: moderateScale(24),
     borderWidth: 1,
@@ -74,6 +75,7 @@ const styles = StyleSheet.create({
   activeFilterText: {
     color: "#fff",
     fontFamily: "Quicksand-Bold",
+    fontSize: moderateScale(13),
   },
 });
 

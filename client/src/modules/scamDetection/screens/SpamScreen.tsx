@@ -21,6 +21,7 @@ import ScannerButton from "../../security/components/ScannerButton";
 import OrDivider from "../components/OrDivider";
 import ResultModal from "../components/ResultModal";
 import styles from "../styles";
+import { StatusBar } from "expo-status-bar";
 
 export const getLanguageName = (code: string) => {
   switch (code) {
@@ -310,6 +311,8 @@ export default function SpamScreen() {
   });
   return (
     <AppSafeAreaView style={styles.safeArea}>
+      <StatusBar style="dark" />
+
       <CommonToolbar title={t("AI Spam Detector")} />
 
       <ScannerButton

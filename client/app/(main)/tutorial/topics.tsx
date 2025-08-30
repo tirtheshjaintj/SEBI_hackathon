@@ -12,6 +12,7 @@ import topicsByLocale from "./videos";
 import Colors from "@/src/theme/colors";
 import { languageType } from "@/src/types/constants";
 import { useTranslation } from "react-i18next";
+import { StatusBar } from "expo-status-bar";
 
 const { width } = Dimensions.get("window");
 
@@ -42,6 +43,8 @@ const Topics = () => {
 
   return (
     <AppSafeAreaView style={styles.container}>
+      <StatusBar style="dark" />
+
       <CommonToolbar title={t("Tutorial Topics")} />
       <FlatList
         data={topics}
@@ -100,8 +103,8 @@ const styles = StyleSheet.create({
   },
   textWrapper: {
     paddingHorizontal: moderateScale(16),
-    gap: verticalScale(6)
-  }
+    gap: verticalScale(6),
+  },
 });
 
 export default Topics;

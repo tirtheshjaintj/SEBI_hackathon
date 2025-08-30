@@ -25,15 +25,16 @@ import FilterTabs from "../components/FilterTabs";
 import ScannerButton from "../components/ScannerButton";
 import { getAllReports } from "../services/security";
 import { getReadablePermissions, getRiskScore } from "../utils/security";
+import { StatusBar } from "expo-status-bar";
 const { InstalledApps, DeviceSecurity } = NativeModules;
 
 export const openDeveloperOptions = () => {
   InstalledApps.openDeveloperOptions();
-}
+};
 
 export const openAppOptions = (packageName: string) => {
   InstalledApps.openAppInfo(packageName);
-}
+};
 
 export default function AppScanScreen() {
   const {
@@ -87,7 +88,7 @@ export default function AppScanScreen() {
           risk: getRiskScore(app),
           sebiVerified: !!sebiMatch,
           sebiDetails: sebiMatch || null,
-        }
+        };
       });
       setApps(enriched);
       const suspiciousApps = enriched.filter(
@@ -124,27 +125,28 @@ export default function AppScanScreen() {
     }
   }, []);
 
-
   const toggleExpand = (pkg: any) => {
     setExpanded((prev) => ({ ...prev, [pkg]: !prev[pkg] }));
   };
   const filteredApps = useMemo(() => {
     if (filter === "All") return apps;
     if (filter === "System") return apps.filter((a: any) => a.isSystemApp);
-    if (filter === "Play Store") return apps.filter(
-      (a: any) => a.installerPackageName === "com.android.vending"
-    );
+    if (filter === "Play Store")
+      return apps.filter(
+        (a: any) => a.installerPackageName === "com.android.vending"
+      );
 
-    if (filter === "Unknown") return apps.filter(
-      (a: any) => a.installerPackageName !== "com.android.vending"
-    );
-    if (filter == "Financial") return apps.filter((a: any) => a.category == "upi");
-    if (filter == "SEBI Verified") return apps.filter((a: any) => a.sebiVerified);
+    if (filter === "Unknown")
+      return apps.filter(
+        (a: any) => a.installerPackageName !== "com.android.vending"
+      );
+    if (filter == "Financial")
+      return apps.filter((a: any) => a.category == "upi");
+    if (filter == "SEBI Verified")
+      return apps.filter((a: any) => a.sebiVerified);
 
     return apps.filter((a: any) => a.risk === filter);
-  },
-    [apps, filter]
-  );
+  }, [apps, filter]);
 
   const getSecurityData = async () => {
     try {
@@ -207,19 +209,19 @@ export default function AppScanScreen() {
     getReportData();
   }, []);
 
-
-
   return (
     <AppSafeAreaView style={{ flex: 1, backgroundColor: Colors.white }}>
+      <StatusBar style="dark" />
+
       <CommonToolbar title={t("App Scanner")} />
       <View style={{ flex: 1 }}>
-        <AppLinearGradient
+        {/* <AppLinearGradient
           colors={[Colors.primaryCyanColor, Colors.gradientCyanSecondary]}
           start={{ x: 0, y: 0 }}
           end={{ x: 1, y: 1 }}
           locations={[0, 0.5]}
           style={{ position: "absolute", top: 0, left: 0, right: 0, bottom: 0 }}
-        />
+        /> */}
 
         {/* Scan Circle with Animated Ring */}
         <ScannerButton
@@ -246,7 +248,7 @@ export default function AppScanScreen() {
           </View>
         )}
 
-        {apps.length > 0 && (
+         {apps.length > 0 && (
           <FilterTabs filter={filter} handleFilter={setFilter} />
         )}
 

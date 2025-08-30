@@ -3,6 +3,7 @@ import AppSafeAreaView from "@/src/components/viewWrappers/AppSafeAreaView";
 import MerchandiseScreenShimmer from "@/src/modules/merchandise/components/MerchandiseScreenShimmer";
 import MerchandiseScreen from "@/src/modules/merchandise/screens/MerchandiseScreen";
 import { getAllMerchandise } from "@/src/modules/merchandise/services/merchandise";
+import { StatusBar } from "expo-status-bar";
 import React, { useCallback, useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 
@@ -20,17 +21,20 @@ const Merchandise = () => {
         setData(res.merchandise);
         setLoading(false);
       }
-    } catch (error) { }
+    } catch (error) {}
   }, []);
 
   useEffect(() => {
     getData();
   }, [getData]);
 
-  if (!loading) return <MerchandiseScreen data={data} refreshHanlder={getData} />;
+  if (!loading)
+    return <MerchandiseScreen data={data} refreshHanlder={getData} />;
 
   return (
     <AppSafeAreaView style={{ flex: 1 }}>
+      <StatusBar style="dark" />
+
       <CommonToolbar title={t("Rewards Store")} />
       <MerchandiseScreenShimmer />
     </AppSafeAreaView>

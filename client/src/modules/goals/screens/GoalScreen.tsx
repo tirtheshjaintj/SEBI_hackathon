@@ -18,6 +18,7 @@ import AddGoalModal from "../components/AddGoalModal";
 import GoalCard from "../components/GoalCard";
 import GoalFilters from "../components/GoalFilters";
 import Colors from "@/src/theme/colors";
+import { StatusBar } from "expo-status-bar";
 
 const { height } = Dimensions.get("window");
 
@@ -90,6 +91,8 @@ export default function GoalScreen() {
 
   return (
     <AppSafeAreaView style={styles.container}>
+      <StatusBar style="dark" translucent />
+
       <CommonToolbar title={t("Your Goals")} />
       <GoalFilters onFilterChange={handleFilterChange} />
 
