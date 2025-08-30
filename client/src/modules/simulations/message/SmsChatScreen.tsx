@@ -2,43 +2,43 @@
 const content = {
   en: {
     scamText:
-      "Dear user, your account will be suspended soon. Please verify immediately at https://bit.ly/verify-now",
+      "Exclusive SEBI-approved stock tip! Buy XYZ Ltd today and get 200% guaranteed profit. Join our WhatsApp group: https://bit.ly/stock-tip",
     olderMessages: [
-      "Your OTP for login is 456789.",
-      "Welcome to our service! We hope you enjoy it.",
-      "Reminder: Recharge your plan to continue enjoying services.",
+      "Your trade for 15 shares of ABC Ltd has been executed.",
+      "Reminder: Market closes at 3:30 PM. Place your orders in time.",
+      "Dividend of ₹120 credited to your linked bank account.",
     ],
     modal: {
       title: "⚠️ Warning",
-      text: "If you click on this link, your phone can get malware or virus attack and that’s how SMS scams happen.",
+      text: "SEBI never gives stock tips or authorizes WhatsApp/Telegram groups. Any promise of guaranteed returns is a scam.",
     },
     inputPlaceholder: "Type a message...",
   },
   hi: {
     scamText:
-      "प्रिय उपयोगकर्ता, आपका खाता जल्द ही निलंबित किया जाएगा। कृपया तुरंत https://bit.ly/verify-now पर सत्यापित करें।",
+      "एक्सक्लूसिव SEBI-अप्रूव्ड स्टॉक टिप! आज XYZ Ltd खरीदें और 200% गारंटीड प्रॉफिट पाएं। हमारा WhatsApp ग्रुप जॉइन करें: https://bit.ly/stock-tip",
     olderMessages: [
-      "लॉगिन के लिए आपका OTP है 456789।",
-      "हमारी सेवा में आपका स्वागत है! हमें आशा है कि आपको पसंद आएगी।",
-      "याद दिलाना: सेवाओं का लाभ लेने के लिए अपना प्लान रिचार्ज करें।",
+      "आपका 15 शेयरों का ऑर्डर सफलतापूर्वक पूरा हुआ।",
+      "याद दिलाना: मार्केट 3:30 बजे बंद हो जाएगा। समय पर ऑर्डर करें।",
+      "₹120 का डिविडेंड आपके बैंक खाते में क्रेडिट हुआ।",
     ],
     modal: {
       title: "⚠️ चेतावनी",
-      text: "यदि आप इस लिंक पर क्लिक करते हैं, तो आपके फोन में मालवेयर या वायरस आ सकता है और ऐसे ही SMS स्कैम होते हैं।",
+      text: "SEBI कभी भी स्टॉक टिप्स नहीं देता और न ही WhatsApp/Telegram ग्रुप को मान्यता देता है। गारंटीड रिटर्न का वादा हमेशा धोखाधड़ी है।",
     },
     inputPlaceholder: "संदेश लिखें...",
   },
   pa: {
     scamText:
-      "ਪਿਆਰੇ ਉਪਭੋਗਤਾ, ਤੁਹਾਡਾ ਖਾਤਾ ਜਲਦੀ ਹੀ ਨਿਲੰਬਿਤ ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਤੁਰੰਤ https://bit.ly/verify-now 'ਤੇ ਸਤਿਆਪਿਤ ਕਰੋ।",
+      "ਖਾਸ SEBI-ਅਪ੍ਰੂਵਡ ਸਟਾਕ ਟਿਪ! ਅੱਜ XYZ Ltd ਖਰੀਦੋ ਅਤੇ 200% ਗਾਰੰਟੀਡ ਮੁਨਾਫਾ ਪ੍ਰਾਪਤ ਕਰੋ। ਸਾਡਾ WhatsApp ਗਰੁੱਪ ਜੁੜੋ: https://bit.ly/stock-tip",
     olderMessages: [
-      "ਲਾਗਇਨ ਲਈ ਤੁਹਾਡਾ OTP ਹੈ 456789.",
-      "ਸਾਡੀ ਸੇਵਾ ਵਿੱਚ ਤੁਹਾਡਾ ਸਵਾਗਤ ਹੈ! ਅਸੀਂ ਆਸ਼ਾ ਕਰਦੇ ਹਾਂ ਤੁਹਾਨੂੰ ਪਸੰਦ ਆਏਗੀ।",
-      "ਯਾਦ ਦਿਵਾਉਣਾ: ਸੇਵਾਵਾਂ ਜਾਰੀ ਰੱਖਣ ਲਈ ਆਪਣਾ ਪਲਾਨ ਰੀਚਾਰਜ ਕਰੋ।",
+      "ਤੁਹਾਡਾ 15 ਸ਼ੇਅਰਾਂ ਦਾ ਆਰਡਰ ਸਫਲਤਾਪੂਰਵਕ ਪੂਰਾ ਹੋਇਆ।",
+      "ਯਾਦ ਰੱਖੋ: ਮਾਰਕੀਟ 3:30 ਵਜੇ ਬੰਦ ਹੋ ਜਾਵੇਗੀ। ਸਮੇਂ ਤੇ ਆਰਡਰ ਕਰੋ।",
+      "₹120 ਡਿਵਿਡੈਂਡ ਤੁਹਾਡੇ ਬੈਂਕ ਖਾਤੇ ਵਿੱਚ ਜਮ੍ਹਾਂ ਹੋਇਆ।",
     ],
     modal: {
       title: "⚠️ ਚੇਤਾਵਨੀ",
-      text: "ਜੇ ਤੁਸੀਂ ਇਸ ਲਿੰਕ 'ਤੇ ਕਲਿੱਕ ਕਰਦੇ ਹੋ, ਤਾਂ ਤੁਹਾਡੇ ਫੋਨ ਵਿੱਚ ਮਾਲਵੇਅਰ ਜਾਂ ਵਾਇਰਸ ਆ ਸਕਦਾ ਹੈ ਅਤੇ ਐਸੇ ਹੀ SMS ਧੋਖਾਧੜੀ ਹੁੰਦੀ ਹੈ।",
+      text: "SEBI ਕਦੇ ਵੀ ਸਟਾਕ ਟਿਪਸ ਨਹੀਂ ਦਿੰਦਾ ਅਤੇ ਨਾ ਹੀ WhatsApp/Telegram ਗਰੁੱਪ ਨੂੰ ਮਨਜ਼ੂਰ ਕਰਦਾ ਹੈ। ਗਾਰੰਟੀਡ ਰਿਟਰਨ ਦਾ ਵਾਅਦਾ ਹਮੇਸ਼ਾ ਠੱਗੀ ਹੁੰਦਾ ਹੈ।",
     },
     inputPlaceholder: "ਇੱਕ ਸੁਨੇਹਾ ਲਿਖੋ...",
   },

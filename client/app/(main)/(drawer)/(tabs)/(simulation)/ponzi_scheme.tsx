@@ -11,25 +11,23 @@ import ModalWrapper from "@/src/components/modal/ModalWrapper";
 import AppSafeAreaView from "@/src/components/viewWrappers/AppSafeAreaView";
 import Colors from "@/src/theme/colors";
 import { Image } from "expo-image";
-import StaticArrestCallScreen from "@/src/modules/simulations/digital_arest/DigitalArrest";
+import PonziSimulation from "@/src/modules/simulations/ponzi_scheme/PonziScheme";
 import { useTranslation } from "react-i18next";
 
-const DigitalArrest = () => {
-  const [isCallSimulationOn, setIsCallSimulationOn] = useState(false);
+const PonziSchemePage = () => {
+  const [isSimulationOn, setIsSimulationOn] = useState(false);
   const { t } = useTranslation();
-  const closeModal = () => {
-    setIsCallSimulationOn(false);
-  }
 
   return (
     <View style={styles.container}>
       <ScrollView contentContainerStyle={styles.scrollContainer}>
         <AppSafeAreaView style={styles.safeArea}>
+          {/* Simulation card */}
           <View style={styles.card}>
             <View style={styles.iconContainer}>
               <Image
                 source={{
-                  uri: "https://cdn-icons-png.flaticon.com/512/2922/2922794.png",
+                  uri: "https://cdn-icons-png.flaticon.com/512/1907/1907954.png", // investor icon
                 }}
                 style={{ width: 40, height: 40 }}
               />
@@ -38,65 +36,98 @@ const DigitalArrest = () => {
 
               <Image
                 source={{
-                  uri: "https://cdn-icons-png.flaticon.com/512/2206/2206368.png",
+                  uri: "https://cdn-icons-png.flaticon.com/512/3135/3135715.png", // scammer icon
                 }}
                 style={{ width: 40, height: 40 }}
               />
             </View>
 
-            <Text style={styles.cardTitle}>{t("Digital Arrest Simulation")}</Text>
+            <Text style={styles.cardTitle}>{t("Ponzi Scheme Simulation")}</Text>
             <Text style={styles.cardDescription}>
-              {t("Experience a fake cyber police call scenario. Understand how scammers create fear to extract personal information.")}
+              {t(
+                "See how early investors profit while later ones lose everything. Understand how false promises keep the scheme alive—until it collapses."
+              )}
             </Text>
 
+            {/* Features */}
             <View style={styles.features}>
               <View style={styles.featureRow}>
-                <Ionicons name="alert-circle" size={20} color={Colors.darkYellow} />
-                <Text style={styles.featureText}>{t("Fake law enforcement threats")}</Text>
+                <Ionicons
+                  name="alert-circle"
+                  size={20}
+                  color={Colors.darkYellow}
+                />
+                <Text style={styles.featureText}>
+                  {t("Promises of guaranteed returns")}
+                </Text>
               </View>
               <View style={styles.featureRow}>
-                <Ionicons name="alert-circle" size={20} color={Colors.darkYellow} />
-                <Text style={styles.featureText}>{t("False arrest warnings")}</Text>
+                <Ionicons
+                  name="alert-circle"
+                  size={20}
+                  color={Colors.darkYellow}
+                />
+                <Text style={styles.featureText}>
+                  {t("Early payouts from new investors’ money")}
+                </Text>
               </View>
               <View style={styles.featureRow}>
-                <Ionicons name="alert-circle" size={20} color={Colors.darkYellow} />
-                <Text style={styles.featureText}>{t("Fear-based manipulation")}</Text>
+                <Ionicons
+                  name="alert-circle"
+                  size={20}
+                  color={Colors.darkYellow}
+                />
+                <Text style={styles.featureText}>
+                  {t("Inevitable collapse and losses")}
+                </Text>
               </View>
             </View>
 
+            {/* Start Simulation Button */}
             <TouchableOpacity
               activeOpacity={0.8}
               style={styles.primaryButton}
-              onPress={() => setIsCallSimulationOn(true)}
+              onPress={() => setIsSimulationOn(true)}
             >
-              <Ionicons name="call-outline" size={20} color="white" />
-              <Text style={styles.buttonText}>{t("Start Arrest Simulation")}</Text>
+              <Ionicons name="play-circle-outline" size={20} color="white" />
+              <Text style={styles.buttonText}>{t("Start Ponzi Simulation")}</Text>
             </TouchableOpacity>
           </View>
 
+          {/* Tip box */}
           <View style={styles.tipBox}>
-            <Ionicons name="information-circle-outline" size={20} color={Colors.primaryCyanColor} />
+            <Ionicons
+              name="information-circle-outline"
+              size={20}
+              color={Colors.primaryCyanColor}
+            />
             <Text style={styles.tipText}>
-              {t("Tip: Government officials will never threaten arrest over a phone call. Always verify with official sources.")}
+              {t(
+                "Tip: High-return, no-risk investments are a classic scam red flag. Always research and verify before investing."
+              )}
             </Text>
           </View>
         </AppSafeAreaView>
       </ScrollView>
 
-      <ModalWrapper 
-        disableTouchClose={true} visible={isCallSimulationOn} onClose={() => setIsCallSimulationOn(false)}>
-        <StaticArrestCallScreen closeModal={closeModal} />
+      {/* Simulation Modal */}
+      <ModalWrapper
+        disableTouchClose={true}
+        visible={isSimulationOn}
+        onClose={() => setIsSimulationOn(false)}
+      >
+        <PonziSimulation />
       </ModalWrapper>
     </View>
   );
 };
 
-export default DigitalArrest;
+export default PonziSchemePage;
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    // backgroundColor: Colors.bgGreenTint,
+    backgroundColor: Colors.bgGreenTint,
   },
   scrollContainer: {
     flexGrow: 1,
@@ -177,7 +208,7 @@ const styles = StyleSheet.create({
   tipBox: {
     flexDirection: "row",
     alignItems: "flex-start",
-    backgroundColor: Colors.white,
+    backgroundColor: 'white',
     borderRadius: 12,
     padding: 16,
     marginHorizontal: 24,

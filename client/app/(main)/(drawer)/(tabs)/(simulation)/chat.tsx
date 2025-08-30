@@ -16,8 +16,7 @@ import { useTranslation } from "react-i18next";
 
 const Chat = () => {
   const [isChatSimulationOn, setIsChatSimulationOn] = useState(false);
-    const [isStoryModalVisible, setIsStoryModalVisible] = useState(false);
-    const [selectedStory, setSelectedStory] = useState<number | null>(null);
+    const [selectedStory, setSelectedStory] = useState<number | null>(1);
     const { t  } = useTranslation();
     const stories = [
       { label: t("Loan OTP Scam"), value: 1 },
@@ -95,7 +94,7 @@ const Chat = () => {
             <TouchableOpacity
               activeOpacity={0.8}
               style={styles.primaryButton}
-              onPress={() => setIsStoryModalVisible(true)}
+              onPress={() => setIsChatSimulationOn(true)}
             >
               <Ionicons
                 name="chatbubble-ellipses-outline"
@@ -119,7 +118,7 @@ const Chat = () => {
         </AppSafeAreaView>
       </ScrollView>
 
-      <ModalWrapper
+      {/* <ModalWrapper
         visible={isStoryModalVisible}
         onClose={() => setIsStoryModalVisible(false)}
         disableTouchClose={true}
@@ -183,7 +182,7 @@ const Chat = () => {
             </TouchableOpacity>
           </View>
         </View>
-      </ModalWrapper>
+      </ModalWrapper> */}
 
 
       <ModalWrapper 

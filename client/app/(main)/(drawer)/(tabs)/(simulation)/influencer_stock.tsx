@@ -7,82 +7,82 @@ import {
   TouchableOpacity,
 } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
-import { Image } from "expo-image";
 import ModalWrapper from "@/src/components/modal/ModalWrapper";
 import AppSafeAreaView from "@/src/components/viewWrappers/AppSafeAreaView";
 import Colors from "@/src/theme/colors";
-
-import MailListing from "@/src/modules/simulations/phishing/MailListing";
-import OpenedScamMail from "@/src/modules/simulations/phishing/OpenedMail";
-import WebsiteSimulation from "@/src/modules/simulations/phishing/WebsiteSimulation";
+import { Image } from "expo-image";
+import StreamStockScreen from "@/src/modules/simulations/stock_stream/StockStream";
 import { useTranslation } from "react-i18next";
 
-const Phishing = () => {
-  const [isMailListOn, setIsMailListOn] = useState(false);
-  const [isMailOpened, setIsMailOpened] = useState(false);
-  const [isWebsiteOn, setIsWebsiteOn] = useState(false);
-  const {t} = useTranslation();
+const InfluencerStockScam = () => {
+  const [isSimulationOn, setIsSimulationOn] = useState(false);
+  const { t } = useTranslation();
+
+  const closeModal = () => {
+    setIsSimulationOn(false);
+  };
 
   return (
     <View style={styles.container}>
       <ScrollView contentContainerStyle={styles.scrollContainer}>
         <AppSafeAreaView style={styles.safeArea}>
           <View style={styles.card}>
-            <View
-              style={[
-                styles.iconContainer,
-                {
-                  flexDirection: "row",
-                  alignItems: "center",
-                  justifyContent: "space-between",
-                },
-              ]}
-            >
+            <View style={styles.iconContainer}>
               <Image
                 source={{
-                  uri: "https://cdn-icons-png.flaticon.com/512/3442/3442511.png",
+                  uri: "https://cdn-icons-png.flaticon.com/512/1688/1688400.png",
                 }}
                 style={{ width: 40, height: 40 }}
               />
+
               <View style={styles.dashedLine} />
+
               <Image
                 source={{
-                  uri: "https://cdn-icons-png.flaticon.com/512/10751/10751935.png",
+                  uri: "https://cdn-icons-png.flaticon.com/512/4712/4712109.png",
                 }}
                 style={{ width: 40, height: 40 }}
               />
             </View>
 
-            <Text style={styles.cardTitle}>{t("Phishing Simulation")}</Text>
+            <Text style={styles.cardTitle}>
+              {t("Influencer Stock Scam Simulation")}
+            </Text>
             <Text style={styles.cardDescription}>
-              {t("Understand how fraudulent emails lure victims into revealing passwords, bank credentials, or installing malware.")}
+              {t(
+                "Experience how scammers use fake stock charts and charismatic influencers to trick people into risky investments."
+              )}
             </Text>
 
             <View style={styles.features}>
               <View style={styles.featureRow}>
                 <Ionicons
-                  name="checkmark-circle"
-                  size={20}
-                  color={Colors.darkYellow}
-                />
-                <Text style={styles.featureText}>{t("Fake email warnings")}</Text>
-              </View>
-              <View style={styles.featureRow}>
-                <Ionicons
-                  name="checkmark-circle"
-                  size={20}
-                  color={Colors.darkYellow}
-                />
-                <Text style={styles.featureText}>{t("Malicious website links")}</Text>
-              </View>
-              <View style={styles.featureRow}>
-                <Ionicons
-                  name="checkmark-circle"
+                  name="trending-up"
                   size={20}
                   color={Colors.darkYellow}
                 />
                 <Text style={styles.featureText}>
-                  {t("Credential harvesting pages")}
+                  {t("Fake stock charts with dramatic rises and dips")}
+                </Text>
+              </View>
+              <View style={styles.featureRow}>
+                <Ionicons
+                  name="person-circle"
+                  size={20}
+                  color={Colors.darkYellow}
+                />
+                <Text style={styles.featureText}>
+                  {t("Charismatic influencer hyping investments")}
+                </Text>
+              </View>
+              <View style={styles.featureRow}>
+                <Ionicons
+                  name="alert-circle"
+                  size={20}
+                  color={Colors.darkYellow}
+                />
+                <Text style={styles.featureText}>
+                  {t("High-pressure tactics to lure quick investment")}
                 </Text>
               </View>
             </View>
@@ -90,10 +90,10 @@ const Phishing = () => {
             <TouchableOpacity
               activeOpacity={0.8}
               style={styles.primaryButton}
-              onPress={() => setIsMailListOn(true)}
+              onPress={() => setIsSimulationOn(true)}
             >
-              <Ionicons name="shield-outline" size={20} color="white" />
-              <Text style={styles.buttonText}>{t("Start Simulation")}</Text>
+              <Ionicons name="play-circle-outline" size={20} color="white" />
+              <Text style={styles.buttonText}>{t("Start Stock Stream Simulation")}</Text>
             </TouchableOpacity>
           </View>
 
@@ -104,49 +104,31 @@ const Phishing = () => {
               color={Colors.primaryCyanColor}
             />
             <Text style={styles.tipText}>
-              {t("Tip: Always check the sender’s email address and never click suspicious links. Legit organizations never ask for sensitive info over email.")}
+              {t(
+                "Tip: Real financial advice never comes from flashy livestreams. Always verify stock information with trusted sources."
+              )}
             </Text>
           </View>
         </AppSafeAreaView>
       </ScrollView>
 
-      <ModalWrapper 
-        disableTouchClose={true} visible={isMailListOn} onClose={() => {
-            setIsMailListOn(false);
-      }}>
-        <MailListing
-          next={() => {
-            setIsMailOpened(true);
-            setIsMailListOn(false);
-          }}
-          onClose={() => setIsMailListOn(false)}
-        />
-      </ModalWrapper>
-
-      <ModalWrapper 
-        disableTouchClose={true} visible={isMailOpened} onClose={() => {
-            setIsMailOpened(false);
-      }}>
-        <OpenedScamMail
-          next={() => {
-            setIsWebsiteOn(true);
-            setIsMailOpened(false);
-          }}
-        />
-      </ModalWrapper>
-
-      <ModalWrapper 
-        disableTouchClose={true} visible={isWebsiteOn} onClose={() => {setIsWebsiteOn(false)}}>
-        <WebsiteSimulation onClose={() => setIsWebsiteOn(false)} />
+      <ModalWrapper
+        disableTouchClose={true}
+        visible={isSimulationOn}
+        onClose={() => setIsSimulationOn(false)}
+      >
+        <StreamStockScreen closeModal={closeModal} />
       </ModalWrapper>
     </View>
   );
 };
 
+export default InfluencerStockScam;
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    // backgroundColor: Colors.bgGreenTint,
+    backgroundColor: Colors.bgGreenTint,
   },
   scrollContainer: {
     flexGrow: 1,
@@ -167,7 +149,9 @@ const styles = StyleSheet.create({
     elevation: 2,
   },
   iconContainer: {
+    flexDirection: "row",
     alignItems: "center",
+    justifyContent: "space-between",
     marginBottom: 16,
   },
   dashedLine: {
@@ -225,9 +209,7 @@ const styles = StyleSheet.create({
   tipBox: {
     flexDirection: "row",
     alignItems: "flex-start",
-    backgroundColor: Colors.white,
-        borderWidth: 1,
-    borderColor: Colors.divider,
+    backgroundColor: Colors.secondayCyanLite,
     borderRadius: 12,
     padding: 16,
     marginHorizontal: 24,
@@ -242,5 +224,3 @@ const styles = StyleSheet.create({
     lineHeight: 20,
   },
 });
-
-export default Phishing;
