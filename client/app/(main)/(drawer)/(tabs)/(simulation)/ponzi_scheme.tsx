@@ -208,7 +208,7 @@ const styles = StyleSheet.create({
   tipBox: {
     flexDirection: "row",
     alignItems: "flex-start",
-    backgroundColor: Colors.secondayCyanLite,
+    backgroundColor: 'white',
     borderRadius: 12,
     padding: 16,
     marginHorizontal: 24,
