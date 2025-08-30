@@ -57,7 +57,7 @@ const collapsePhrases = [
     `Collapse! ${count} investors lost everything when the money ran out.`,
 ];
 
-export default function PonziSimulation() {
+export default function PonziSimulation({onCloseModal}:{onCloseModal:()=>void}) {
   // State
   const [bucket, setBucket] = useState(0);
   const [investors, setInvestors] = useState<Investor[]>([]);
@@ -282,7 +282,6 @@ export default function PonziSimulation() {
         newInvestor.invested,
         newInvestor.expected
       );
-      await speak(joinText);
 
       // payout logic (FIFO excluding latest). Only if we have funds
       const paidInvestors: number[] = [];
@@ -307,6 +306,7 @@ export default function PonziSimulation() {
       // update state
       setBucket(updatedBucket);
       setInvestors(updatedInvestors);
+      
 
       // animate new investor card in
       Animated.timing(newInvestor.animValue, {
@@ -315,6 +315,9 @@ export default function PonziSimulation() {
         easing: Easing.out(Easing.back(1.2)),
         useNativeDriver: true,
       }).start();
+
+      
+      await speak(joinText);
 
       setLastAction(
         paidInvestors.length > 0
@@ -499,14 +502,14 @@ export default function PonziSimulation() {
       )}
 
       {/* In-game narration modal (live subtitles) */}
-      <ModalWrapper visible={isSpeaking} onClose={() => {}} backdropColor="transparent">
+      {/* <ModalWrapper visible={isSpeaking} onClose={() => {}} backdropColor="transparent">
         <View style={narrationStyles.overlay}>
           <Animated.View style={[narrationStyles.narrationBox, { transform: [{ scale: pulseAnim }] }]}>
             <Text style={narrationStyles.narrationIcon}>💬</Text>
             <Text style={narrationStyles.narrationText}>{currentNarration}</Text>
           </Animated.View>
         </View>
-      </ModalWrapper>
+      </ModalWrapper> */}
     </View>
   );
 }
