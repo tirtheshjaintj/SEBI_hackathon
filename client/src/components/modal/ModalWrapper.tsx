@@ -21,7 +21,7 @@ const ModalWrapper = ({
   onClose,
   children,
   animationType = "fade",
-  backdropColor = "rgba(0, 0, 0, 0.5)",
+  backdropColor = "rgba(0, 0, 0, 0.1)",
   disableTouchClose = false,
   transparent=true
 }: ModalWrapperProps) => {

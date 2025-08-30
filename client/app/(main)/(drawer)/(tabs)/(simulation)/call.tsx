@@ -21,8 +21,7 @@ import { useTranslation } from "react-i18next";
 const Call = () => {
   const [isCallScreenOn, setIsCallScreenOn] = useState(false);
   const [isCallOnGoing, setIsCallOnGoing] = useState(false);
-  const [isStoryModalVisible, setIsStoryModalVisible] = useState(false);
-  const [selectedStory, setSelectedStory] = useState<number | null>(null);
+  const [selectedStory, setSelectedStory] = useState<number | null>(1);
 
   const { t } = useTranslation();
   const stories = [
@@ -108,7 +107,7 @@ const Call = () => {
             <TouchableOpacity
               activeOpacity={0.8}
               style={styles.primaryButton}
-              onPress={() => setIsStoryModalVisible(true)}
+              onPress={() => setIsCallScreenOn(true)}
             >
               <Ionicons name="call-outline" size={20} color="white" />
               <Text style={styles.buttonText}>{t("Begin Simulation")}</Text>
@@ -128,71 +127,6 @@ const Call = () => {
         </AppSafeAreaView>
       </ScrollView>
 
-      <ModalWrapper
-        visible={isStoryModalVisible}
-        onClose={() => setIsStoryModalVisible(false)}
-        disableTouchClose={true}
-      >
-        <View style={styles.modalContainer}>
-          <Text style={styles.modalTitle}>{t("Select a Story")}</Text>
-
-          <View style={styles.storyList}>
-            {stories.map((story) => {
-              const isSelected = selectedStory === story.value;
-              return (
-                <TouchableOpacity
-                  key={story.value}
-                  style={[styles.storyItem, isSelected && styles.storyItemActive]}
-                  onPress={() => setSelectedStory(story.value)}
-                  activeOpacity={0.85}
-                >
-                  <View style={styles.storyItemLeft}>
-                    <Ionicons
-                      name={isSelected ? "radio-button-on" : "radio-button-off"}
-                      size={22}
-                      color={
-                        isSelected ? Colors.primaryCyanColor : Colors.textSecondaryDark
-                      }
-                    />
-                    <Text
-                      style={[
-                        styles.storyLabel,
-                        isSelected && styles.storyLabelActive,
-                      ]}
-                    >
-                      {t(story.label)}
-                    </Text>
-                  </View>
-                </TouchableOpacity>
-              );
-            })}
-          </View>
-
-          <View style={styles.modalActions}>
-            <TouchableOpacity
-              style={[styles.actionButton, styles.cancelButton]}
-              onPress={() => setIsStoryModalVisible(false)}
-            >
-              <Text style={styles.cancelText}>{t("Cancel")}</Text>
-            </TouchableOpacity>
-
-            <TouchableOpacity
-              style={[
-                styles.actionButton,
-                !selectedStory && styles.actionButtonDisabled,
-              ]}
-              onPress={() => {
-                if (selectedStory === null) return;
-                setIsStoryModalVisible(false);
-                setIsCallScreenOn(true);
-              }}
-              disabled={selectedStory === null}
-            >
-              <Text style={styles.confirmText}>{t("Start Simulation")}</Text>
-            </TouchableOpacity>
-          </View>
-        </View>
-      </ModalWrapper>
 
 
       <ModalWrapper 

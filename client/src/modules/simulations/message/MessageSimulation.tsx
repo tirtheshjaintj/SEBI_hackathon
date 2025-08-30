@@ -1,29 +1,30 @@
 const scamMessages = [{
   en: {
-    sender: "VM-ADHAAR",
-    text: "Your Aadhar KYC is pending. Verify now at https://bit.ly/kyc-update to avoid service suspension.",
+    sender: "VM-SEBIINFO",
+    text: "SEBI Alert: Join our exclusive WhatsApp group for insider stock tips. Get 300% profit guaranteed! Click https://bit.ly/sebi-stocktips",
     introSpeech:
-      "Now I will tell you how SMS scams happen. Firstly, an SMS will arrive on your number like this.Kindly CLick on the notification to open the message.",
+      "Now I will tell you how investment SMS scams happen. First, you will receive a message like this on your number. Kindly click the notification to open the message.",
     linkSpeech:
-      "Now if you click on this message, a phishing link will open which tries to steal your data.",
+      "If you click this message, it will open a fake link that asks you to join a group. These groups are scams where fraudsters promise guaranteed profits.",
   },
   hi: {
-    sender: "VM-ADHAAR",
-    text: "आपकी आधार KYC लंबित है। सेवा निलंबन से बचने के लिए https://bit.ly/kyc-update पर अभी सत्यापित करें।",
+    sender: "VM-SEBIINFO",
+    text: "SEBI अलर्ट: हमारे एक्सक्लूसिव WhatsApp ग्रुप से जुड़ें और इनसाइडर स्टॉक टिप्स पाएं। 300% गारंटीड मुनाफ़ा! क्लिक करें: https://bit.ly/sebi-stocktips",
     introSpeech:
-      "अब मैं आपको बताऊंगा कि एस एम एस स्कैम कैसे होते हैं। सबसे पहले, आपके नंबर पर ऐसा मैसेज आएगा। कृपया अधिसूचना पर क्लिक करें।",
+      "अब मैं आपको बताऊँगा कि निवेश से जुड़े SMS स्कैम कैसे होते हैं। सबसे पहले, आपके नंबर पर ऐसा मैसेज आएगा। कृपया नोटिफिकेशन पर क्लिक करें।",
     linkSpeech:
-      "अब अगर आप इस मैसेज पर क्लिक करेंगे, तो एक फिशिंग लिंक खुलेगा जो आपका डेटा चुराने की कोशिश करेगा।",
+      "अगर आप इस मैसेज पर क्लिक करेंगे, तो एक नकली लिंक खुलेगा जो आपको ग्रुप जॉइन करने के लिए कहेगा। ऐसे ग्रुप धोखाधड़ी वाले होते हैं जहाँ गारंटीड मुनाफ़े का झूठा वादा किया जाता है।",
   },
   pa: {
-    sender: "VM-ADHAAR",
-    text: "ਤੁਹਾਡੀ ਆਧਾਰ KYC ਬਕਾਇਆ ਹੈ। ਸੇਵਾ ਰੋਕਣ ਤੋਂ ਬਚਣ ਲਈ ਹੁਣੇ https://bit.ly/kyc-update ਤੇ ਸਤਿਆਪਨ ਕਰੋ।",
+    sender: "VM-SEBIINFO",
+    text: "SEBI ਸੂਚਨਾ: ਸਾਡੇ ਖਾਸ WhatsApp ਗਰੁੱਪ ਨਾਲ ਜੁੜੋ ਅਤੇ ਇਨਸਾਈਡਰ ਸਟਾਕ ਟਿਪਸ ਪਾਓ। 300% ਗਾਰੰਟੀਡ ਮੁਨਾਫਾ! ਕਲਿੱਕ ਕਰੋ: https://bit.ly/sebi-stocktips",
     introSpeech:
-      "ਹੁਣ ਮੈਂ ਦੱਸਾਂਗਾ ਕਿ SMS ਧੋਖਾਧੜੀ ਕਿਵੇਂ ਹੁੰਦੀ ਹੈ। ਸਭ ਤੋਂ ਪਹਿਲਾਂ, ਤੁਹਾਡੇ ਨੰਬਰ ਤੇ ਇਹ ਜਿਹਾ ਮੈਸੇਜ ਆਉਂਦਾ ਹੈ। ਕੁਝ ਸੂਚਨਾ ਪਰ ਕਲਿੱਕ ਕਰੋ।",
+      "ਹੁਣ ਮੈਂ ਦੱਸਾਂਗਾ ਕਿ ਨਿਵੇਸ਼ SMS ਠੱਗੀ ਕਿਵੇਂ ਹੁੰਦੀ ਹੈ। ਸਭ ਤੋਂ ਪਹਿਲਾਂ, ਤੁਹਾਡੇ ਨੰਬਰ 'ਤੇ ਇਹ ਜਿਹਾ ਮੈਸੇਜ ਆਉਂਦਾ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਨੋਟੀਫਿਕੇਸ਼ਨ ਤੇ ਕਲਿੱਕ ਕਰੋ।",
     linkSpeech:
-      "ਹੁਣ ਜੇ ਤੁਸੀਂ ਇਸ ਮੈਸੇਜ ਨੂੰ ਕਲਿੱਕ ਕਰੋਗੇ, ਤਾਂ ਇੱਕ ਫਿਸ਼ਿੰਗ ਲਿੰਕ ਖੁਲਦਾ ਹੈ ਜੋ ਤੁਹਾਡਾ ਡਾਟਾ ਚੋਰੀ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰਦਾ ਹੈ।",
+      "ਜੇ ਤੁਸੀਂ ਇਸ ਮੈਸੇਜ ਨੂੰ ਕਲਿੱਕ ਕਰਦੇ ਹੋ, ਤਾਂ ਇੱਕ ਨਕਲੀ ਲਿੰਕ ਖੁਲਦਾ ਹੈ ਜੋ ਤੁਹਾਨੂੰ ਗਰੁੱਪ ਵਿਚ ਸ਼ਾਮਲ ਹੋਣ ਲਈ ਕਹਿੰਦਾ ਹੈ। ਐਸੇ ਗਰੁੱਪ ਠੱਗੀ ਵਾਲੇ ਹੁੰਦੇ ਹਨ ਜਿੱਥੇ ਗਾਰੰਟੀਡ ਮੁਨਾਫੇ ਦਾ ਝੂਠਾ ਵਾਅਦਾ ਕੀਤਾ ਜਾਂਦਾ ਹੈ।",
   },
 }]
+
 
 import TtsManager from "@/src/services/texttospeech/TtsManager";
 import { languageType } from "@/src/types/constants";

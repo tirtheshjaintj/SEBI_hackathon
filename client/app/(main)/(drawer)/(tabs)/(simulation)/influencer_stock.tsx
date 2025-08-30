@@ -11,17 +11,16 @@ import ModalWrapper from "@/src/components/modal/ModalWrapper";
 import AppSafeAreaView from "@/src/components/viewWrappers/AppSafeAreaView";
 import Colors from "@/src/theme/colors";
 import { Image } from "expo-image";
-import StaticArrestCallScreen from "@/src/modules/simulations/digital_arest/DigitalArrest";
-import { useTranslation } from "react-i18next";
-import PonziSimulation from "@/src/modules/simulations/ponzi_scheme/PonziScheme";
 import StreamStockScreen from "@/src/modules/simulations/stock_stream/StockStream";
+import { useTranslation } from "react-i18next";
 
-const DigitalArrest = () => {
-  const [isCallSimulationOn, setIsCallSimulationOn] = useState(false);
+const InfluencerStockScam = () => {
+  const [isSimulationOn, setIsSimulationOn] = useState(false);
   const { t } = useTranslation();
+
   const closeModal = () => {
-    setIsCallSimulationOn(false);
-  }
+    setIsSimulationOn(false);
+  };
 
   return (
     <View style={styles.container}>
@@ -31,7 +30,7 @@ const DigitalArrest = () => {
             <View style={styles.iconContainer}>
               <Image
                 source={{
-                  uri: "https://cdn-icons-png.flaticon.com/512/2922/2922794.png",
+                  uri: "https://cdn-icons-png.flaticon.com/512/1688/1688400.png",
                 }}
                 style={{ width: 40, height: 40 }}
               />
@@ -40,60 +39,91 @@ const DigitalArrest = () => {
 
               <Image
                 source={{
-                  uri: "https://cdn-icons-png.flaticon.com/512/2206/2206368.png",
+                  uri: "https://cdn-icons-png.flaticon.com/512/4712/4712109.png",
                 }}
                 style={{ width: 40, height: 40 }}
               />
             </View>
 
-            <Text style={styles.cardTitle}>{t("Digital Arrest Simulation")}</Text>
+            <Text style={styles.cardTitle}>
+              {t("Influencer Stock Scam Simulation")}
+            </Text>
             <Text style={styles.cardDescription}>
-              {t("Experience a fake cyber police call scenario. Understand how scammers create fear to extract personal information.")}
+              {t(
+                "Experience how scammers use fake stock charts and charismatic influencers to trick people into risky investments."
+              )}
             </Text>
 
             <View style={styles.features}>
               <View style={styles.featureRow}>
-                <Ionicons name="alert-circle" size={20} color={Colors.darkYellow} />
-                <Text style={styles.featureText}>{t("Fake law enforcement threats")}</Text>
+                <Ionicons
+                  name="trending-up"
+                  size={20}
+                  color={Colors.darkYellow}
+                />
+                <Text style={styles.featureText}>
+                  {t("Fake stock charts with dramatic rises and dips")}
+                </Text>
               </View>
               <View style={styles.featureRow}>
-                <Ionicons name="alert-circle" size={20} color={Colors.darkYellow} />
-                <Text style={styles.featureText}>{t("False arrest warnings")}</Text>
+                <Ionicons
+                  name="person-circle"
+                  size={20}
+                  color={Colors.darkYellow}
+                />
+                <Text style={styles.featureText}>
+                  {t("Charismatic influencer hyping investments")}
+                </Text>
               </View>
               <View style={styles.featureRow}>
-                <Ionicons name="alert-circle" size={20} color={Colors.darkYellow} />
-                <Text style={styles.featureText}>{t("Fear-based manipulation")}</Text>
+                <Ionicons
+                  name="alert-circle"
+                  size={20}
+                  color={Colors.darkYellow}
+                />
+                <Text style={styles.featureText}>
+                  {t("High-pressure tactics to lure quick investment")}
+                </Text>
               </View>
             </View>
 
             <TouchableOpacity
               activeOpacity={0.8}
               style={styles.primaryButton}
-              onPress={() => setIsCallSimulationOn(true)}
+              onPress={() => setIsSimulationOn(true)}
             >
-              <Ionicons name="call-outline" size={20} color="white" />
-              <Text style={styles.buttonText}>{t("Start Arrest Simulation")}</Text>
+              <Ionicons name="play-circle-outline" size={20} color="white" />
+              <Text style={styles.buttonText}>{t("Start Stock Stream Simulation")}</Text>
             </TouchableOpacity>
           </View>
 
           <View style={styles.tipBox}>
-            <Ionicons name="information-circle-outline" size={20} color={Colors.primaryCyanColor} />
+            <Ionicons
+              name="information-circle-outline"
+              size={20}
+              color={Colors.primaryCyanColor}
+            />
             <Text style={styles.tipText}>
-              {t("Tip: Government officials will never threaten arrest over a phone call. Always verify with official sources.")}
+              {t(
+                "Tip: Real financial advice never comes from flashy livestreams. Always verify stock information with trusted sources."
+              )}
             </Text>
           </View>
         </AppSafeAreaView>
       </ScrollView>
 
-      <ModalWrapper 
-        disableTouchClose={true} visible={isCallSimulationOn} onClose={() => setIsCallSimulationOn(false)}>
+      <ModalWrapper
+        disableTouchClose={true}
+        visible={isSimulationOn}
+        onClose={() => setIsSimulationOn(false)}
+      >
         <StreamStockScreen closeModal={closeModal} />
       </ModalWrapper>
     </View>
   );
 };
 
-export default DigitalArrest;
+export default InfluencerStockScam;
 
 const styles = StyleSheet.create({
   container: {
