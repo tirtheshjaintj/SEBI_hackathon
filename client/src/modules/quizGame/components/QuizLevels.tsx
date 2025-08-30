@@ -1,23 +1,23 @@
+import useAuthStore from "@/src/store/authSlice";
 import Colors from "@/src/theme/colors";
 import {
   moderateScale,
   scale,
   verticalScale,
 } from "@/src/utils/responsiveness/responsiveness";
+import { Ionicons } from "@expo/vector-icons";
 import { Image } from "expo-image";
+import { router } from "expo-router";
 import React from "react";
+import { useTranslation } from "react-i18next";
 import {
+  Dimensions,
   FlatList,
   StyleSheet,
   Text,
   TouchableOpacity,
   View,
-  Dimensions,
 } from "react-native";
-import { Ionicons } from "@expo/vector-icons";
-import { router } from "expo-router";
-import useAuthStore from "@/src/store/authSlice";
-import { useTranslation } from "react-i18next";
 
 const { width } = Dimensions.get("window");
 const BOX_WIDTH = (width - moderateScale(16 * 3)) / 2;
