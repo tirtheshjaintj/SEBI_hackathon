@@ -29,6 +29,7 @@ import Animated, {
   withTiming,
 } from "react-native-reanimated";
 import StreakModal from "../components/modals/StreakModal";
+import { StatusBar } from "expo-status-bar";
 
 interface Props {
   refreshing: boolean;
@@ -64,6 +65,7 @@ const HomeScreen = ({ refreshing, onRefresh, data }: Props) => {
 
   return (
     <View style={{ flex: 1 }}>
+      <StatusBar style="light" translucent />
       <AppLinearGradient
         colors={[
           Colors.primaryCyanColor,

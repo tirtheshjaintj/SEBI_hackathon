@@ -87,6 +87,7 @@ const GuestEntryScreen = () => {
         colors={[Colors.primaryCyanColor, Colors.primaryBackground]}
         start={{ x: 0, y: 0 }}
         end={{ x: 0, y: 1 }}
+        locations={[0, 0.2]}
         style={{ position: "absolute", top: 0, left: 0, right: 0, bottom: 0 }}
       />
       <AppSafeAreaView style={{ flex: 1 }}>
@@ -109,7 +110,7 @@ const GuestEntryScreen = () => {
                 text="W"
               /> */}
               <LinearGradientText
-                startColor={Colors.primaryCyanColor}
+                startColor={Colors.primaryBackground}
                 endColor={Colors.primaryCyanColor}
                 style={styles.titleText}
                 text={t("Welcome")}
@@ -228,12 +229,12 @@ const styles = StyleSheet.create({
     resizeMode: "contain",
   },
   w_text: {
-    color: Colors.primaryCyanColor,
+    color: Colors.textPrimary,
     fontSize: moderateScale(35),
     fontFamily: "Poppins-Bold",
   },
   titleText: {
-    color: Colors.primaryCyanColor,
+    color: Colors.textPrimary,
     fontSize: moderateScale(25),
     fontFamily: "Poppins-Bold",
   },
@@ -253,7 +254,7 @@ const styles = StyleSheet.create({
   },
   featureText: {
     fontSize: moderateScale(16),
-    color: Colors.primaryCyanColor,
+    color: Colors.textPrimary,
     fontFamily: "Poppins-Medium",
   },
 

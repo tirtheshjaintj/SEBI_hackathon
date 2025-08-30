@@ -1,0 +1,217 @@
+import { Dimensions, StyleSheet } from "react-native";
+
+const { width } = Dimensions.get('window');
+
+export const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+        backgroundColor: "#F8FAFF",
+        paddingHorizontal: 16,
+    },
+    dataSourceBanner: {
+        backgroundColor: "#E1F5FE",
+        paddingVertical: 12,
+        paddingHorizontal: 16,
+        borderBottomWidth: 1,
+        borderBottomColor: "#B3E5FC",
+    },
+    dataSourceContent: {
+        flexDirection: "row",
+        alignItems: "center",
+        justifyContent: "center",
+    },
+    dataSourceText: {
+        fontSize: 13,
+        color: "#0277BD",
+        marginLeft: 8,
+    },
+    link: {
+        fontWeight: "600",
+        textDecorationLine: "underline",
+    },
+    searchContainer: {
+        flexDirection: "row",
+        alignItems: "center",
+        backgroundColor: "#FFFFFF",
+        borderRadius: 12,
+        paddingHorizontal: 16,
+        marginVertical: 16,
+        shadowColor: "#000",
+        shadowOffset: { width: 0, height: 2 },
+        shadowOpacity: 0.1,
+        shadowRadius: 4,
+        elevation: 3,
+        borderWidth: 1,
+        borderColor: "#E3E8F2",
+    },
+    searchIcon: {
+        marginRight: 12,
+    },
+    input: {
+        flex: 1,
+        height: 50,
+        fontSize: 16,
+        color: "#1E293B",
+    },
+    clearButton: {
+        padding: 4,
+    },
+    resultsCount: {
+        fontSize: 14,
+        color: "#64748B",
+        marginBottom: 12,
+        fontWeight: "500",
+    },
+    card: {
+        backgroundColor: "#FFFFFF",
+        borderRadius: 16,
+        padding: 20,
+        marginBottom: 16,
+        shadowColor: "#000",
+        shadowOffset: { width: 0, height: 4 },
+        shadowOpacity: 0.08,
+        shadowRadius: 8,
+        elevation: 3,
+        borderWidth: 1,
+        borderColor: "#F1F5F9",
+    },
+    cardHeader: {
+        flexDirection: "row",
+        alignItems: "center",
+        marginBottom: 16,
+    },
+    appIcon: {
+        width: 44,
+        height: 44,
+        borderRadius: 12,
+        backgroundColor: "#3B82F6",
+        justifyContent: "center",
+        alignItems: "center",
+        marginRight: 12,
+    },
+    socialIcon: {
+        width: 44,
+        height: 44,
+        borderRadius: 12,
+        backgroundColor: "#8B5CF6",
+        justifyContent: "center",
+        alignItems: "center",
+        marginRight: 12,
+    },
+    title: {
+        fontSize: 18,
+        fontWeight: "700",
+        color: "#1E293B",
+        flex: 1,
+    },
+    detailRow: {
+        flexDirection: "row",
+        alignItems: "center",
+        marginBottom: 12,
+    },
+    detailText: {
+        fontSize: 14,
+        color: "#475569",
+        marginLeft: 10,
+        flex: 1,
+    },
+    linkContainer: {
+        flexDirection: "row",
+        flexWrap: "wrap",
+        marginTop: 8,
+    },
+    linkButton: {
+        flexDirection: "row",
+        alignItems: "center",
+        backgroundColor: "#3B82F6",
+        paddingVertical: 8,
+        paddingHorizontal: 16,
+        borderRadius: 8,
+        marginRight: 10,
+        marginBottom: 8,
+    },
+    linkButtonText: {
+        color: "#FFFFFF",
+        fontWeight: "600",
+        fontSize: 13,
+        marginLeft: 6,
+    },
+    socialButton: {
+        width: 40,
+        height: 40,
+        borderRadius: 20,
+        justifyContent: "center",
+        alignItems: "center",
+        marginRight: 10,
+        marginBottom: 8,
+    },
+    emptyState: {
+        alignItems: "center",
+        justifyContent: "center",
+        paddingVertical: 60,
+    },
+    emptyStateText: {
+        fontSize: 18,
+        fontWeight: "600",
+        color: "#475569",
+        marginTop: 16,
+        marginBottom: 8,
+    },
+    emptyStateSubtext: {
+        fontSize: 14,
+        color: "#94A3B8",
+        textAlign: "center",
+        paddingHorizontal: 40,
+    },
+    typeBadge: {
+        paddingHorizontal: 10,
+        paddingVertical: 4,
+        borderRadius: 12,
+        marginLeft: 10,
+    },
+    appBadge: {
+        backgroundColor: "rgba(59, 130, 246, 0.15)",
+    },
+    socialBadge: {
+        backgroundColor: "rgba(139, 92, 246, 0.15)",
+    },
+    badgeText: {
+        fontSize: 11,
+        fontWeight: "700",
+    },
+    appBadgeText: {
+        color: "#3B82F6",
+    },
+    socialBadgeText: {
+        color: "#8B5CF6",
+    },
+    sectionTitle: {
+        fontSize: 16,
+        fontWeight: "600",
+        color: "#334155",
+        marginTop: 20,
+        marginBottom: 12,
+    },
+    filterContainer: {
+        flexDirection: "row",
+        marginBottom: 16,
+    },
+    filterButton: {
+        paddingHorizontal: 16,
+        paddingVertical: 8,
+        borderRadius: 20,
+        marginRight: 10,
+        backgroundColor: "#F1F5F9",
+    },
+    activeFilter: {
+        backgroundColor: "#3B82F6",
+    },
+    filterText: {
+        fontSize: 13,
+        fontWeight: "500",
+        color: "#64748B",
+    },
+    activeFilterText: {
+        color: "#FFFFFF",
+    },
+});

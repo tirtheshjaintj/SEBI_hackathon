@@ -197,7 +197,7 @@ const Chat = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: Colors.bgGreenTint,
+    // backgroundColor: Colors.bgGreenTint,
   },
   scrollContainer: {
     flexGrow: 1,
@@ -276,7 +276,9 @@ const styles = StyleSheet.create({
   tipBox: {
     flexDirection: "row",
     alignItems: "flex-start",
-    backgroundColor: Colors.secondayCyanLite,
+    backgroundColor: Colors.white,
+        borderWidth: 1,
+    borderColor: Colors.divider,
     borderRadius: 12,
     padding: 16,
     marginHorizontal: 24,
