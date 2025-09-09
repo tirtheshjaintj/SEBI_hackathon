@@ -58,13 +58,16 @@ DhanRakshak is built on a **modular, microservices architecture** that can:
 - **Market Trust:** Encourages broader participation and confidence in financial markets  
 - **Compliance:** Complements SEBI’s mission by supporting fraud-free investing  
 
+---
+
+## 📹 Demo
+👉 [Watch our demo video](https://drive.google.com/file/d/12KY322pNNsG3Jq0VTRUa8g_NpxAYALAm/view)  
+---
+
 ## 👨‍💻 Team – Code Leaders
 - **Tirthesh Jain**  
 - **Aniket**  
 - **Suraj**  
-
-GitHub Repo: [MindMate-HACKHAZARDS](https://github.com/tirtheshjaintj/MindMate-HACKHAZARDS)  
-
 ---
 
 ## ⚖️ License
