@@ -812,5 +812,46 @@ export const pa = {
   "Something went wrong. Please try again.": "ਕੁਝ ਗਲਤ ਹੋ ਗਿਆ। ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
   "SEBI Search": "ਸੇਬੀ ਖੋਜ",
   "Today Stocks": "ਅੱਜ ਦੇ ਸ਼ੇਅਰ",
-  "SEBI News": "ਸੇਬੀ ਖਬਰਾਂ"
+  "SEBI News": "ਸੇਬੀ ਖਬਰਾਂ",
+
+
+  
+
+   "Influencer Stock Scam Simulation": "ਇੰਫਲੂਐਂਸਰ ਸਟਾਕ ਠੱਗੀ ਸਿਮੂਲੇਸ਼ਨ",
+  "Experience how scammers use fake stock charts and charismatic influencers to trick people into risky investments.": "ਜਾਣੋ ਕਿ ਠੱਗ ਕਿਵੇਂ ਨਕਲੀ ਸਟਾਕ ਚਾਰਟ ਅਤੇ ਕਰਿਸ਼ਮਾਈ ਇੰਫਲੂਐਂਸਰ ਵਰਤ ਕੇ ਲੋਕਾਂ ਨੂੰ ਖਤਰਨਾਕ ਨਿਵੇਸ਼ਾਂ ਵਿੱਚ ਫਸਾਉਂਦੇ ਹਨ।",
+  "Fake stock charts with dramatic rises and dips": "ਨਕਲੀ ਸਟਾਕ ਚਾਰਟ ਜਿਨ੍ਹਾਂ ਵਿੱਚ ਅਚਾਨਕ ਤੇਜ਼ ਚੜ੍ਹਾਈਆਂ ਅਤੇ ਡਿੱਗਾਵਟਾਂ ਹੁੰਦੀਆਂ ਹਨ",
+  "Charismatic influencer hyping investments": "ਕਰਿਸ਼ਮਾਈ ਇੰਫਲੂਐਂਸਰ ਨਿਵੇਸ਼ਾਂ ਨੂੰ ਵੱਧਾ-ਚੜ੍ਹਾ ਕੇ ਦਿਖਾਉਂਦਾ ਹੋਇਆ",
+  "High-pressure tactics to lure quick investment": "ਤੇਜ਼ ਨਿਵੇਸ਼ ਲਈ ਦਬਾਅ ਬਣਾਉਣ ਵਾਲੀਆਂ ਤਰਕੀਬਾਂ",
+  "Start Stock Stream Simulation": "ਸਟਾਕ ਸਟ੍ਰੀਮ ਸਿਮੂਲੇਸ਼ਨ ਸ਼ੁਰੂ ਕਰੋ",
+  "Tip: Real financial advice never comes from flashy livestreams. Always verify stock information with trusted sources.": "ਸੁਝਾਅ: ਅਸਲੀ ਵਿੱਤੀ ਸਲਾਹ ਕਦੇ ਵੀ ਚਮਕੀਲੀ ਲਾਈਵਸਟ੍ਰੀਮਾਂ ਤੋਂ ਨਹੀਂ ਮਿਲਦੀ। ਹਮੇਸ਼ਾਂ ਭਰੋਸੇਯੋਗ ਸਰੋਤਾਂ ਤੋਂ ਸਟਾਕ ਜਾਣਕਾਰੀ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ।",
+  "Influencer Stock": "ਇੰਫਲੂਐਂਸਰ ਸਟਾਕ",
+
+  
+  "Imagine being promised quick, guaranteed profits. Sounds great — until the cash runs out. This simulation will show how new investors keep the scheme alive and how payouts are actually funded. Ready to see it unfold?": "ਕਲਪਨਾ ਕਰੋ ਕਿ ਤੁਹਾਨੂੰ ਤੇਜ਼ ਅਤੇ ਯਕੀਨੀ ਲਾਭ ਦਾ ਵਾਅਦਾ ਕੀਤਾ ਗਿਆ ਹੈ। ਇਹ ਸੁਣਨ ਵਿੱਚ ਵਧੀਆ ਲੱਗਦਾ ਹੈ — ਜਦ ਤੱਕ ਪੈਸੇ ਖਤਮ ਨਾ ਹੋ ਜਾਣ। ਇਹ ਸਿਮੂਲੇਸ਼ਨ ਦਿਖਾਏਗਾ ਕਿ ਨਵੇਂ ਨਿਵੇਸ਼ਕ ਯੋਜਨਾ ਨੂੰ ਕਿਵੇਂ ਜੀਵਿਤ ਰੱਖਦੇ ਹਨ ਅਤੇ ਭੁਗਤਾਨ ਵਾਸਤਵ ਵਿੱਚ ਕਿਵੇਂ ਫੰਡ ਹੁੰਦੇ ਹਨ। ਕੀ ਤੁਸੀਂ ਇਸ ਨੂੰ unfold ਹੋਣ ਵੇਖਣਾ ਚਾਹੁੰਦੇ ਹੋ?",
+  "Ponzi Scheme Simulation": "ਪੋਂਜ਼ੀ ਸਕੀਮ ਸਿਮੂਲੇਸ਼ਨ",
+  "Live narration of each step": "ਹਰ ਕਦਮ ਦਾ ਲਾਈਵ ਵਰਣਨ",
+  "TOTAL FUNDS": "ਕੁੱਲ ਫੰਡ",
+  "Total Investors": "ਕੁੱਲ ਨਿਵੇਸ਼ਕ",
+  "Exited": "ਬਾਹਰ ਨਿਕਲੇ",
+  "Active": "ਸਰਗਰਮ",
+  "Scheme Collapsed!": "ਯੋਜਨਾ ਧੱਪ ਹੋ ਗਈ!",
+  "The scheme could no longer pay out investors.": "ਯੋਜਨਾ ਹੁਣ ਨਿਵੇਸ਼ਕਾਂ ਨੂੰ ਭੁਗਤਾਨ ਨਹੀਂ ਕਰ ਸਕੀ।",
+  "participants lost everything.": "ਭਾਗੀਦਾਰਾਂ ਨੇ ਸਭ ਕੁਝ ਖੋ ਦਿੱਤਾ।",
+  "Restart Simulation": "ਸਿਮੂਲੇਸ਼ਨ ਮੁੜ ਸ਼ੁਰੂ ਕਰੋ",
+  "Tip: High-return, no-risk investments are a classic scam red flag. Always research and verify before investing.": "ਸੁਝਾਅ: ਉੱਚ ਮੁਨਾਫਾ, ਕੋਈ ਜੋਖਮ ਨਾ ਵਾਲੇ ਨਿਵੇਸ਼ ਇੱਕ ਕਲਾਸਿਕ ਧੋਖਾਧੜੀ ਦਾ ਸੂਚਕ ਹਨ। ਨਿਵੇਸ਼ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਹਮੇਸ਼ਾਂ ਰਿਸਰਚ ਕਰੋ ਅਤੇ ਸਚਾਈ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ।",
+  "Start Ponzi Simulation": "ਪੋਂਜ਼ੀ ਸਿਮੂਲੇਸ਼ਨ ਸ਼ੁਰੂ ਕਰੋ",
+  "Inevitable collapse and losses": "ਅਟੱਲ ਧੱਪ ਅਤੇ ਨੁਕਸਾਨ",
+  "Early payouts from new investors’ money": "ਨਵੇਂ ਨਿਵੇਸ਼ਕਾਂ ਦੇ ਪੈਸਿਆਂ ਤੋਂ ਸ਼ੁਰੂਆਤੀ ਭੁਗਤਾਨ",
+  "Promises of guaranteed returns": "ਯਕੀਨੀ ਰਿਟਰਨ ਦੇ ਵਾਅਦੇ",
+  "See how early investors profit while later ones lose everything. Understand how false promises keep the scheme alive—until it collapses.": "ਵੇਖੋ ਕਿ ਸ਼ੁਰੂਆਤੀ ਨਿਵੇਸ਼ਕ ਕਿਵੇਂ ਲਾਭ ਕਮਾਉਂਦੇ ਹਨ ਜਦ ਕਿ ਬਾਅਦ ਵਾਲੇ ਸਭ ਕੁਝ ਖੋ ਦੇਂਦੇ ਹਨ। ਸਮਝੋ ਕਿ ਕਿਵੇਂ ਝੂਠੇ ਵਾਅਦੇ ਯੋਜਨਾ ਨੂੰ ਜੀਵਿਤ ਰੱਖਦੇ ਹਨ — ਜਦ ਤੱਕ ਇਹ ਧੱਪ ਨਾ ਹੋ ਜਾਏ।",
+  "Ponzi Scheme":"ਪੋਂਜ਼ੀ ਸਕੀਮ",
+  "Investor": "ਨਿਵੇਸ਼ਕ",
+  "ACTIVE": "ਸਰਗਰਮ",
+  "EXITED": "ਬਾਹਰ ਨਿਕਲੇ",
+  "Invested": "ਨਿਵੇਸ਼ ਕੀਤਾ",
+  "Expected": "ਉਮੀਦ ਕੀਤੀ",
+  "Progress": "ਤਰੱਕੀ",
+  "joined. Investors": "ਸ਼ਾਮਲ ਹੋਏ। ਨਿਵੇਸ਼ਕ",
+  "were paid out.": "ਭੁਗਤਾਨ ਕੀਤੇ ਗਏ।",
+  "joined the scheme.": "ਯੋਜਨਾ ਵਿੱਚ ਸ਼ਾਮਲ ਹੋਏ।"
 };

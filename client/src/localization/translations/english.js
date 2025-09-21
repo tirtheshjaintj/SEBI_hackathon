@@ -676,5 +676,49 @@ export const en = {
   "No results found":"No results found",
 
 
+  
+
+  "Influencer Stock Scam Simulation":"Influencer Stock Scam Simulation",
+  "Experience how scammers use fake stock charts and charismatic influencers to trick people into risky investments.":"Experience how scammers use fake stock charts and charismatic influencers to trick people into risky investments.",
+  "Fake stock charts with dramatic rises and dips":"Fake stock charts with dramatic rises and dips",
+  "Charismatic influencer hyping investments":"Charismatic influencer hyping investments",
+  "High-pressure tactics to lure quick investment":"High-pressure tactics to lure quick investment",
+  "Start Stock Stream Simulation":"Start Stock Stream Simulation",
+  "Tip: Real financial advice never comes from flashy livestreams. Always verify stock information with trusted sources.":"Tip: Real financial advice never comes from flashy livestreams. Always verify stock information with trusted sources.",
+  "Influencer Stock":"Influencer Stock",
+
+  "Imagine being promised quick, guaranteed profits. Sounds great — until the cash runs out. This simulation will show how new investors keep the scheme alive and how payouts are actually funded. Ready to see it unfold?":"Imagine being promised quick, guaranteed profits. Sounds great — until the cash runs out. This simulation will show how new investors keep the scheme alive and how payouts are actually funded. Ready to see it unfold?",
+  "Ponzi Scheme Simulation":"Ponzi Scheme Simulation",
+  "Live narration of each step":"Live narration of each step",
+  "TOTAL FUNDS":"TOTAL FUNDS",
+  "Total Investors":"Total Investors",
+  "Exited":"Exited",
+  "Active":"Active",
+  "Scheme Collapsed!":"Scheme Collapsed!",
+  "The scheme could no longer pay out investors.":"The scheme could no longer pay out investors.",
+  "participants lost everything.":"participants lost everything.",
+  "Restart Simulation":"Restart Simulation",
+  "Tip: High-return, no-risk investments are a classic scam red flag. Always research and verify before investing.":"Tip: High-return, no-risk investments are a classic scam red flag. Always research and verify before investing.",
+  "Start Ponzi Simulation":"Start Ponzi Simulation",
+  "Inevitable collapse and losses":"Inevitable collapse and losses",
+  "Early payouts from new investors’ money":"Early payouts from new investors’ money",
+  "Promises of guaranteed returns":"Promises of guaranteed returns",
+  "See how early investors profit while later ones lose everything. Understand how false promises keep the scheme alive—until it collapses.":"See how early investors profit while later ones lose everything. Understand how false promises keep the scheme alive—until it collapses.",
+  "Ponzi Scheme Simulation":"Ponzi Scheme Simulation",
+  "Ponzi Scheme":"Ponzi Scheme",
+
+  "Investor":"Investor",
+  "ACTIVE":"ACTIVE",
+  "EXITED":"EXITED",
+  "Invested":"Invested",
+  "Expected":"Expected",
+  "Progress":"Progress",
+  "Investor":"Investor",
+  "joined. Investors":"joined. Investors",
+  "were paid out.":"were paid out.",
+  "joined the scheme.":"joined the scheme."
+
+
+
 
 };
