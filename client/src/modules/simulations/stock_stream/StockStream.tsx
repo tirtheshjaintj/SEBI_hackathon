@@ -6,6 +6,7 @@ import { useTranslation } from "react-i18next";
 import TtsManager from "@/src/services/texttospeech/TtsManager";
 import ModalWrapper from "@/src/components/modal/ModalWrapper";
 import styles from "./styles";
+import dialogues from "./speech";
 
 const voices = {
   en: {
@@ -34,61 +35,6 @@ const StreamStockScreen = ({ closeModal }: { closeModal: () => void }) => {
   const [modalContent, setModalContent] = useState("");
   const [showModal, setShowModal] = useState(false);
 
-  const dialogues = [
-  {
-    speaker: "Streamer",
-    text: "Welcome, everyone! You picked the right time to join. Today the markets are going crazy and I’m going to show you how I make quick profits live.",
-    chartDelta: 0,
-  },
-  {
-    speaker: "Streamer",
-    text: "Look at this stock — it’s already climbing! This is exactly the momentum we look for. When you spot it early, the money flows fast.",
-    chartDelta: +10,
-  },
-  {
-    speaker: "Streamer",
-    text: "See that green spike? That’s instant profit right there. If you had put in just $500, you’d already be up nearly 15%.",
-    chartDelta: +15,
-  },
-  {
-    speaker: "Narrator",
-    modalText: "Scammers often exaggerate gains and make it sound effortless. In reality, no one can guarantee such quick profits safely.",
-  },
-  {
-    speaker: "Streamer",
-    text: "Don’t worry about small dips — they always happen. The smart investors know to stay in because the big payout is right around the corner.",
-    chartDelta: -8,
-  },
-  {
-    speaker: "Streamer",
-    text: "And look! Just as I said — it’s bouncing back even higher. Imagine if you were trading along with me right now. You’d already be celebrating!",
-    chartDelta: +20,
-  },
-  {
-    speaker: "Narrator",
-    modalText: "Notice how the scammer makes it sound urgent and certain. Real investing is never this predictable, and sudden losses are always possible.",
-  },
-  {
-    speaker: "Streamer",
-    text: "I’ve been doing this for years. Trust me, this is your chance. Opportunities like this don’t wait — you have to act fast or you’ll miss out.",
-    chartDelta: +5,
-  },
-  {
-    speaker: "Streamer",
-    text: "Look at that surge! That’s over 25% profit in minutes. People watching this right now who join in will thank me later.",
-    chartDelta: +25,
-  },
-  {
-    speaker: "Narrator",
-    modalText: "Scammers use excitement and fake charts to make you believe you’re missing out. Always be skeptical of anyone promising guaranteed quick profits.",
-  },
-  {
-    speaker: "Streamer",
-    text: "And there it is — another massive win. This is what financial freedom looks like. Don’t sit on the sidelines. This is your moment!",
-    chartDelta: +30,
-  },
-];
-
 
   // fake timer labels
   useEffect(() => {
@@ -103,13 +49,13 @@ const StreamStockScreen = ({ closeModal }: { closeModal: () => void }) => {
   // dialogue playback
   useEffect(() => {
     let cancelled = false;
-    if (currentDialogue >= dialogues.length){
+    if (currentDialogue >= dialogues[locale].length){
         cancelled = true;
         closeModal();
         return
     };
 
-    const { speaker, text, modalText, chartDelta } = dialogues[currentDialogue];
+    const { speaker, text, modalText, chartDelta } = dialogues[locale][currentDialogue];
 
     if (chartDelta !== undefined) {
       setStockData((prev) => {
@@ -203,11 +149,11 @@ const StreamStockScreen = ({ closeModal }: { closeModal: () => void }) => {
 
       {/* Streamer bubble */}
       {
-        dialogues[currentDialogue]?.speaker === "Streamer" && (
+        dialogues[locale][currentDialogue]?.speaker === "Streamer" && (
             
       <View style={styles.dialogueBox}>
-        <Text style={styles.speakerText}>{dialogues[currentDialogue]?.speaker}</Text>
-        <Text style={styles.dialogueText}>{dialogues[currentDialogue]?.text || dialogues[currentDialogue]?.modalText  ||  "..."}</Text>
+        <Text style={styles.speakerText}>{dialogues[locale][currentDialogue]?.speaker}</Text>
+        <Text style={styles.dialogueText}>{dialogues[locale][currentDialogue]?.text || dialogues[locale][currentDialogue]?.modalText  ||  "..."}</Text>
       </View>
         )
       }
@@ -218,7 +164,7 @@ const StreamStockScreen = ({ closeModal }: { closeModal: () => void }) => {
         }}
         style={[
         styles.streamerAvatar,
-        dialogues[currentDialogue]?.speaker === "Streamer" && styles.activeStreamer,
+        dialogues[locale][currentDialogue]?.speaker === "Streamer" && styles.activeStreamer,
         ]}
     />
     </View>

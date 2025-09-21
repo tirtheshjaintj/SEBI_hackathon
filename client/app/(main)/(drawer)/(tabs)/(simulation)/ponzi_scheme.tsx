@@ -90,7 +90,9 @@ const PonziSchemePage = () => {
               onPress={() => setIsSimulationOn(true)}
             >
               <Ionicons name="play-circle-outline" size={20} color="white" />
-              <Text style={styles.buttonText}>{t("Start Ponzi Simulation")}</Text>
+              <Text style={styles.buttonText}>
+                {t("Start Ponzi Simulation")}
+              </Text>
             </TouchableOpacity>
           </View>
 
@@ -127,7 +129,7 @@ export default PonziSchemePage;
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: Colors.bgGreenTint,
+    // backgroundColor: Colors.bgGreenTint,
   },
   scrollContainer: {
     flexGrow: 1,
@@ -208,7 +210,7 @@ const styles = StyleSheet.create({
   tipBox: {
     flexDirection: "row",
     alignItems: "flex-start",
-    backgroundColor: 'white',
+    backgroundColor: "white",
     borderRadius: 12,
     padding: 16,
     marginHorizontal: 24,

@@ -128,7 +128,7 @@ export default InfluencerStockScam;
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: Colors.bgGreenTint,
+    // backgroundColor: Colors.bgGreenTint,
   },
   scrollContainer: {
     flexGrow: 1,
