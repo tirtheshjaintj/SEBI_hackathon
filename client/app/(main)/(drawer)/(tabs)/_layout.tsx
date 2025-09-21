@@ -8,6 +8,8 @@ import {
   verticalScale,
 } from "@/src/utils/responsiveness/responsiveness";
 import {
+  AntDesign,
+  Feather,
   Ionicons,
   MaterialCommunityIcons,
   MaterialIcons,
@@ -47,26 +49,22 @@ export default function TabLayout() {
       }}
     >
       <Tabs.Screen
+        name="sebisearch"
+        options={{
+          title: t("SEBI Search"),
+          animation: "none",
+          tabBarIcon: ({ color, focused }) => (
+            <Feather name="search" size={28} color={color} />
+          ),
+        }}
+      />
+      <Tabs.Screen
         name="community"
         options={{
           title: t("Community"),
           tabBarIcon: ({ color, focused }) => (
             <MaterialIcons
               name={!focused ? "people" : "people-alt"}
-              size={28}
-              color={color}
-            />
-          ),
-        }}
-      />
-      <Tabs.Screen
-        name="budget"
-        options={{
-          title: t("Budget"),
-          animation: "none",
-          tabBarIcon: ({ color, focused }) => (
-            <MaterialCommunityIcons
-              name={focused ? "wallet" : "wallet-outline"}
               size={28}
               color={color}
             />
@@ -97,11 +95,11 @@ export default function TabLayout() {
                   locations={[0.2, 0.7]}
                   style={styles.home_tab}
                 >
-                  {focused ? (
-                    <Ionicons name="home" size={28} color="white" />
-                  ) : (
-                    <Ionicons name="home-outline" size={28} color="white" />
-                  )}
+                  <MaterialCommunityIcons
+                    name={focused ? "home" : "home-outline"}
+                    size={28}
+                    color={Colors.white}
+                  />
                 </AppLinearGradient>
               </TouchableOpacity>
             );

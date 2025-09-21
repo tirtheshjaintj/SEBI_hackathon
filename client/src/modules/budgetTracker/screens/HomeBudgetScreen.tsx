@@ -30,6 +30,7 @@ import RecentTransactions from "../components/RecentTransaction";
 import SpendFrequencyGraph from "../components/SpendFrequencyGraph";
 import { addExpense } from "../services/budget";
 import { StatusBar } from "expo-status-bar";
+import { GestureHandlerRootView } from "react-native-gesture-handler";
 
 interface Props {
   data: any;
@@ -76,7 +77,7 @@ const BudgetScreen = ({ data, fetchData }: Props) => {
     []
   );
   return (
-    <View style={{ flex: 1 }}>
+    <GestureHandlerRootView style={{ flex: 1 }}>
       <StatusBar style="light" />
 
       {data && (
@@ -189,7 +190,7 @@ const BudgetScreen = ({ data, fetchData }: Props) => {
           }}
         />
       )}
-    </View>
+    </GestureHandlerRootView>
   );
 };
 

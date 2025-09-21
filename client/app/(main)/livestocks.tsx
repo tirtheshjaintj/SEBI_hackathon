@@ -19,6 +19,8 @@ import {
   TouchableOpacity,
   View,
 } from "react-native";
+import { LinearGradient } from "expo-linear-gradient";
+import Colors from "@/src/theme/colors";
 
 const { width } = Dimensions.get("window");
 
@@ -103,22 +105,26 @@ export default function LiveStocks() {
   };
 
   const renderItem = ({ item, index }: any) => (
-    <View style={[styles.item, styles.itemShadow]}>
+    <View style={styles.card}>
       {/* Header with company name and trend indicator */}
       <View style={styles.itemHeader}>
         <View style={styles.stockInfo}>
-          <View
-            style={[
-              styles.iconContainer,
-              item.net_change >= 0 ? styles.iconPositive : styles.iconNegative,
-            ]}
+          <LinearGradient
+            colors={
+              item.net_change >= 0
+                ? [Colors.greenDark, "#21BF73"]
+                : [Colors.redDark, "#FF2E63"]
+            }
+            style={styles.iconContainer}
+            start={{ x: 0, y: 0 }}
+            end={{ x: 1, y: 1 }}
           >
             <FontAwesome5
               name={item.net_change >= 0 ? "arrow-up" : "arrow-down"}
               size={14}
-              color="#FFF"
+              color={Colors.white}
             />
-          </View>
+          </LinearGradient>
           <View style={styles.stockDetails}>
             <Text style={styles.symbol}>{item.ticker || item.symbol}</Text>
             <Text style={styles.name} numberOfLines={1}>
@@ -155,7 +161,7 @@ export default function LiveStocks() {
             <Ionicons
               name={item.net_change >= 0 ? "caret-up" : "caret-down"}
               size={16}
-              color={item.net_change >= 0 ? "#21BF73" : "#FF2E63"}
+              color={item.net_change >= 0 ? Colors.greenDark : Colors.redDark}
             />
             <Text
               style={[
@@ -244,7 +250,7 @@ export default function LiveStocks() {
             <MaterialCommunityIcons
               name="arrow-top-left"
               size={14}
-              color="#21BF73"
+              color={Colors.greenDark}
             />
             <Text style={styles.circuitText}>
               Upper: ₹{parseFloat(item.up_circuit_limit || 0).toFixed(2)}
@@ -254,7 +260,7 @@ export default function LiveStocks() {
             <MaterialCommunityIcons
               name="arrow-bottom-left"
               size={14}
-              color="#FF2E63"
+              color={Colors.redDark}
             />
             <Text style={styles.circuitText}>
               Lower: ₹{parseFloat(item.low_circuit_limit || 0).toFixed(2)}
@@ -279,22 +285,33 @@ export default function LiveStocks() {
     <TouchableOpacity
       style={[styles.tabButton, isActive && styles.activeTab]}
       onPress={onPress}
+      activeOpacity={0.8}
     >
-      <Ionicons
-        name={iconName}
-        size={18}
-        color={isActive ? "#FFFFFF" : "#6B7280"}
-      />
-      <Text style={[styles.tabText, isActive && styles.activeTabText]}>
-        {title}
-      </Text>
+      <LinearGradient
+        colors={
+          isActive
+            ? [Colors.primaryCyanColor, "#3A8DA8"]
+            : [Colors.white, Colors.grayTint]
+        }
+        style={styles.tabButtonGradient}
+        start={{ x: 0, y: 0 }}
+        end={{ x: 1, y: 0 }}
+      >
+        <Ionicons
+          name={iconName}
+          size={18}
+          color={isActive ? Colors.white : Colors.textSecondaryLight}
+        />
+        <Text style={[styles.tabText, isActive && styles.activeTabText]}>
+          {title}
+        </Text>
+      </LinearGradient>
     </TouchableOpacity>
   );
 
   return (
     <AppSafeAreaView style={styles.safeArea}>
       <StatusBar style="dark" />
-
       <CommonToolbar title="Most Active Stocks" />
 
       {/* Market Tabs */}
@@ -320,24 +337,31 @@ export default function LiveStocks() {
       </View>
 
       {/* Stats Bar */}
-      <View style={styles.statsBar}>
+      <LinearGradient
+        colors={[Colors.white, Colors.grayTint]}
+        style={styles.statsBar}
+        start={{ x: 0, y: 0 }}
+        end={{ x: 1, y: 0 }}
+      >
         <View style={styles.statBox}>
           <Text style={styles.statBoxLabel}>Total Stocks</Text>
           <Text style={styles.statBoxValue}>{data.length}</Text>
         </View>
+        <View style={styles.statDivider} />
         <View style={styles.statBox}>
           <Text style={styles.statBoxLabel}>Advancers</Text>
           <Text style={[styles.statBoxValue, styles.positiveText]}>
             {data.filter((item) => item.net_change > 0).length}
           </Text>
         </View>
+        <View style={styles.statDivider} />
         <View style={styles.statBox}>
           <Text style={styles.statBoxLabel}>Decliners</Text>
           <Text style={[styles.statBoxValue, styles.negativeText]}>
             {data.filter((item) => item.net_change < 0).length}
           </Text>
         </View>
-      </View>
+      </LinearGradient>
 
       {/* Data List */}
       <View style={styles.listContainer}>
@@ -366,11 +390,20 @@ export default function LiveStocks() {
 const styles = StyleSheet.create({
   safeArea: {
     flex: 1,
-    backgroundColor: "#F9FAFB",
+    backgroundColor: Colors.white,
+  },
+  headerGradient: {
+    borderBottomLeftRadius: 20,
+    borderBottomRightRadius: 20,
+    shadowColor: "#000",
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.1,
+    shadowRadius: 12,
+    elevation: 5,
   },
   tabContainer: {
-    backgroundColor: "#FFFFFF",
-    paddingVertical: 12,
+    backgroundColor: Colors.white,
+    paddingVertical: 16,
     shadowColor: "#000",
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.05,
@@ -378,41 +411,48 @@ const styles = StyleSheet.create({
     elevation: 2,
   },
   tabScroll: {
-    paddingHorizontal: 16,
+    paddingHorizontal: 20,
     flexDirection: "row",
   },
   tabButton: {
+    borderRadius: 20,
+    overflow: "hidden",
+    marginRight: 12,
+    shadowColor: "#000",
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 4,
+    elevation: 2,
+  },
+  tabButtonGradient: {
     flexDirection: "row",
     alignItems: "center",
     justifyContent: "center",
     paddingVertical: 10,
     paddingHorizontal: 20,
-    marginRight: 12,
     borderRadius: 20,
-    backgroundColor: "#F3F4F6",
   },
   activeTab: {
-    backgroundColor: "#2563EB",
-    shadowColor: "#2563EB",
+    shadowColor: Colors.primaryCyanColor,
     shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.2,
-    shadowRadius: 3,
-    elevation: 3,
+    shadowOpacity: 0.3,
+    shadowRadius: 4,
+    elevation: 4,
   },
   tabText: {
     marginLeft: 6,
     fontSize: 14,
     fontWeight: "600",
-    color: "#6B7280",
+    color: Colors.textSecondaryLight,
   },
   activeTabText: {
-    color: "#FFF",
+    color: Colors.white,
   },
   statsBar: {
     flexDirection: "row",
     justifyContent: "space-around",
-    paddingVertical: 12,
-    backgroundColor: "#FFFFFF",
+    alignItems: "center",
+    paddingVertical: 16,
     marginBottom: 8,
     shadowColor: "#000",
     shadowOffset: { width: 0, height: 1 },
@@ -420,32 +460,39 @@ const styles = StyleSheet.create({
     shadowRadius: 2,
     elevation: 1,
   },
+  statDivider: {
+    width: 1,
+    height: 30,
+    backgroundColor: Colors.purpleGrayTint,
+  },
   statBox: {
     alignItems: "center",
+    flex: 1,
   },
   statBoxLabel: {
     fontSize: 12,
-    color: "#6B7280",
+    color: Colors.textSecondaryLight,
     marginBottom: 4,
+    fontWeight: "500",
   },
   statBoxValue: {
     fontSize: 18,
     fontWeight: "700",
-    color: "#111827",
+    color: Colors.textPrimary,
   },
   listContainer: {
     flex: 1,
-    paddingHorizontal: 12,
+    paddingHorizontal: 16,
     paddingTop: 8,
-    backgroundColor: "#F9FAFB",
+    backgroundColor: Colors.white,
   },
-  item: {
-    backgroundColor: "#FFFFFF",
+  card: {
+    backgroundColor: Colors.white,
     borderRadius: 16,
-    padding: 16,
-    marginBottom: 12,
-  },
-  itemShadow: {
+    padding: 20,
+    marginBottom: 16,
+    borderWidth: 1,
+    borderColor: Colors.purpleGrayTint,
     shadowColor: "#000",
     shadowOffset: { width: 0, height: 4 },
     shadowOpacity: 0.08,
@@ -473,27 +520,26 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     marginRight: 12,
-  },
-  iconPositive: {
-    backgroundColor: "#10B981",
-  },
-  iconNegative: {
-    backgroundColor: "#EF4444",
+    shadowColor: "#000",
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.2,
+    shadowRadius: 3,
+    elevation: 2,
   },
   symbol: {
     fontWeight: "700",
     fontSize: 16,
-    color: "#111827",
+    color: Colors.textPrimary,
   },
   name: {
     fontSize: 13,
-    color: "#6B7280",
+    color: Colors.textSecondaryLight,
     maxWidth: width * 0.5,
     marginTop: 2,
   },
   trendBadge: {
-    paddingHorizontal: 10,
-    paddingVertical: 4,
+    paddingHorizontal: 12,
+    paddingVertical: 6,
     borderRadius: 12,
   },
   bullishBadge: {
@@ -522,13 +568,14 @@ const styles = StyleSheet.create({
   },
   priceLabel: {
     fontSize: 12,
-    color: "#6B7280",
+    color: Colors.textSecondaryLight,
     marginBottom: 4,
+    fontWeight: "500",
   },
   price: {
     fontWeight: "800",
     fontSize: 20,
-    color: "#111827",
+    color: Colors.textPrimary,
   },
   changeRow: {
     flexDirection: "row",
@@ -552,22 +599,23 @@ const styles = StyleSheet.create({
   },
   statItem: {
     width: "48%",
-    marginBottom: 8,
+    marginBottom: 12,
   },
   statLabel: {
     fontSize: 11,
-    color: "#6B7280",
-    marginBottom: 2,
+    color: Colors.textSecondaryLight,
+    marginBottom: 4,
+    fontWeight: "500",
   },
   statValue: {
     fontSize: 14,
     fontWeight: "600",
-    color: "#111827",
+    color: Colors.textPrimary,
   },
   additionalInfo: {
     borderTopWidth: 1,
-    borderTopColor: "#F3F4F6",
-    paddingTop: 12,
+    borderTopColor: Colors.purpleGrayTint,
+    paddingTop: 16,
   },
   infoRow: {
     flexDirection: "row",
@@ -579,20 +627,21 @@ const styles = StyleSheet.create({
   },
   infoLabel: {
     fontSize: 11,
-    color: "#6B7280",
-    marginBottom: 2,
+    color: Colors.textSecondaryLight,
+    marginBottom: 4,
+    fontWeight: "500",
   },
   infoValue: {
     fontSize: 12,
     fontWeight: "600",
-    color: "#111827",
+    color: Colors.textPrimary,
   },
   circuitInfo: {
     flexDirection: "row",
     justifyContent: "space-between",
-    backgroundColor: "#F9FAFB",
-    padding: 10,
-    borderRadius: 8,
+    backgroundColor: Colors.grayTint,
+    padding: 12,
+    borderRadius: 10,
   },
   circuitItem: {
     flexDirection: "row",
@@ -601,25 +650,27 @@ const styles = StyleSheet.create({
   circuitText: {
     fontSize: 11,
     fontWeight: "600",
-    marginLeft: 4,
-    color: "#4B5563",
+    marginLeft: 6,
+    color: Colors.textSecondaryDark,
   },
   positiveText: {
-    color: "#10B981",
+    color: Colors.greenDark,
   },
   negativeText: {
-    color: "#EF4444",
+    color: Colors.redDark,
   },
   // Skeleton styles
   skeletonItem: {
     flexDirection: "row",
     justifyContent: "space-between",
     alignItems: "center",
-    paddingVertical: 16,
-    paddingHorizontal: 16,
+    paddingVertical: 20,
+    paddingHorizontal: 20,
     borderRadius: 16,
-    marginBottom: 12,
-    backgroundColor: "#E5E7EB",
+    marginBottom: 16,
+    backgroundColor: Colors.grayTint,
+    borderWidth: 1,
+    borderColor: Colors.purpleGrayTint,
   },
   skeletonLeft: {
     flexDirection: "row",
@@ -633,12 +684,12 @@ const styles = StyleSheet.create({
     width: 40,
     height: 40,
     borderRadius: 20,
-    backgroundColor: "#D1D5DB",
+    backgroundColor: Colors.textSecondaryVeryLight,
     marginRight: 12,
   },
   skeletonText: {
     height: 14,
-    backgroundColor: "#D1D5DB",
+    backgroundColor: Colors.textSecondaryVeryLight,
     borderRadius: 4,
     width: 80,
   },

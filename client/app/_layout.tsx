@@ -124,7 +124,7 @@ const RootLayout = () => {
 
   return (
     <>
-      <StatusBar style="auto" />
+      <StatusBar style="light" />
       <Stack
         screenOptions={{ headerShown: false, animation: "ios_from_right" }}
       >

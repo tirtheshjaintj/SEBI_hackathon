@@ -5,28 +5,26 @@ import {
   scale,
   verticalScale,
 } from "@/src/utils/responsiveness/responsiveness";
-import { router } from "expo-router";
 import React from "react";
 import { useTranslation } from "react-i18next";
 import { StyleSheet, View } from "react-native";
-import GridCard from "./GridCard";
 import Slider from "./Slider";
 import TopWidget from "./TopWidget";
-import WidgetCard from "./WidgetCard";
+import ToolsGrid from "./ToolsGrid";
 
 const imagesHindi = [
-  "https://res.cloudinary.com/duwypp4g5/image/upload/v1756488553/An_Initiative_By_PSB_12_vhoa1q.png",
+  "https://res.cloudinary.com/duwypp4g5/image/upload/v1758474187/An_Initiative_By_PSB_22_guazyb.png",
   "https://res.cloudinary.com/duwypp4g5/image/upload/v1756489468/An_Initiative_By_PSB_15_gnscbe.png",
   "https://res.cloudinary.com/duwypp4g5/image/upload/v1752410213/An_Initiative_By_PSB_9_hn78iy.png",
 ];
 
 const imagesEng = [
-  "https://res.cloudinary.com/duwypp4g5/image/upload/v1756488559/An_Initiative_By_PSB_11_dqqyem.png",
+  "https://res.cloudinary.com/duwypp4g5/image/upload/v1758474187/An_Initiative_By_PSB_23_dcgjm6.png",
   "https://res.cloudinary.com/duwypp4g5/image/upload/v1756489468/An_Initiative_By_PSB_14_e3zziu.png",
   "https://res.cloudinary.com/duwypp4g5/image/upload/v1752410213/An_Initiative_By_PSB_8_ctybrp.png",
 ];
 const imagesPunjabi = [
-  "https://res.cloudinary.com/duwypp4g5/image/upload/v1756488553/An_Initiative_By_PSB_13_nwwngu.png",
+  "https://res.cloudinary.com/duwypp4g5/image/upload/v1758474187/An_Initiative_By_PSB_21_itlxfw.png",
   "https://res.cloudinary.com/duwypp4g5/image/upload/v1756489468/An_Initiative_By_PSB_16_rukrhk.png",
   "https://res.cloudinary.com/duwypp4g5/image/upload/v1752410213/An_Initiative_By_PSB_10_khmtkm.png",
 ];
@@ -49,6 +47,23 @@ const MainSection = ({ data }: any) => {
     <View style={styles.main}>
       <TopWidget data={data} />
 
+      {/* SLIDER/BANNER */}
+      <View style={styles.slider}>
+        <Slider
+          style={{
+            overflow: "hidden",
+            borderRadius: scale(10),
+            backgroundColor: Colors.white,
+            borderWidth: 1,
+            borderColor: Colors.divider,
+            // padding: 2,
+            boxShadow: "2px 2px 20px rgba(226, 226, 226, 0.5)",
+          }}
+          imageStyle={{ overflow: "hidden" }}
+          images={getImages()}
+        />
+      </View>
+
       <View style={styles.container}>
         <View style={{ paddingHorizontal: normalize(20) }}>
           <SectionTitleHeader
@@ -57,7 +72,7 @@ const MainSection = ({ data }: any) => {
             border={true}
           />
         </View>
-        <View style={styles.grid}>
+        {/* <View style={styles.grid}>
           <WidgetCard
             img={{
               uri: "https://play-lh.googleusercontent.com/SiqpaEdvPFJqW-_puIkyu7w89xLFRuUHb6ZUZEaulu0lSKWssTHp3FW2IG5wDnepBw=w240-h480-rw",
@@ -95,92 +110,10 @@ const MainSection = ({ data }: any) => {
               router.push("/goals");
             }}
           />
-        </View>
+        </View> */}
 
-        {/* SLIDER/BANNER */}
-        <View style={styles.slider}>
-          <Slider
-            style={{
-              overflow: "hidden",
-              borderRadius: scale(10),
-              backgroundColor: Colors.white,
-              borderWidth: 1,
-              borderColor: Colors.divider,
-              // padding: 2,
-              boxShadow: "2px 2px 20px rgba(226, 226, 226, 0.5)",
-            }}
-            imageStyle={{ overflow: "hidden" }}
-            images={getImages()}
-          />
-        </View>
-
-        <View style={{ paddingHorizontal: normalize(20) }}>
-          <SectionTitleHeader
-            title={t("General Categories")}
-            underlineHeight={1}
-            border={true}
-          />
-        </View>
-        <View style={styles.grid}>
-          <GridCard
-            imageSrc={{
-              uri: "https://img.freepik.com/free-vector/hacker-activity-concept_23-2148533971.jpg?semt=ais_hybrid&w=740",
-            }}
-            label={t("Cyber Security")}
-            onPress={() => {
-              router.push("/cyber_secuirity/cyber_secuirity");
-            }}
-          />
-          <GridCard
-            imageSrc={{
-              uri: "https://cdni.iconscout.com/illustration/premium/thumb/cyber-security-illustration-download-in-svg-png-gif-file-formats--online-protection-access-using-password-personal-accounts-people-lifestyle-pack-miscellaneous-illustrations-4993168.png",
-            }}
-            label={t("Fraud Prevention")}
-            onPress={() => {
-              router.push("/fraud_prevention/fraud_prevention");
-            }}
-          />
-
-          <GridCard
-            imageSrc={{
-              uri: "https://img.freepik.com/premium-vector/piggy-bank-money-box-with-falling-gold-coins_53562-8910.jpg",
-            }}
-            label={t("Savings Tips")}
-            onPress={() => {
-              router.push("/saving_tips/saving_tips");
-            }}
-          />
-        </View>
-
-        <View style={styles.grid}>
-          <GridCard
-            imageSrc={{
-              uri: "https://img.freepik.com/free-vector/indian-rupee-investment-concept_23-2147994654.jpg?semt=ais_hybrid&w=740",
-            }}
-            label={t("Finance Guides")}
-            onPress={() => {
-              router.push("/finance_guides/finance_guides");
-            }}
-          />
-          <GridCard
-            imageSrc={{
-              uri: "https://img.freepik.com/premium-vector/rupee-investment-financial-growth-coin-growth-bar-flat-vector-illustration_667085-103.jpg",
-            }}
-            label={t("Investments Tips")}
-            onPress={() => {
-              router.push("/investment_tips/investment_tips");
-            }}
-          />
-          <GridCard
-            imageSrc={{
-              uri: "https://img.freepik.com/free-vector/indian-digital-rupee-symbol-background-strong-position-financial-market-concept_1017-53787.jpg?semt=ais_hybrid&w=740",
-            }}
-            label={t("Stocks and Bonds")}
-            onPress={() => {
-              router.push("/stocks_and_bonds/stocks_and_bonds");
-            }}
-          />
-        </View>
+        {/* Tools */}
+        <ToolsGrid />
       </View>
     </View>
   );

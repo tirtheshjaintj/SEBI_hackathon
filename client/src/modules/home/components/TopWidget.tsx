@@ -5,7 +5,7 @@ import { StyleSheet, TouchableOpacity, View } from "react-native";
 import BudgetWidget from "./BudgetWidget";
 import ScannerWidget from "./ScannerWidget";
 
-const TopWidget = ({data}: any) => {
+const TopWidget = ({ data }: any) => {
   return (
     <View style={styles.container}>
       <TouchableOpacity
@@ -21,11 +21,11 @@ const TopWidget = ({data}: any) => {
         activeOpacity={0.8}
         onPress={() => {
           router.push({
-            pathname: "/(main)/(drawer)/(tabs)/budget"
+            pathname: "/budget",
           });
         }}
       >
-        <BudgetWidget data={data?.budget}/>
+        <BudgetWidget />
       </TouchableOpacity>
     </View>
   );

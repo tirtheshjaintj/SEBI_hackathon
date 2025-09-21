@@ -3,10 +3,13 @@ import { Drawer } from "expo-router/drawer";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
 import { View } from "react-native";
 import SideDrawer from "@/src/components/drawer/SideDrawer";
+import { StatusBar } from "expo-status-bar";
 
 const MainLayout = () => {
   return (
     <GestureHandlerRootView style={{ flex: 1 }}>
+      <StatusBar style="light" />
+
       <Drawer
         screenOptions={{
           headerShown: false,

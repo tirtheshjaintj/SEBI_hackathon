@@ -35,13 +35,13 @@ import AppLinearGradient from "../shared/AppLinearGradient";
 import AppSafeAreaView from "../viewWrappers/AppSafeAreaView";
 
 const drawerItems = [
-  {
-    label: "SEBI Search",
-    icon: "search-outline", // magnifying glass
-    onPress: () => {
-      router.push("/sebisearch");
-    },
-  },
+  // {
+  //   label: "SEBI Search",
+  //   icon: "search-outline", // magnifying glass
+  //   onPress: () => {
+  //     router.push("/sebisearch");
+  //   },
+  // },
   {
     label: "SEBI News",
     icon: "newspaper-outline", // news paper for press/circulars
@@ -65,6 +65,14 @@ const drawerItems = [
     // color : "blue"
   },
   {
+    label: "Budget Tracker",
+    icon: "wallet-outline",
+    onPress: () => {
+      router.push("/budget");
+    },
+    // color : "blue"
+  },
+  {
     label: "Dictionary",
     icon: "book-outline",
     onPress: () => {
@@ -72,13 +80,13 @@ const drawerItems = [
     },
     // color: Colors.redLight,
   },
-  {
-    label: "Latest News & Updates",
-    icon: "newspaper-outline",
-    onPress: () => {
-      router.push("/news/news");
-    },
-  },
+  // {
+  //   label: "Latest News & Updates",
+  //   icon: "newspaper-outline",
+  //   onPress: () => {
+  //     router.push("/news/news");
+  //   },
+  // },
 
   // {
   //   label: "Goals",

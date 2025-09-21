@@ -22,7 +22,7 @@ const TrendingCard = () => {
         {/* Avatar */}
         <Image
           source={{
-            uri: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCl2yfsLW_JHPSxKHWUKqDj3ZhvAX-Ob41Hg&s",
+            uri: "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202304/untitled-2_23-sixteen_nine.jpg?size=948:533",
           }}
           style={styles.avatar}
         />
@@ -31,7 +31,7 @@ const TrendingCard = () => {
         <View style={{ flex: 1 }}>
           {/* Name + Verified */}
           <View style={{ flexDirection: "row", alignItems: "center", gap: 4 }}>
-            <Text style={styles.name}>{t("Punjab & Sind Bank")}</Text>
+            <Text style={styles.name}>{t("SEBI (Official)")}</Text>
             <MaterialIcons
               name="verified"
               size={20}
@@ -45,7 +45,9 @@ const TrendingCard = () => {
               style={styles.threadText}
               numberOfLines={expanded ? undefined : 4}
             >
-              {t("Messages are often sent by scammers attempting to trick you into revealing personal information or sending money. Be wary of any unsolicited text messages asking for sensitive information or urging you to click on suspicious links.")}
+              {t(
+                "Be cautious investors about fraudulent stock tips circulating on WhatsApp and Telegram groups. Investors should only rely on registered intermediaries and verify details on SEBI’s official website or app before making any financial decisions."
+              )}
             </Text>
 
             <Text
@@ -68,7 +70,7 @@ const styles = StyleSheet.create({
     color: Colors.whiteDim,
   },
   trendingCard: {
-    backgroundColor: Colors.primaryCyanColor,
+    backgroundColor: Colors.secColor,
     borderRadius: scale(12),
     padding: scale(16),
     marginBottom: verticalScale(12),
@@ -99,6 +101,8 @@ const styles = StyleSheet.create({
     height: scale(40),
     borderRadius: scale(20),
     marginRight: scale(10),
+    resizeMode: "cover",
+    backgroundColor: Colors.whiteDim,
   },
 });
 

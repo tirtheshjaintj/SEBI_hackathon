@@ -3,6 +3,7 @@ import Colors from "@/src/theme/colors";
 import { Ionicons, MaterialCommunityIcons } from "@expo/vector-icons";
 import { LinearGradient } from "expo-linear-gradient";
 import { router } from "expo-router";
+import { StatusBar } from "expo-status-bar";
 import React from "react";
 import { useTranslation } from "react-i18next";
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
@@ -11,6 +12,7 @@ export default function ChatBotSelectionScreen() {
   const { t } = useTranslation();
   return (
     <AppSafeAreaView style={styles.container}>
+      <StatusBar style="dark" />
       <View>
         <Text style={styles.title}>{t("Choose a Bot")}</Text>
         <Text style={styles.subtitle}>
@@ -34,7 +36,7 @@ export default function ChatBotSelectionScreen() {
           >
             <Ionicons
               name="help-circle"
-              size={54}
+              size={40}
               color="#fff"
               style={styles.icon}
             />
@@ -59,7 +61,7 @@ export default function ChatBotSelectionScreen() {
           >
             <MaterialCommunityIcons
               name="account-tie"
-              size={54}
+              size={40}
               color="#fff"
               style={styles.icon}
             />
