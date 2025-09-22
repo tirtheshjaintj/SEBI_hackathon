@@ -68,7 +68,7 @@ export default function Layout() {
   if (!authenticated) {
     return (
       <>
-         <BioMetricModal
+        <BioMetricModal
           visible={showBiometricModal}
           onRetry={() => {
             setShowBiometricModal(false);

@@ -10,10 +10,11 @@ import React from "react";
 import { StyleSheet, View } from "react-native";
 import GridCard from "./GridCard";
 import { router } from "expo-router";
+import { t } from "i18next";
 
 const toolsData = [
   {
-    label: "SEBI Scan",
+    label: "Fraud Detect",
     icon: (size: number, color: string) => (
       <AntDesign name="scan1" size={size} color={color} />
     ),
@@ -70,7 +71,7 @@ export default function ToolsGrid() {
     <View style={styles.container}>
       {toolsData.map((item, index) => (
         <View key={index} style={styles.itemWrapper}>
-          <GridCard label={item.label} onPress={item.onPress}>
+          <GridCard label={t(item.label)} onPress={item.onPress}>
             {item.icon(normalize(26), Colors.primaryCyanColor)}
           </GridCard>
         </View>

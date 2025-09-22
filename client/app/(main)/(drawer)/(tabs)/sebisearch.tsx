@@ -22,6 +22,7 @@ import { StatusBar } from "expo-status-bar";
 import CustomToolbar from "@/src/components/toolBars/mainToolBar";
 import Colors from "@/src/theme/colors";
 import AppLinearGradient from "@/src/components/shared/AppLinearGradient";
+import { useTranslation } from "react-i18next";
 
 const { width } = Dimensions.get("window");
 
@@ -91,6 +92,7 @@ export default function SearchScreen() {
   const [fadeAnim] = useState(new Animated.Value(1));
   const [slideAnim] = useState(new Animated.Value(0));
   const [activeFilter, setActiveFilter] = useState("all");
+  const { t } = useTranslation();
 
   // ✅ Prepare combined data once
   const combinedData = useMemo(() => {
@@ -105,11 +107,9 @@ export default function SearchScreen() {
         twitter: s["X (formerly Twitter)"] || s["Twitter"] || "",
         youtube: s["Youtube"] || "",
         linkedin: s["LinkedIn"] || "",
-        searchableText: `${s["Member Name"]} ${s["Member Code"]} ${
-          s["Facebook"]
-        } ${s["Instagram"]} ${
-          s["X (formerly Twitter)"] || s["Twitter"] || ""
-        } ${s["Youtube"]} ${s["LinkedIn"]}`.toLowerCase(),
+        searchableText: `${s["Member Name"]} ${s["Member Code"]} ${s["Facebook"]
+          } ${s["Instagram"]} ${s["X (formerly Twitter)"] || s["Twitter"] || ""
+          } ${s["Youtube"]} ${s["LinkedIn"]}`.toLowerCase(),
       })),
       ...sebiApps.map((a: any) => ({
         type: "app",
@@ -119,9 +119,8 @@ export default function SearchScreen() {
         developer: a.developer_name || "",
         playStore: a.play_store_link || "",
         appStore: a.app_store_link || "",
-        searchableText: `${a.app_product_name || a.app_name || ""} ${
-          a.company_name || ""
-        } ${a.developer_name || ""}`.toLowerCase(),
+        searchableText: `${a.app_product_name || a.app_name || ""} ${a.company_name || ""
+          } ${a.developer_name || ""}`.toLowerCase(),
       })),
     ];
   }, []);
@@ -229,7 +228,7 @@ export default function SearchScreen() {
                         : COLORS.primaryCyanColor,
                   }}
                 >
-                  {item.type === "app" ? "APP" : "BROKER"}
+                  {item.type === "app" ? t("App") : t("Broker")}
                 </Text>
               </View>
             </View>
@@ -319,7 +318,7 @@ export default function SearchScreen() {
                         fontWeight: "600",
                       }}
                     >
-                      Play Store
+                      {t("Play Store")}
                     </Text>
                   </TouchableOpacity>
                 )}
@@ -353,7 +352,7 @@ export default function SearchScreen() {
                         fontWeight: "600",
                       }}
                     >
-                      App Store
+                      {t("App Store")}
                     </Text>
                   </TouchableOpacity>
                 )}
@@ -380,7 +379,7 @@ export default function SearchScreen() {
                     fontSize: 14,
                   }}
                 >
-                  Member Code: {item.memberCode}
+                  {t("Member Code")}: {item.memberCode}
                 </Text>
               </View>
               <View
@@ -590,7 +589,7 @@ export default function SearchScreen() {
               style={{ marginRight: 10 }}
             />
             <TextInput
-              placeholder="Search SEBI registered apps or brokers..."
+              placeholder={t("Search SEBI registered apps or brokers...")}
               placeholderTextColor={COLORS.textSecondaryLight}
               value={query}
               onChangeText={setQuery}
@@ -653,7 +652,7 @@ export default function SearchScreen() {
                 lineHeight: 20,
               }}
             >
-              Verified data sourced from{" "}
+              {t("Verified data sourced from")}{" "}
               <Text
                 style={{ color: COLORS.primaryCyanColor, fontWeight: "600" }}
                 onPress={() => Linking.openURL("https://investor.sebi.gov.in")}
@@ -673,7 +672,7 @@ export default function SearchScreen() {
               marginBottom: 12,
             }}
           >
-            Filter Results
+            {t("Filter Results")}
           </Text>
           <View
             style={{
@@ -716,7 +715,7 @@ export default function SearchScreen() {
                   },
                 ]}
               >
-                All
+                {t("All")}
               </Text>
             </TouchableOpacity>
             <TouchableOpacity
@@ -750,7 +749,7 @@ export default function SearchScreen() {
                   },
                 ]}
               >
-                Apps
+                {t("Apps")}
               </Text>
             </TouchableOpacity>
             <TouchableOpacity
@@ -784,7 +783,7 @@ export default function SearchScreen() {
                   },
                 ]}
               >
-                Brokers
+                {t("Brokers")}
               </Text>
             </TouchableOpacity>
           </View>
@@ -802,7 +801,7 @@ export default function SearchScreen() {
           >
             {results.length} result{results.length !== 1 ? "s" : ""} found
             {activeFilter !== "all" &&
-              ` in ${activeFilter === "app" ? "Apps" : "Brokers"}`}
+              ` in ${activeFilter === "app" ? t("Apps") : t("Brokers")}`}
           </Text>
         )}
 
@@ -905,7 +904,7 @@ export default function SearchScreen() {
                     lineHeight: 20,
                   }}
                 >
-                  Enter keywords to find SEBI registered apps and brokers
+                  {t("Enter keywords to find SEBI registered apps and brokers")}
                 </Text>
               </Animated.View>
             )

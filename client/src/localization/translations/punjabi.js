@@ -815,9 +815,9 @@ export const pa = {
   "SEBI News": "ਸੇਬੀ ਖਬਰਾਂ",
 
 
-  
 
-   "Influencer Stock Scam Simulation": "ਇੰਫਲੂਐਂਸਰ ਸਟਾਕ ਠੱਗੀ ਸਿਮੂਲੇਸ਼ਨ",
+
+  "Influencer Stock Scam Simulation": "ਇੰਫਲੂਐਂਸਰ ਸਟਾਕ ਠੱਗੀ ਸਿਮੂਲੇਸ਼ਨ",
   "Experience how scammers use fake stock charts and charismatic influencers to trick people into risky investments.": "ਜਾਣੋ ਕਿ ਠੱਗ ਕਿਵੇਂ ਨਕਲੀ ਸਟਾਕ ਚਾਰਟ ਅਤੇ ਕਰਿਸ਼ਮਾਈ ਇੰਫਲੂਐਂਸਰ ਵਰਤ ਕੇ ਲੋਕਾਂ ਨੂੰ ਖਤਰਨਾਕ ਨਿਵੇਸ਼ਾਂ ਵਿੱਚ ਫਸਾਉਂਦੇ ਹਨ।",
   "Fake stock charts with dramatic rises and dips": "ਨਕਲੀ ਸਟਾਕ ਚਾਰਟ ਜਿਨ੍ਹਾਂ ਵਿੱਚ ਅਚਾਨਕ ਤੇਜ਼ ਚੜ੍ਹਾਈਆਂ ਅਤੇ ਡਿੱਗਾਵਟਾਂ ਹੁੰਦੀਆਂ ਹਨ",
   "Charismatic influencer hyping investments": "ਕਰਿਸ਼ਮਾਈ ਇੰਫਲੂਐਂਸਰ ਨਿਵੇਸ਼ਾਂ ਨੂੰ ਵੱਧਾ-ਚੜ੍ਹਾ ਕੇ ਦਿਖਾਉਂਦਾ ਹੋਇਆ",
@@ -826,7 +826,7 @@ export const pa = {
   "Tip: Real financial advice never comes from flashy livestreams. Always verify stock information with trusted sources.": "ਸੁਝਾਅ: ਅਸਲੀ ਵਿੱਤੀ ਸਲਾਹ ਕਦੇ ਵੀ ਚਮਕੀਲੀ ਲਾਈਵਸਟ੍ਰੀਮਾਂ ਤੋਂ ਨਹੀਂ ਮਿਲਦੀ। ਹਮੇਸ਼ਾਂ ਭਰੋਸੇਯੋਗ ਸਰੋਤਾਂ ਤੋਂ ਸਟਾਕ ਜਾਣਕਾਰੀ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ।",
   "Influencer Stock": "ਇੰਫਲੂਐਂਸਰ ਸਟਾਕ",
 
-  
+
   "Imagine being promised quick, guaranteed profits. Sounds great — until the cash runs out. This simulation will show how new investors keep the scheme alive and how payouts are actually funded. Ready to see it unfold?": "ਕਲਪਨਾ ਕਰੋ ਕਿ ਤੁਹਾਨੂੰ ਤੇਜ਼ ਅਤੇ ਯਕੀਨੀ ਲਾਭ ਦਾ ਵਾਅਦਾ ਕੀਤਾ ਗਿਆ ਹੈ। ਇਹ ਸੁਣਨ ਵਿੱਚ ਵਧੀਆ ਲੱਗਦਾ ਹੈ — ਜਦ ਤੱਕ ਪੈਸੇ ਖਤਮ ਨਾ ਹੋ ਜਾਣ। ਇਹ ਸਿਮੂਲੇਸ਼ਨ ਦਿਖਾਏਗਾ ਕਿ ਨਵੇਂ ਨਿਵੇਸ਼ਕ ਯੋਜਨਾ ਨੂੰ ਕਿਵੇਂ ਜੀਵਿਤ ਰੱਖਦੇ ਹਨ ਅਤੇ ਭੁਗਤਾਨ ਵਾਸਤਵ ਵਿੱਚ ਕਿਵੇਂ ਫੰਡ ਹੁੰਦੇ ਹਨ। ਕੀ ਤੁਸੀਂ ਇਸ ਨੂੰ unfold ਹੋਣ ਵੇਖਣਾ ਚਾਹੁੰਦੇ ਹੋ?",
   "Ponzi Scheme Simulation": "ਪੋਂਜ਼ੀ ਸਕੀਮ ਸਿਮੂਲੇਸ਼ਨ",
   "Live narration of each step": "ਹਰ ਕਦਮ ਦਾ ਲਾਈਵ ਵਰਣਨ",
@@ -844,7 +844,7 @@ export const pa = {
   "Early payouts from new investors’ money": "ਨਵੇਂ ਨਿਵੇਸ਼ਕਾਂ ਦੇ ਪੈਸਿਆਂ ਤੋਂ ਸ਼ੁਰੂਆਤੀ ਭੁਗਤਾਨ",
   "Promises of guaranteed returns": "ਯਕੀਨੀ ਰਿਟਰਨ ਦੇ ਵਾਅਦੇ",
   "See how early investors profit while later ones lose everything. Understand how false promises keep the scheme alive—until it collapses.": "ਵੇਖੋ ਕਿ ਸ਼ੁਰੂਆਤੀ ਨਿਵੇਸ਼ਕ ਕਿਵੇਂ ਲਾਭ ਕਮਾਉਂਦੇ ਹਨ ਜਦ ਕਿ ਬਾਅਦ ਵਾਲੇ ਸਭ ਕੁਝ ਖੋ ਦੇਂਦੇ ਹਨ। ਸਮਝੋ ਕਿ ਕਿਵੇਂ ਝੂਠੇ ਵਾਅਦੇ ਯੋਜਨਾ ਨੂੰ ਜੀਵਿਤ ਰੱਖਦੇ ਹਨ — ਜਦ ਤੱਕ ਇਹ ਧੱਪ ਨਾ ਹੋ ਜਾਏ।",
-  "Ponzi Scheme":"ਪੋਂਜ਼ੀ ਸਕੀਮ",
+  "Ponzi Scheme": "ਪੋਂਜ਼ੀ ਸਕੀਮ",
   "Investor": "ਨਿਵੇਸ਼ਕ",
   "ACTIVE": "ਸਰਗਰਮ",
   "EXITED": "ਬਾਹਰ ਨਿਕਲੇ",
@@ -853,5 +853,22 @@ export const pa = {
   "Progress": "ਤਰੱਕੀ",
   "joined. Investors": "ਸ਼ਾਮਲ ਹੋਏ। ਨਿਵੇਸ਼ਕ",
   "were paid out.": "ਭੁਗਤਾਨ ਕੀਤੇ ਗਏ।",
-  "joined the scheme.": "ਯੋਜਨਾ ਵਿੱਚ ਸ਼ਾਮਲ ਹੋਏ।"
+  "joined the scheme.": "ਯੋਜਨਾ ਵਿੱਚ ਸ਼ਾਮਲ ਹੋਏ।",
+  "High": "ਉੱਚਾ",
+  "Low": "ਹੇਠਾਂ",
+  "Volume": "ਵਾਲਿਊਮ",
+  "Search SEBI registered apps or brokers...": "ਸੇਬੀ ਰਜਿਸਟਰਡ ਐਪ ਜਾਂ ਬ੍ਰੋਕਰ ਖੋਜੋ...",
+  "Filter Results": "ਨਤੀਜੇ ਫਿਲਟਰ ਕਰੋ",
+  "Apps": "ਐਪਸ",
+  "Brokers": "ਬ੍ਰੋਕਰ",
+  "Broker": "ਬ੍ਰੋਕਰ",
+  "Enter keywords to find SEBI registered apps and brokers": "ਸੇਬੀ ਰਜਿਸਟਰਡ ਐਪਸ ਅਤੇ ਬ੍ਰੋਕਰ ਲੱਭਣ ਲਈ ਕੀਵਰਡ ਦਾਖਲ ਕਰੋ",
+  "Member Code": "ਮੈਂਬਰ ਕੋਡ",
+  "Verified data sourced from": "ਤਸਦੀਕਸ਼ੁਦਾ ਡਾਟਾ ਸਰੋਤ",
+  "App": "ਐਪ",
+  "App Store": "ਐਪ ਸਟੋਰ",
+  "SEBI Verified": "ਸੇਬੀ ਤਸਦੀਕਸ਼ੁਦਾ",
+  "SEBI Scan": "ਸੇਬੀ ਸਕੈਨ",
+  "Fraud Detect": "ਠੱਗੀ ਪਛਾਣ",
+  "Language Changed successfully": "ਭਾਸ਼ਾ ਸਫਲਤਾਪੂਰਵਕ ਬਦਲੀ ਗਈ"
 };

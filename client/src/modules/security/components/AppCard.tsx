@@ -101,7 +101,7 @@ const AppCard = ({
                 fontFamily: "Quicksand-Bold",
               }}
             >
-              SEBI Verified
+              {t("SEBI Verified")}
             </Text>
           </View>
         )}
@@ -150,7 +150,7 @@ const AppCard = ({
             {t("Installer")}:{" "}
             <Text style={styles.boldText}>
               {app.installerPackageName === "com.android.vending"
-                ? "Play Store"
+                ? t("Play Store")
                 : "Unknown"}
             </Text>
           </Text>
@@ -180,7 +180,7 @@ const AppCard = ({
                       Linking.openURL(app.sebiDetails.play_store_link)
                     }
                   >
-                    <Text style={styles.reportButtonText}>Play Store</Text>
+                    <Text style={styles.reportButtonText}>{t("Play Store")}</Text>
                   </TouchableOpacity>
                 )}
                 {app.sebiDetails.app_store_link && (
@@ -193,7 +193,7 @@ const AppCard = ({
                       Linking.openURL(app.sebiDetails.app_store_link)
                     }
                   >
-                    <Text style={styles.reportButtonText}>App Store</Text>
+                    <Text style={styles.reportButtonText}>{t("App Store")}</Text>
                   </TouchableOpacity>
                 )}
               </View>

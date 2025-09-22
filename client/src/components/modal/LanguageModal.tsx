@@ -38,7 +38,7 @@ const LanguageModal = ({ onClose }: { onClose: () => void }) => {
 
       Toast.show({
         type: "success",
-        text1: "Language changed successfully",
+        text1: t("Language changed successfully"),
         position: "bottom",
       });
 

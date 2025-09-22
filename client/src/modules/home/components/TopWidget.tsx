@@ -21,7 +21,7 @@ const TopWidget = ({ data }: any) => {
         activeOpacity={0.8}
         onPress={() => {
           router.push({
-            pathname: "/budget",
+            pathname: "/livestocks",
           });
         }}
       >

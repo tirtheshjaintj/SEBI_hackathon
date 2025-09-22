@@ -819,7 +819,7 @@ export const hi = {
   "SEBI News": "सेबी समाचार",
 
 
-  
+
 
   "Influencer Stock Scam Simulation": "इन्फ्लुएंसर स्टॉक ठगी सिमुलेशन",
   "Experience how scammers use fake stock charts and charismatic influencers to trick people into risky investments.": "जानिए कैसे ठग नकली स्टॉक चार्ट और करिश्माई इन्फ्लुएंसर्स का इस्तेमाल करके लोगों को खतरनाक निवेश में फँसाते हैं।",
@@ -847,8 +847,8 @@ export const hi = {
   "Early payouts from new investors’ money": "नए निवेशकों के पैसों से शुरुआती भुगतान",
   "Promises of guaranteed returns": "सुनिश्चित रिटर्न के वादे",
   "See how early investors profit while later ones lose everything. Understand how false promises keep the scheme alive—until it collapses.": "देखिए कैसे शुरुआती निवेशक लाभ कमाते हैं जबकि बाद के सभी कुछ खो देते हैं। समझिए कि झूठे वादे योजना को कैसे जीवित रखते हैं—जब तक कि यह ध्वस्त न हो जाए।",
-  "Ponzi Scheme":"पोंज़ी योजना",
-  
+  "Ponzi Scheme": "पोंज़ी योजना",
+
   "Investor": "निवेशक",
   "ACTIVE": "सक्रिय",
   "EXITED": "बाहर निकले",
@@ -857,6 +857,22 @@ export const hi = {
   "Progress": "प्रगति",
   "joined. Investors": "जुड़ गए। निवेशक",
   "were paid out.": "भुगतान किए गए।",
-  "joined the scheme.": "योजना में शामिल हुए।"
-
+  "joined the scheme.": "योजना में शामिल हुए।",
+  "High": "उच्च",
+  "Low": "निम्न",
+  "Volume": "वॉल्यूम",
+  "Search SEBI registered apps or brokers...": "सेबी पंजीकृत ऐप्स या ब्रोकर खोजें...",
+  "Filter Results": "परिणाम फ़िल्टर करें",
+  "Apps": "ऐप्स",
+  "Brokers": "ब्रोकर",
+  "Broker": "ब्रोकर",
+  "Enter keywords to find SEBI registered apps and brokers": "सेबी पंजीकृत ऐप्स और ब्रोकर खोजने के लिए कीवर्ड दर्ज करें",
+  "Member Code": "सदस्य कोड",
+  "Verified data sourced from": "सत्यापित डेटा स्रोत",
+  "App": "ऐप",
+  "App Store": "ऐप स्टोर",
+  "SEBI Verified": "सेबी सत्यापित",
+  "SEBI Scan": "सेबी स्कैन",
+  "Fraud Detect": "धोखाधड़ी पहचान",
+  "Language Changed successfully": "भाषा सफलतापूर्वक बदली गई"
 };

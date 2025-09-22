@@ -146,15 +146,15 @@ const StockWidget: React.FC<StockWidgetProps> = ({
       {!compact && (
         <View style={styles.additionalInfo}>
           <View style={styles.infoRow}>
-            <Text style={styles.infoLabel}>High:</Text>
+            <Text style={styles.infoLabel}>{t("High")}:</Text>
             <Text style={styles.infoValue}>₹{stockData.high.toFixed(2)}</Text>
           </View>
           <View style={styles.infoRow}>
-            <Text style={styles.infoLabel}>Low:</Text>
+            <Text style={styles.infoLabel}>{t("Low")}:</Text>
             <Text style={styles.infoValue}>₹{stockData.low.toFixed(2)}</Text>
           </View>
           <View style={styles.infoRow}>
-            <Text style={styles.infoLabel}>Volume:</Text>
+            <Text style={styles.infoLabel}>{t("Volume")}:</Text>
             <Text style={styles.infoValue}>{stockData.volume}</Text>
           </View>
         </View>

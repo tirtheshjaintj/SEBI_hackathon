@@ -43,20 +43,6 @@ const drawerItems = [
   //   },
   // },
   {
-    label: "SEBI News",
-    icon: "newspaper-outline", // news paper for press/circulars
-    onPress: () => {
-      router.push("/sebiupdates");
-    },
-  },
-  {
-    label: "Today Stocks",
-    icon: "trending-up-outline", // stock/graph line
-    onPress: () => {
-      router.push("/livestocks");
-    },
-  },
-  {
     label: "Tutorials",
     icon: "play-circle-outline",
     onPress: () => {
@@ -65,7 +51,7 @@ const drawerItems = [
     // color : "blue"
   },
   {
-    label: "Budget Tracker",
+    label: "Budget",
     icon: "wallet-outline",
     onPress: () => {
       router.push("/budget");
@@ -80,21 +66,20 @@ const drawerItems = [
     },
     // color: Colors.redLight,
   },
-  // {
-  //   label: "Latest News & Updates",
-  //   icon: "newspaper-outline",
-  //   onPress: () => {
-  //     router.push("/news/news");
-  //   },
-  // },
-
-  // {
-  //   label: "Goals",
-  //   icon: "trophy",
-  //   onPress: () => {
-  //     router.push("/goals");
-  //   },
-  // },
+  {
+    label: "Latest News & Updates",
+    icon: "newspaper-outline",
+    onPress: () => {
+      router.push("/news/news");
+    },
+  },
+  {
+    label: "Goals",
+    icon: "trophy",
+    onPress: () => {
+      router.push("/goals");
+    },
+  },
 ];
 
 const SideDrawer = ({ navigation }: any) => {
